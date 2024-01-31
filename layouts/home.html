@@ -25,14 +25,14 @@
       <div class="grid-12 grid-7-md">
         {{ if .image_1.image_url }}
         <div class="hero__image hero__image-1">
-            <picture>
-              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_500,h_500,c_fill{{ .image_1.image_url }}" type="image/avif">
-      
-              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_500,h_500,c_fill{{ .image_1.image_url }}" type="image/webp">
-      
-              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_500,h_500,c_fill{{ .image_1.image_url }}" type="image/jpg">
-          
-              <img src="https://res.cloudinary.com/keynecta/image/upload{{ .image_1.image_url }}" alt="{{ .image_1.image_alt }}" width="500" height="500">   
+          <picture>
+            <source srcset="https://keynecta.imgix.net{{ .image_1.image_url }}?fm=avif&q=85&width=500&height=500" type="image/avif">
+        
+            <source srcset="https://keynecta.imgix.net{{ .image_1.image_url }}?fm=webp&q=85&width=500&height=500" type="image/webp">
+        
+            <source srcset="https://keynecta.imgix.net{{ .image_1.image_url }}?fm=jpg&q=75&width=325&height=250 400w, https://keynecta.imgix.net{{ .image_1.image_url }}?fm=jpg&q=75&width=600&height=450 600w, https://keynecta.imgix.net{{ .image_1.image_url }}?fm=jpg&q=75&width=800&height=525 800w" type="image/jpg">
+        
+            <img src="{{ .image_1.image_url }}" alt="{{ .image_1.image_alt }}" width="600" height="450">   
           </picture>
         </div>
         {{ end }}
