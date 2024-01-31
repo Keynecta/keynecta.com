@@ -1,0 +1,14 @@
+<div class="content-full block">
+    <div class="content-full block bg-gray">
+        <h2>Our Key Team Members</h2>
+        <ul class="grid-columns-3 gap-sm max-width-none no-margin no-padding">
+        {{ range .Params.contacts }}
+            {{ $title := . }}
+            {{ $contacts := where $.Site.RegularPages "Section" "our-company" }}
+            {{ range where $contacts ".Params.title"  $title }}
+                {{ .Render "staff-card" }}
+            {{ end }}
+        {{ end }}
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ partial "bookshop_bindings" `.Params.content_blocks` }}
+{{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+<section class="block content-full">
+    <div>
+        <ul class="grid-columns-4 gap-sm max-width-none no-padding">
+            {{ range .Site.Data.locations }}
+            <li class="card card--locations">
+                <article class="card__wrapper flex flex-end">
+                    <img class="card__image" src="{{ .image_url }}" alt="{{ .name }} Office">
+                    <div class="card__body flow">
+                        <div>
+                            <h3 class="card__title flex flex-center no-margin"><a class="card__link font-color-white" href="{{ .location_url }}">{{ .city }}</a><div class="icon-md icon-fill-white">{{ partial "svg-icons/arrow-right.svg" . }}</div></h3>
+                            <span class="font-size-xs font-color-white">{{ .name }}</span>
+                        </div>
+                        <address class="font-size-xs font-color-white">{{ .street }}<br>{{ .city }}, {{ .state }}</address>
+                        <div class="font-size-xs font-color-white">
+                            <p>Phone: <a class="font-color-white" href="tel:{{ .phone }}">{{ .phone }}</a></p>
+                            <p>Hours: {{ .hours.time }}</p>
+                        </div>
+                    </div>
+                </article>
+            </li>
+            {{- end -}}
+        </ul>
+    </div>
+</section>
+{{ end }}

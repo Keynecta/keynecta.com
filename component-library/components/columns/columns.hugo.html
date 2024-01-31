@@ -1,0 +1,10 @@
+<section class="block content-full bg-{{ .background_color }} text-align-{{ .text_align }}" aria-labelledby="{{ .heading | urlize }}">
+	<h2 id="{{ .heading | urlize }}" class="mb-6 max-width-none">{{ .heading | markdownify }}</h2>
+	<div class="auto-grid gap-md">
+		{{ range .columns }}
+			<div class="col">
+				{{ partial "bookshop" . }}
+			</div>
+		{{ end }}
+	</div>
+</section>

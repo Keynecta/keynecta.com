@@ -1,0 +1,109 @@
+{{ "<!-- Header -->" | safeHTML }}
+<a class="screen-reader-skip-to-content" href="#main-content" tabindex="0" aria-label="Skip to main content">Skip to main content</a>
+<a class="screen-reader-skip-to-content" href="#footer" tabindex="0" aria-label="Skip to footer content">Skip to footer content</a>
+<header class="header content-grid bg-white">
+  <div class="header__wrapper content-lg">
+    <div class="header__logo-wrap">
+      <a class="header__logo" href="{{ site.BaseURL }}">
+        <span class="visually-hidden">Home</span>
+      </a>
+    </div>
+    <nav class="header__nav flex flex-justify-start" aria-label="primary navigation">
+      <ul class="header__nav-list flex flex-justify-end flex-center">
+        {{ $url := .RelPermalink }}
+        {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+          <li class="header__nav-list-item has-sub-menu">
+            <a class="header__nav-list-link sub-menu-toggle" id="menu-item-{{ .Name | lower | urlize }}" href="{{ .URL }}" aria-label="{{ .Name }}" aria-haspopup="true" aria-controls="submenu-{{ .Name | lower | urlize }}" aria-expanded="false">{{ .Name }}<span class="header__sub-menu-indicator"></span></a>
+            <div class="header__sub-menu grid gap-lg bg-white" role="navigation" id="submenu-{{ .Name | lower | urlize }}" aria-labelledby="menu-item-{{ .Name | lower | urlize }}">
+              <div class="header__sub-menu-list-wrapper grid-8 flow">
+                <h2 class="h4 no-margin"><a class="font-color-black" href="{{ .URL }}" aria-label="{{ .Name }}" class="no-decoration">{{ .Name }}</a></h2>
+                {{ with .Page }}
+                  <p class="font-size-xs">{{ .Params.nav_description }}</p>
+                {{ end }}
+                <ul class="header__sub-menu-list">
+                  {{ range .Children }}
+                    {{ template "menu-node" .}}
+                  {{ end }}
+                </ul>                            
+              </div>
+              <div class="header__sub-menu-cta grid-4 bg-black">
+                <div class="flow">
+                  {{ with .Page }}
+                    {{ with .Params.nav_cta }}
+                      <h2 class="h4">{{ .heading }}</h2>
+                      <p class="font-size-xs">{{ .body }}</p>
+                      {{ with .button }}
+                          <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                </div>
+              </div>
+            </div>
+          </li>
+          {{ else }}
+          <li class="header__nav-list-item">
+            <a class="header__nav-list-link" href="{{ .URL }}" aria-label="{{ .Name }}">
+                {{ .Name }}
+            </a>
+          </li>
+          {{ end }}    
+        {{ end }}
+      </ul>
+    </nav>
+    <div id="header__mobile-nav" class="header__mobile-nav bg-white">
+      <div class="header__mobile-nav-inner">
+        <ul class="header__mobile-nav-menu">
+          {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+              <li class="header__mobile-nav-item nav-item-has-dropdown">
+                <a class="header__mobile-nav-link parent fw-500" href="{{ .URL }}" aria-label="{{ .Name }}" aria-haspopup="true" aria-controls="mobile-submenu-{{ .Name | lower | urlize }}" aria-expanded="false" title="{{ .Name }}">{{ .Name }}</a>
+                <button class="toggle-mobile-dropdown" aria-label="open mobile dropdown menu"></button>
+                <ul class="header__mobile-dropdown" id="mobile-submenu-{{ .Name | lower | urlize }}" aria-labelledby="mobile-submenu-{{ .Name | lower | urlize }}">
+                  {{ range .Children }}
+                    <li class="header__mobile-nav-item">
+                      <a class="header__mobile-dropdown-link" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </li>
+              {{ else }}
+            <li class="header__mobile-nav-item">
+              <a class="header__mobile-nav-link fw-500" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    <button class="header__hamburger hamburger hamburger--slider fw-700" type="button" aria-controls="header__mobile-nav" aria-label="open mobile menu" aria-expanded="false">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </div>
+</header>
+
+{{ define "menu-node" }}
+  <li class="header__sub-menu-item list-style-none flex flex-center">
+    {{ if .HasChildren }}
+      <a class="header__sub-menu-link font-size-md fw-700 transform-x-8" href="{{.URL}}">{{ .Name }}</a>
+      <ul class="header__child-menu">
+        {{ range .Children }}
+          {{ template "menu-node" .}}
+        {{ end }}
+      </ul>
+    {{else}}
+      {{ if eq .Parent "Our Services" }}
+        <div class="header__sub-menu-icon icon-xl icon-fill-white">
+          {{ with .Name }}
+          {{ $icon_name := printf "svg-icons/%s.svg" (replace (replace (lower .) "/" "-") " " "-") }}
+          {{ partial $icon_name . }}
+          {{ end }}               
+        </div>
+      {{ end }}
+      <a class="header__sub-menu-link transform-x-8" href="{{.URL}}">{{ .Name }}</a>
+    {{end}}
+  </li>
+{{ end }}

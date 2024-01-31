@@ -1,0 +1,80 @@
+.btn {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-family: $primary-font;
+  font-size: 1rem;
+  padding: $ic-100 $ic-400;
+  text-decoration: none;
+  transition: $transition;
+  inline-size: max-content;
+
+  @include breakpoint(md) {
+    font-size: 1.125rem;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    transition: $transition;
+    border-top: 29px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 16px solid $primary-color;
+  }
+}
+
+.btn--primary {
+  color: $white;
+  background-color: $primary-color;
+
+  &:hover,
+  &:focus {
+    background-color: $secondary-color;
+
+    &::after {
+      border-left: 16px solid $secondary-color;
+    }
+  }
+}
+
+.btn--secondary {
+  color: $white;
+
+  &::before {
+    background-image: linear-gradient(to right,$black 0%,$black-2 15%,$black-2 85%,$black 100%);
+  }
+}
+
+.btn--filter {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  transition: $transition;
+
+  svg {
+    fill: $primary-color;
+    inline-size: $ic-400;
+    block-size: $ic-400;
+    margin-right: $ic-400;
+    position: relative;
+    inset-block-start: -1px;
+  }
+
+  &:hover,
+  &:focus {
+    color: $primary-color;
+  }
+
+  @include breakpoint(sm) {
+    margin: 0;
+  }
+}
+
+.btn--category {
+  padding: 0.5rem;
+}

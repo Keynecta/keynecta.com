@@ -1,0 +1,47 @@
+<section class="hero content-full bg-black" aria-labelledby="{{ .heading | urlize }}">
+  <div class="hero__content margin-block-auto col flow">
+    <div>
+      <div class="hero__breadcrumbs">
+        <ol class="hero__breadcrumbs-list text-style-slub flex flex-center">
+          {{ if page.Parent }}
+            <li class="hero__breadcrumbs-list-item"><a class="hero__breadcrumbs-link" href="{{ page.Parent.Permalink }}">{{ page.Parent.Title }}</a></li>
+          {{ end }}
+          <li class="hero__breadcrumbs-list-item">{{ page.Title }}</li>
+        </ol>
+      </div>
+      <h1 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h1>
+    </div>
+    {{ if .body }}
+      {{ if in .body "\n" }}
+          {{ .body | markdownify }}
+      {{ else }}
+          <p>{{ .body | markdownify }}</p>
+      {{ end }}
+    {{ end }}
+    {{ if .button.enabled }}
+    <div class="flex flex-column flex-row-md gap-md">
+      {{ with .button }}
+          <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+      {{ end }}
+      {{ if .button_2.enabled }}
+        {{ with .button_2 }}
+            <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ if .image.image_url }}
+  <div class="hero__image col">
+      <picture>
+        <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_500,h_500,c_fill{{ .image.image_url }}" type="image/avif">
+
+        <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_500,h_500,c_fill{{ .image.image_url }}" type="image/webp">
+
+        <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_500,h_500,c_fill{{ .image.image_url }}" type="image/jpg">
+    
+        <img src="https://res.cloudinary.com/hurckman-mechanical/image/upload{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="500" height="500">   
+    </picture>
+  </div>
+  {{ end }}
+</section>

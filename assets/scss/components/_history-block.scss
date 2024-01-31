@@ -1,0 +1,46 @@
+.history-timeline__wrapper {
+    max-inline-size: clamp(50%, 45vw, 70%);
+}
+
+.history-timeline__year {
+    opacity: .8;
+    letter-spacing: 2px;
+}
+
+.history-block__year {
+    position: relative;
+    z-index: 1;
+    font-size: clamp(75px, 4vw, 125px);
+    letter-spacing: 2px;
+    line-height: 1.1;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset-block-start: 0;
+        inset-inline-start: 0;
+        block-size: 45px;
+        inline-size: 65px;
+        z-index: -1;
+        background-color: $light-gray;
+        transform: $skew;
+    
+        @include breakpoint(md) {
+            inset-block-start: 30px;
+            block-size: 125px;
+            inline-size: 155px;
+        }
+    }
+}
+
+.history-block__heading {
+    position: relative;
+    z-index: 1;
+}
+
+.history-block__media {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    margin-block: auto;
+}

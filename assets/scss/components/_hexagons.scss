@@ -1,0 +1,19 @@
+.has-hexagons {
+    position: relative;
+}
+
+.hexagons {
+    position: absolute;
+    max-width: 260px;
+    bottom: 100%;
+    left: 100%;
+    transform: translate(-50%, 50%);
+}
+
+.hexagons--reversed {
+    top: 100%;
+    right: 100%;
+    bottom: unset;
+    left: unset;
+    transform: translate(50%, -50%) rotate(180deg);
+}

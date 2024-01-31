@@ -1,0 +1,16 @@
+<section class="numbers block content-full bg-{{ .background_color }}" aria-labelledby="{{ .heading | urlize }}">
+	<h2 class="mb-6" id="{{ .heading | urlize }}">{{ .heading }}</h2>
+	<div class="columns gap-lg">
+		{{ range .numbers }}
+			<div class="number col flow">
+				<div class="number__content">
+					<h3 class="font-color-primary h2 no-margin">{{ .heading | markdownify }}</h3>
+					<h3 class="h4">{{ .subheading }}</h3>
+					{{ if .body }}
+						{{ partial "format-body" . }}
+					{{ end }}
+				</div>
+			</div>
+		{{ end }}
+	</div>
+</section>

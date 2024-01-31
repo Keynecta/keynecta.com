@@ -1,0 +1,31 @@
+<section class="intro intro--locations content-full block" aria-labelledby="{{ .heading | urlize }}">
+    <div class="intro__content">
+        {{ if .preheading }}
+            <span class="text-style-slub">{{ .preheading }}</span>
+        {{ end }}
+        {{ if .heading }}
+            <h2 class="max-width-none" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
+        {{ end }}
+        <div class="columns gap-sm">
+            {{ if .locations }}
+                {{ range .locations }}
+                    <div class="col flow">
+                        <div>
+                            <h3 class="h5 no-margin">{{ .location_name }}</h3>
+                            {{ .address | safeHTML }}
+                        </div>
+                        <div>
+                            Phone: {{ .phone | safeHTML }}<br>
+                            Hours: {{ .hours | safeHTML }}
+                        </div>
+                    </div>
+                    <div class="col flow">
+                        {{ if .google_map_embed }}
+                            {{ .google_map_embed | safeHTML }}
+                        {{ end }}
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>

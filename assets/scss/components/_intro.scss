@@ -1,0 +1,33 @@
+.intro {
+    margin-block-start: 100px;
+}
+
+.intro__content {
+    grid-column: content-sm;
+    border-inline-start: 10px solid $primary-color;
+    padding-inline-start: clamp($ic-200, 4vw, $ic-400);
+}
+
+.page-home .intro {
+    margin-block-start: -120px;
+    padding-block-start: 180px;
+
+    @include breakpoint(md) {
+        margin-block-start: -370px;
+        padding-block-start: 250px;
+    }
+    // margin-top: clamp(-370px, 4vw, -540px);
+
+    @include breakpoint(lg) {
+        margin-block-start: -540px;
+    }
+}
+
+.page-home .intro__content {
+    grid-column: content-lg;
+    max-width: 800px;
+}
+
+.intro--locations iframe {
+    height: 250px;
+}

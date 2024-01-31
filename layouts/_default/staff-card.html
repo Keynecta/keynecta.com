@@ -1,0 +1,9 @@
+<li class="card">
+    <article class="card__wrapper flex flex-end">
+        <img class="card__image" src="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_auto,q_90,w_500,h_600,c_fill{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" width="1500" height="600">
+        <div class="card__body">
+            <h3 class="card__title flex flex-center no-margin max-width-none"><a class="card__link font-color-white" href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <div class="card__location flex flex-center font-color-white">{{ .Params.job_title }}</div>
+        </div>
+    </article>
+</li>

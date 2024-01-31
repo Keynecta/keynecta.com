@@ -1,0 +1,17 @@
+.testimonial {
+    display: grid;
+}
+
+.testimonial__body {
+    max-width: 950px;
+    margin-inline: auto;
+    line-height: 1.2;
+}
+
+.testimonial__name {
+    margin-top: $ic-400;
+}
+
+.testimonial__title {
+    margin-top: .5rem;
+}

@@ -1,0 +1,18 @@
+<section class="intro content-full block bg-{{ .background_color }} text-align-{{ .text_align }}" aria-labelledby="{{ .heading | urlize }}">
+    <div class="intro__content flow">
+        {{ if .preheading }}
+            <span class="text-style-slub">{{ .preheading }}</span>
+        {{ end }}
+        {{ if .heading }}
+            <h2 class="max-width-none" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
+        {{ end }}
+        {{ if .body }}
+            {{ partial "format-body" . }}
+        {{ end }}
+        {{ if .button.enabled }}
+            {{ with .button }}
+                <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+            {{ end }}
+        {{ end }}
+    </div>
+</section>

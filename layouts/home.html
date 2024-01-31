@@ -1,0 +1,197 @@
+{{ define "main" }}
+
+{{ with .Params.hero }}
+<section class="hero content-full" aria-labelledby="{{ .heading | urlize }}">
+  <div class="hero__inner content-full bg-primary">
+    <div class="hero__content content-lg grid gap-lg">
+      <div class="grid-12 grid-5-md margin-block-auto font-color-white flow">
+        <img class="hexagon-divider" src="/uploads/white-hexagon-divider.svg" alt="">
+        <h1 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h1>
+        {{ if .body }}
+          <div class="hero__body">
+            {{ if in .body "\n" }}
+                {{ .body | markdownify }}
+            {{ else }}
+                <p>{{ .body | markdownify }}</p>
+            {{ end }}
+          </div>
+        {{ end }}
+        {{ if .button.enabled }}
+          {{ with .button }}
+            <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="grid-12 grid-7-md">
+        {{ if .image_1.image_url }}
+        <div class="hero__image hero__image-1">
+            <picture>
+              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_500,h_500,c_fill{{ .image_1.image_url }}" type="image/avif">
+      
+              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_500,h_500,c_fill{{ .image_1.image_url }}" type="image/webp">
+      
+              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_500,h_500,c_fill{{ .image_1.image_url }}" type="image/jpg">
+          
+              <img src="https://res.cloudinary.com/keynecta/image/upload{{ .image_1.image_url }}" alt="{{ .image_1.image_alt }}" width="500" height="500">   
+          </picture>
+        </div>
+        {{ end }}
+        {{ if .image_2.image_url }}
+        <div class="hero__image hero__image-2">
+            <picture class="margin-block-auto">
+              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_500,h_500,c_fill{{ .image_2.image_url }}" type="image/avif">
+      
+              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_500,h_500,c_fill{{ .image_2.image_url }}" type="image/webp">
+      
+              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_500,h_500,c_fill{{ .image_2.image_url }}" type="image/jpg">
+          
+              <img src="https://res.cloudinary.com/keynecta/image/upload{{ .image_2.image_url }}" alt="{{ .image_2.image_alt }}" width="500" height="500">   
+          </picture>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.intro }}
+<section class="media-text-block content-full block" aria-labelledby="{{ .heading | urlize }}">
+    <div class="content-lg grid gap-lg">
+      <div class="grid-12 grid-5-md margin-block-auto block flow">
+        <img class="hexagon-divider" src="/uploads/green-hexagon-divider.svg" alt="">
+        <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
+        {{ if .body }}
+            {{ if in .body "\n" }}
+                {{ .body | markdownify }}
+            {{ else }}
+                <p>{{ .body | markdownify }}</p>
+            {{ end }}
+        {{ end }}
+        {{ if .button.enabled }}
+          {{ with .button }}
+              <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="grid-12 grid-7-md">
+        {{ if .image.image_url }}
+        <div class="media-text-block__image">
+            <picture>
+              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_1200{{ .image.image_url }}" type="image/avif">
+      
+              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_1200{{ .image.image_url }}" type="image/webp">
+      
+              <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_1200{{ .image.image_url }}" type="image/jpg">
+          
+              <img src="https://res.cloudinary.com/keynecta/image/upload{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="500" height="500">   
+          </picture>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+</section>
+{{ end }}
+
+{{ with .Params.team }}
+<section class="content-full block bg-white flow" aria-labelledby="{{ .heading | urlize }}">
+  {{ if .preheading }}
+      <span class="text-style-slub">{{ .preheading }}</span>
+  {{ end }}
+  <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
+  {{ if .body }}
+      {{ if in .body "\n" }}
+          {{ .body | markdownify }}
+      {{ else }}
+          <p>{{ .body | markdownify }}</p>
+      {{ end }}
+  {{ end }}
+  {{ if .button.enabled }}
+    {{ with .button }}
+        <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+    {{ end }}
+  {{ end }}
+</section>
+{{ end }}
+
+{{ with .Params.solutions }}
+<section class="has-hexagons content-full block" aria-labelledby="{{ .heading | urlize }}">
+  <img class="hexagons" src="/uploads/hexagon-group.svg" alt="">
+  <div class="content-lg flow">
+    {{ if .preheading }}
+        <span class="text-style-slub">{{ .preheading }}</span>
+    {{ end }}
+    <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
+    {{ if .body }}
+        {{ if in .body "\n" }}
+            {{ .body | markdownify }}
+        {{ else }}
+            <p>{{ .body | markdownify }}</p>
+        {{ end }}
+    {{ end }}
+  </div>
+  <div class="content-lg grid gap-lg mt-4">
+    <div class="grid-12 grid-8-md margin-block-auto flow">
+      <div class="grid-columns-2 gap-md">
+        {{ range .solutions }}
+          <div style="max-width: 365px;">
+            <h3>{{ .heading }}</h3>
+            <p>{{ .body }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="grid-12 grid-4-md">
+      {{ if .image.image_url }}
+      <div class="media-text-block__image">
+          <picture>
+            <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_1200{{ .image.image_url }}" type="image/avif">
+    
+            <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_1200{{ .image.image_url }}" type="image/webp">
+    
+            <source srcset="https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_1200{{ .image.image_url }}" type="image/jpg">
+        
+            <img src="https://res.cloudinary.com/keynecta/image/upload{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="500" height="500">   
+        </picture>
+      </div>
+      {{ end }}
+    </div>
+    {{ if .button.enabled }}
+      {{ with .button }}
+          <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+  <img class="hexagons hexagons--reversed" src="/uploads/hexagon-group.svg" alt="">
+</section>
+{{ end }}
+
+{{ with .Params.testimonial }}
+<section class="content-full block bg-white flow" aria-labelledby="{{ .heading | urlize }}">
+  <div class="testimonial bg-hexagons block">
+    <div class="testimonial__body flow font-color-white">
+      <img class="hexagon-divider" src="/uploads/white-hexagon-divider.svg" alt="">
+      <p class="h3 fw-700">{{ .body | markdownify }}</p>
+      <div>
+        <p class="testimonial__name font-size-sm fw-700">{{ .name }}</p>
+        <p class="testimonial__title font-size-xs">{{ .title }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.cta }}
+<section class="cta content-full block text-align-center flow" aria-labelledby="{{ .heading | urlize }}">
+  <img class="hexagon-divider margin-inline-auto" src="/uploads/green-hexagon-divider-centered.svg" alt="">
+  <h2 class="no-margin max-width-none" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
+  <p class="margin-inline-auto" style="max-width: 700px;">{{ .body | markdownify }}</p>
+  {{ if .button.enabled }}
+    {{ with .button }}
+        <a class="btn btn--primary margin-inline-auto" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+    {{ end }}
+  {{ end }}
+</section>
+{{ end }}
+
+{{ end }}

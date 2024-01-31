@@ -1,0 +1,47 @@
+// Colors
+$primary-color: #23376F;
+$secondary-color: #0079A8;
+$tertiary-color: #00844F;
+$light-gray: #D0F9FB;
+$gray: #E3E3E3;
+$black: #383838;
+$black-2: #383838;
+$white: #ffffff;
+
+// Fonts
+$primary-font: 'Urbanist', sans-serif;
+$secondary-font: 'Urbanist', sans-serif;
+
+$mobile-header: 76px;
+$desktop-header: 103px;
+
+// Scale and rhythm based on a major third
+$scale: 1.25;
+
+$ic--200: 1rem / $scale / $scale;
+$ic--100: 1rem / $scale;
+$ic-100: 1rem;
+$ic-200: 1rem * $scale;
+$ic-300: 1rem * $scale * $scale;
+$ic-400: 1rem * $scale * $scale * $scale;
+$ic-500: 1rem * $scale * $scale * $scale * $scale;
+$ic-600: 1rem * $scale * $scale * $scale * $scale * $scale;
+$ic-700: 1rem * $scale * $scale * $scale * $scale * $scale * $scale;
+$ic-800: 1rem * $scale * $scale * $scale * $scale * $scale * $scale * $scale;
+$ic-900: 1rem * $scale * $scale * $scale * $scale * $scale * $scale * $scale *
+  $scale;
+$ic-1000: 1rem * $scale * $scale * $scale * $scale * $scale * $scale * $scale *
+  $scale * $scale;
+
+// Line lengths
+$measure-short: 60ch;
+$measure: 80ch;
+$measure-long: 90ch;
+
+$transition: .3s ease-in-out;
+
+$radius: 8px;
+
+$scrollbar-width: 16px;
+
+$skew: skew(-15deg);

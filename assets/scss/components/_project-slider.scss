@@ -1,0 +1,43 @@
+.project-slider .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    transform: scale(0.8);
+    overflow: hidden;
+    width: 300px !important;
+    height: 300px !important;
+  
+    @include breakpoint(md) {
+      width: 1050px !important;
+      height: 650px !important;
+    }
+}
+  
+.project-slider .swiper-slide img {
+    display: block;
+    width: 100%;
+    opacity: 0.3;
+    transition: $transition;
+}
+  
+@include breakpoint(md) {
+    .project-slider .swiper-slide-active {
+        transform: scale(1) translateX(-15px) !important;
+    }
+}
+
+.project-slider .swiper-slide-active img {
+    opacity: 1;
+}
+  
+.project-slider .image-swiper-pagination {
+    position: relative !important;
+    bottom: 20px !important;
+    color: $primary-color !important;
+    z-index: 9 !important;
+    max-width: 1080px;
+    margin-inline: auto;
+    font-size: $ic-100;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+  

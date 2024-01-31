@@ -1,0 +1,56 @@
+.hero {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90%;
+    background-color: $secondary-color;
+    z-index: -1;
+  }
+}
+
+.hero__inner {
+  padding-block: clamp($ic-400, 14%, 11rem);
+  clip-path: polygon(0 0, 95% 0%, 100% 10%, 100% 90%, 95% 100%, 0 100%);
+  clip-path: polygon(0 0, 97% 0%, 100% 5%, 100% 95%, 97% 100%, 0 100%);
+  margin-top: 16px;
+  margin-right: 16px;
+}
+
+.hero__content {
+  position: relative;
+}
+
+.hero__body {
+  font-size: $ic-300;
+  text-wrap: pretty;
+}
+
+.hero__image {
+  position: relative;
+  width: 500px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.hero__image-1 {
+  z-index: 1;
+  width: 500px;
+
+}
+
+.hero__image-2 {
+  display: grid;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  width: 400px;
+  margin-left: auto;
+}

@@ -1,0 +1,7 @@
+<li class="location-card">
+    <img class="location-card__image" src="{{ .image_url }}" alt="{{ .location }} Office">
+    <div class="location-card__body">
+        <h3 class="location-card__title flex flex-center no-margin"><a class="location-card__link font-color-white" href=""></a>{{ .name }}<div class="icon-md icon-fill-white">{{ partial "svg-icons/arrow-right.svg" . }}</div></h3>
+        <div class="location-card__location flex flex-center font-color-white"><div class="icon-sm icon-fill-white">{{ partial "svg-icons/location.svg" . }}</div></div>
+    </div>
+</li>

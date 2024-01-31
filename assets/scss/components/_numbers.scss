@@ -1,0 +1,44 @@
+.numbers .col {
+    flex-basis: calc(min(100%, 250px));
+}
+
+.number {
+    position: relative;
+    padding-inline-end: $ic-100;
+}
+
+.number:not(.number:last-of-type) {
+    border-bottom: 3px solid $primary-color;
+    
+    @include breakpoint(md) {
+        border-bottom: none;
+        border-right: 3px solid $primary-color;
+    }
+}
+
+.number__content {
+    position: relative;
+    z-index: 2;
+}
+
+.number::before {
+    content: "";
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: -10px;
+    block-size: 45px;
+    inline-size: 65px;
+    z-index: 1;
+    background-color: $light-gray;
+    transform: $skew;
+
+    @include breakpoint(md) {
+        inset-block-start: -30px;
+        block-size: 125px;
+        inline-size: 155px;
+    }
+}
+
+.number p {
+    margin-bottom: $ic-200;
+}

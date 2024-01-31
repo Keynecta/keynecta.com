@@ -1,0 +1,50 @@
+.video-block__media {
+    position: relative;
+}
+
+.video-block .media-text-block__overlay-button {
+    top: 0;
+    transform: none;
+    height: 100%;
+    max-width: none;
+}
+
+.video-block__play-icon {
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    background-color: $primary-color;
+    border-radius: 50%;
+}
+
+.video-block__play-icon svg {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 3px;
+}
+
+.video-block__image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/1;
+}
+
+.video-block__video {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.video-block__image {
+    z-index: 1;
+}

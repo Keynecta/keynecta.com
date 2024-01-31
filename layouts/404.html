@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="hero content-full block bg-black" aria-labelledby="{{ .Title | urlize }}">
+  <div class="hero__content margin-block-auto col flow">
+    <div>
+      <div class="hero__breadcrumbs">
+        <ol class="hero__breadcrumbs-list text-style-slub flex flex-center">
+          {{ if page.Parent }}
+            <li class="hero__breadcrumbs-list-item"><a class="hero__breadcrumbs-link" href="{{ page.Parent.Permalink }}">{{ page.Parent.Title }}</a></li>
+          {{ end }}
+          <li class="hero__breadcrumbs-list-item">{{ page.Title }}</li>
+        </ol>
+      </div>
+      <h2 class="no-margin" id="{{ .Title | urlize }}">{{ .Title }}</h2>
+    </div>
+  </div>
+</section>
+<section class="block flow">
+  <p>Oops! The page you are looking for cannot be found.</p>
+  <p>The page you've requested does not exist, or is unavailable at this time. Our website has recently been redesigned so if you tried to load a bookmarked page, or followed a link from another website, it's possible that the page you've requested has been moved. Use the navigation menu to locate the information you are looking for. <a href="{{ "/" | relURL }}">Go back to the homepage</a> or <a href="/contact/">contact us</a> for further assistance.</p>
+</section>
+{{ end }}

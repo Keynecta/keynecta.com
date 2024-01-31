@@ -1,0 +1,14 @@
+<li class="card">
+    <article class="card__wrapper flex flex-end">
+        {{ if .Params.industries }}
+            {{ range first 1 (.GetTerms "industries") }}
+                <a class="card__category fw-700" href="{{ .Permalink }}" aria-label="View all {{ .LinkTitle }} posts">{{ .LinkTitle }}</a>
+            {{ end }}
+        {{ end }}
+        <img class="card__image" src="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_auto,q_90,w_400,h_600,c_fill{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" width="1500" height="600">
+        <div class="card__body">
+            <h3 class="card__title flex flex-center no-margin max-width-none"><a class="card__link font-color-white" href="{{ .Permalink }}">{{ .Title }}</a><div class="icon-md icon-fill-white">{{ partial "svg-icons/arrow-right.svg" . }}</div></h3>
+            <div class="card__location flex flex-center font-color-white"><div class="icon-sm icon-fill-white">{{ partial "svg-icons/location.svg" . }}</div>{{ .Params.location.city }}, {{ .Params.location.state }}</div>
+        </div>
+    </article>
+</li>

@@ -1,0 +1,30 @@
+.social {
+  padding: 0;
+}
+
+.social__list-item {
+  list-style-type: none;
+  margin: 0;
+}
+
+.social__icon {
+  position: relative;
+  padding: .5rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $primary-color;
+    transform: $skew;
+    z-index: 1;
+  }
+}
+
+.social__icon svg {
+  position: relative;
+  z-index: 2;
+}

@@ -1,0 +1,12 @@
+<div class="content-full block flow bg-{{ .background_color }}">
+    <h2>{{ .heading }}</h2>
+    <ul class="grid-columns-3 gap-sm max-width-none no-margin no-padding">
+    {{ range .contacts }}
+        {{ $title := . }}
+        {{ $contacts := where site.RegularPages "Section" "our-company" }}
+        {{ range where $contacts ".Params.title"  $title }}
+            {{ .Render "staff-card" }}
+        {{ end }}
+    {{ end }}
+    </ul>
+</div>

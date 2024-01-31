@@ -1,0 +1,18 @@
+<li class="blog-card flex flex-row p-relative grid">
+    <div class="blog-card__image-wrap p-relative cover-image grid-4">
+        {{ if .Params.seo.featured_image }}
+            <picture>
+                <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_500{{ .Params.seo.featured_image }}" type="image/avif">
+
+                <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_500{{ .Params.seo.featured_image }}" type="image/webp">
+
+                <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_500{{ .Params.seo.featured_image }}" type="image/jpg">
+            
+                <img class="blog-card__img dim" src="https://res.cloudinary.com/hurckman-mechanical/image/upload{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" width="500" height="300" loading="lazy">   
+            </picture>
+        {{  end }}
+    </div>
+    <div class="blog-card__content bg-white flow grid-8">
+        <h2 class="blog-card__title"><a class="blog-card__link no-decoration" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    </div>
+</li>

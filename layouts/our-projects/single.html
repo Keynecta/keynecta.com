@@ -1,0 +1,157 @@
+{{ define "main" }}
+<section class="hero hero--project block content-full bg-black" aria-labelledby="hero-heading">
+    <div class="hero__content margin-block-auto col flow">
+        <div>
+            <div class="hero__breadcrumbs">
+            <ol class="hero__breadcrumbs-list text-style-slub flex flex-center">
+                {{ if page.Parent }}
+                <li class="hero__breadcrumbs-list-item"><a class="hero__breadcrumbs-link" href="{{ page.Parent.Permalink }}">{{ page.Parent.Title }}</a></li>
+                {{ end }}
+                <li class="hero__breadcrumbs-list-item">{{ page.Title }}</li>
+            </ol>
+            </div>
+            <h1 class="no-margin" id="hero-heading">{{ .Title }}</h1>
+        </div>
+        {{ if .Params.subheading }}
+            <p>{{ .Params.subheading }}</p>
+        {{ end }}
+    </div>
+</section>
+<div class="project-slider-container content-full">
+    <div class="project-slider swiper content-full">
+        <div class="swiper-wrapper">
+            {{ if .Params.gallery }}
+                {{ range .Params.gallery }}
+                    <div class="swiper-slide">
+                        <picture>
+                            <source sizes="100vw" srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_600,h_450,c_fill{{ .image.image_url }} 600w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_800,h_500,c_fill{{ .image.image_url }} 800w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_1000,h_700,c_fill{{ .image.image_url }} 1000w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_1200,h_800,c_fill{{ .image.image_url }} 1200w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_1400,h_800,c_fill{{ .image.image_url }} 1400w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_1800,h_1000,c_fill{{ .image.image_url }} 1800w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_2000,h_1000,c_fill{{ .image.image_url }} 2000w" type="image/avif">
+
+                            <source sizes="100vw" srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_600,h_450,c_fill{{ .image.image_url }} 600w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_800,h_500,c_fill{{ .image.image_url }} 800w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_1000,h_700,c_fill{{ .image.image_url }} 1000w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_1200,h_800,c_fill{{ .image.image_url }} 1200w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_1400,h_800,c_fill{{ .image.image_url }} 1400w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_1800,h_1000,c_fill{{ .image.image_url }} 1800w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_2000,h_1000,c_fill{{ .image.image_url }} 2000w" type="image/webp">
+
+                            <source sizes="100vw" srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_600,h_450,c_fill{{ .image.image_url }} 600w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_800,h_500,c_fill{{ .image.image_url }} 800w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_1000,h_700,c_fill{{ .image.image_url }} 1000w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_1200,h_800,c_fill{{ .image.image_url }} 1200w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_1400,h_800,c_fill{{ .image.image_url }} 1400w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_1800,h_1000,c_fill{{ .image.image_url }} 1800w, https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_2000,h_1000,c_fill{{ .image.image_url }} 2000w" type="image/jpg">
+                        
+                            <img src="https://res.cloudinary.com/hurckman-mechanical/image/upload{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="1500" height="600">
+                        </picture>
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+        <div class="swiper-button-next"><div class="icon-xl icon-stroke-white icon-fill-white">{{ partialCached "svg-icons/chevron-right.svg" . }}</div></div>
+        <div class="swiper-button-prev"><div class="icon-xl icon-stroke-white icon-fill-white">{{ partialCached "svg-icons/chevron-left.svg" . }}</div></div>
+        <div class="image-swiper-pagination"></div>
+    </div>
+</div>
+<section aria-label="{{ .Title }} Project Overview" class="content-full block">
+    <div class="post project flex flex-wrap gap-lg">
+        <div class="post__body flow">
+            {{ if .Params.challenge }}
+                <h2>The Challenge</h2>
+                {{ if in .Params.challenge "\n" }}
+                    {{ .Params.challenge | markdownify }}
+                {{ else }}
+                    <p>{{ .Params.challenge | markdownify }}</p>
+                {{ end }}
+            {{ end }}
+            {{ if .Params.solution }}
+                <h2>The Solution</h2>
+                {{ if in .Params.solution "\n" }}
+                    {{ .Params.solution | markdownify }}
+                {{ else }}
+                    <p>{{ .Params.solution | markdownify }}</p>
+                {{ end }}
+            {{ end }}
+            {{ if .Params.result }}
+                <h2>The Results</h2>
+                {{ if in .Params.result "\n" }}
+                    {{ .Params.result | markdownify }}
+                {{ else }}
+                    <p>{{ .Params.result | markdownify }}</p>
+                {{ end }}
+            {{ end }}
+            {{ if .Params.youtube_video_id }}
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .Params.youtube_video_id }}?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            {{ end }}
+        </div>
+        <div class="post__sidebar project__sidebar">
+            <div class="post__sidebar-inner flow">
+                {{ if .Params.industries }}
+                    <div>
+                        <div class="project__sidebar-heading text-style-slub">Industry</div>
+                        <ul class="project__sidebar-list no-margin no-padding list-style-none">
+                            {{ range .Params.industries }}
+                                {{ $title := . }}
+                                {{ $industries := where $.Site.RegularPages "Section" "our-industries" }}
+                                {{ range where $industries ".Params.title"  $title }}
+                                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                    </div>
+                {{ end }}
+                {{ if .Params.services }}
+                <div>
+                    <div class="project__sidebar-heading text-style-slub">Services</div>
+                    <ul class="project__sidebar-list no-margin no-padding list-style-none">
+                    {{ range .Params.services }}
+                        {{ $title := . }}
+                        {{ $services := where $.Site.RegularPages "Section" "our-services" }}
+                        {{ range where $services ".Params.title"  $title }}
+                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                    </ul>
+                </div>
+                {{ end }}
+                {{ if .Params.location }}
+                    <div>                        
+                        <div class="project__sidebar-heading text-style-slub">Location</div>
+                        <p>{{ .Params.location.name }}<br><span class="font-size-xs">{{ .Params.location.city }}, {{ .Params.location.state }}</span></p>
+                    </div>
+                {{ end }}
+                {{ if .Params.project_completed }}
+                    <div>
+                        <div class="project__sidebar-heading text-style-slub">Project Completed</div>
+                        <p>{{ .Params.project_completed }}</p>
+                    </div>
+                {{ end }}
+                <div>                        
+                    <div class="project__sidebar-heading text-style-slub">Share</div>
+                    {{ partial "blog/share-buttons" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ if .Params.video_embed }} 
+    <div class="block-sm">
+        <div class="wrapper-md">
+            {{ .Params.video_embed | safeHTML }}
+        </div>
+    </div>
+    {{ end }}
+</section>
+{{ if .Params.testimonial.body }}    
+    {{ with .Params.testimonial }}    
+    <div class="testimonial testimonial--full block content-lg bg-black bg-squares">
+        <div class="wrapper-md flow">
+            <div>
+                <div class="testimonial__icon icon-xxl icon-fill-primary">
+                    {{ partial "svg-icons/quote.svg" . }}
+                </div>
+                <p class="testimonial__body fw-700">{{ .body | markdownify }}</p>
+            </div>
+            <div>
+                <div class="testimonial__name text-style-slub">{{ .name }}</div>
+                <div class="testimonial__title">{{ .title | markdownify }}</div>
+            </div>
+            <a class="btn btn--primary" href="/start-project/">Start a Project With Us</a>
+        </div>
+        {{ partial "svg-icons/hmi-watermark.svg" . }}
+    </div>
+    {{ end }}
+{{ end }}
+{{ if .Params.contacts }}
+    {{ partial "key-team-members" . }}
+{{ end }}
+{{ partial "related-posts" . }}
+{{ partial "post-navigation" . }}
+{{ end }}

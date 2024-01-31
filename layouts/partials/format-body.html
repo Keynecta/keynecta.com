@@ -1,0 +1,5 @@
+{{ if in .body "\n" }}
+    {{ .body | markdownify }}
+{{ else }}
+    <p>{{ .body | markdownify }}</p>
+{{ end }}

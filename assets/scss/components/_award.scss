@@ -1,0 +1,26 @@
+.awards {
+    row-gap: $ic-600;
+}
+
+.award {
+    position: relative;
+    box-shadow: 0 10px 16px rgba(25,25,25,0.2);
+    padding: $ic-500 $ic-300;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.award__year {
+    position: absolute;
+    top: -27px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $primary-color;
+    color: $white;
+    font-weight: 700;
+    padding: $ic--100;
+}
+
+.award__project {
+    margin-block-start: 0 !important;
+}

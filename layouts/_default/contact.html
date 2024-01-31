@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ partial "bookshop_bindings" `.Params.content_blocks` }}
+{{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+<section class="block content-full">
+    <div>
+      <div class="contact block flex flex-wrap gap-lg">
+          <div class="contact__body">
+            <div class="contact-form">
+              <div class="contact-form__wrapper bg-gray">
+                {{ partial "forms/contact-form" . }}
+              </div>
+            </div>
+          </div>
+          <div class="contact__sidebar flow bg-gray">
+            {{ partial "contact-info" . }}
+          </div>
+      </div>
+    </div>
+</section>
+{{ end }}

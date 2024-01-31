@@ -1,0 +1,37 @@
+// .page-our-projects .hero {
+//     padding-block: 5%;
+//     padding-block: clamp($ic-400, 10%, $ic-900);
+// }
+
+.project__sidebar {
+    border-block-start: 1px solid $black-2;
+    padding-block-start: $ic-400;
+
+    @include breakpoint(md) {
+        border-block-start: none;
+        padding-block-start: 0;
+        border-inline-start: 1px solid $black-2;
+        padding-inline-start: $ic-400;
+    }
+}
+
+.project__sidebar-heading {
+    margin-bottom: $ic--200;
+    font-weight: 700;
+}
+
+.project__sidebar p {
+    text-wrap: pretty;
+}
+
+.project__sidebar-list li {
+    margin-top: 0;
+}
+
+.project__sidebar .share-buttons span {
+    display: none;
+}
+
+.project__sidebar .share-buttons ul {
+    padding: 0;
+}

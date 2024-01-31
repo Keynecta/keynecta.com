@@ -1,0 +1,369 @@
+.header {
+  inline-size: 100%;
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  z-index: 9;
+  box-shadow: 0 1px 6px rgba(0,0,0,.1);
+  padding-block: .5rem;
+}
+
+// Start mobile menu styles
+
+.header__hamburger {
+  inline-size: $ic-700;
+  block-size: $ic-700;
+}
+
+.header__mobile-nav {
+  position: absolute;
+  inset-block-start: 100%;
+  inset-inline-start: 0;
+  inline-size: 100%;
+  overflow: hidden;
+  transition: $transition;
+  max-block-size: 0;
+  transition: max-block-size .5s ease-in-out;
+
+  @include breakpoint(md) {
+    display: none;
+  }
+}
+
+.header__mobile-nav.nav-open {
+  max-block-size: 1000px;
+}
+
+.header__mobile-nav-menu {
+  max-inline-size: 600px;
+  margin-inline: auto;
+  padding: $ic-300;
+}
+
+.header__mobile-nav-item {
+  position: relative;
+  list-style-type: none;
+  margin-top: 0;
+}
+
+.header__mobile-nav-link,
+.header__mobile-dropdown-link {
+  padding: $ic--100 0;
+  display: block;
+  inline-size: 100%;
+  transition: color $transition;
+
+  &:hover,
+  &:focus {
+    color: $secondary-color;
+  }
+}
+
+.header__mobile-nav-link {
+  font-size: $ic-100; 
+  border-bottom: 1px solid $light-gray;
+  color: $black;
+}
+
+.toggle-mobile-dropdown {
+  position: absolute;
+  inset-block-start: 10px;
+  inset-inline-end: 0;
+  block-size: $ic-400;
+  inline-size: $ic-600;
+  background: none;
+  border: none;
+  border-left: 1px solid $light-gray;
+
+  &::before,
+  &::after {
+    content: "";
+    inline-size: 1rem;
+    block-size: 2px;
+    background-color: $primary-color;
+    position: absolute;
+    transition: 0.3s ease;
+    inset-block-start: 50%;
+    inset-inline-end: 30%;
+    transform: translate(-30%, -30%);
+  }
+
+  &::before {
+      transform: translate(-30%, -30%) rotate(90deg);
+  }
+}
+
+.mobile-dropdown-open .toggle-mobile-dropdown {
+  &::before {
+    transform: translate(-30%, -30%) rotate(0deg);
+  }
+}
+
+.header__mobile-dropdown {
+  display: none;
+  padding: 0 .25rem;
+}
+
+.header__mobile-dropdown-link {
+  font-size: $ic-100; 
+  padding: 0;
+  color: rgba($black, .8);
+}
+
+.has-dropdown-open .header__mobile-nav-inner {
+  max-block-size: 650px;
+  overflow: auto;
+}
+
+.mobile-dropdown-open {
+  .parent {
+    border-bottom: none;
+  }
+
+  .header__mobile-dropdown {
+    display: block;
+  }
+}
+
+// End mobile menu styles
+
+.header__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include breakpoint(lg) {
+    overflow: visible;
+  }
+}
+
+.header__logo {
+  display: block;
+  block-size: 44px;
+  inline-size: 100px;
+  background-image: url("/uploads/keynecta-logo.svg");
+  background-size: 100px 44px;
+
+  @include breakpoint(lg) {
+    block-size: 90px;
+    inline-size: 207px;
+    background-size: 207px 90px;
+  }
+}
+
+.header__nav {
+  display: none;
+
+  @include breakpoint(md) {
+    display: block; 
+    inline-size: 100%;
+    padding-left: $ic-500;
+  }
+}
+
+.header__nav-list {
+  display: none;
+
+  @include breakpoint(md) {
+    position: static;
+    display: flex;
+    transition: 0.3s ease-in-out;
+    padding: 0;
+    margin: 0;
+    inline-size: 100%;
+    max-inline-size: 100%;
+  }
+}
+
+.header__nav-list-item {
+  position: relative;
+
+  @include breakpoint(md) {
+    position: static;
+    list-style-type: none;
+    margin-top: 0;
+    padding: .25rem $ic-100;
+    display: inline-block;
+  }
+}
+
+.header__nav-list-item:last-of-type {
+  padding-right: 0;
+}
+
+.header__nav-list-item.has-sub-menu-open {
+  .header__sub-menu {
+    max-block-size: 100vh;
+  }
+}
+
+.header__sub-menu-indicator {
+  display: inline-block;
+  inline-size: 0;
+  block-size: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid $primary-color;
+  position: relative;
+  inset-block-end: 2px;
+  inset-inline-end: -8px;
+  transition: transform $transition;
+}
+
+.header .has-sub-menu {
+  &:hover,
+  &:focus {
+    .header__sub-menu {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+}
+
+.header__nav-list-link {
+  position: relative;
+  font-size: 1.125rem;
+  padding: $ic--200 0;
+  transition: .3s ease-out;
+  color: $black;
+  font-weight: 500;
+
+  &::after {
+    background-color: $primary-color;
+    block-size: 3px;
+    inline-size: 100%;
+    transform: scaleX(0);
+    transform-origin: top left;
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline-start: 0;
+    content: "";
+    transition: transform 0.4s ease-out;
+  }
+
+  @include breakpoint(md) {
+    &:hover,
+    &:focus {
+      color: $primary-color;
+
+      &::after {
+        transform: scaleX(1);
+      }
+
+      .header__sub-menu-indicator {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.header__sub-menu {
+  /* Hidden by default until hovered */
+  pointer-events: auto;
+  overflow: hidden;
+  max-block-size: 0;
+  transition: max-block-size .5s ease-in-out;
+  transition-delay: 0.1s;
+  inset-inline-start: 0px;
+  position: absolute;
+  inset-block-start: 100%;
+  inline-size: 100%;
+  box-shadow: 0px 20px 30px rgba($black, 0.15);
+}
+
+// .header__sub-menu-inner {
+//   inline-size: 100%;
+//   // padding: $ic-100 $ic-200;
+// }
+
+.header__sub-menu-list-wrapper {
+  padding: $ic-600 $ic-300;
+}
+
+.header__sub-menu-list {
+  padding: $ic-300 0;
+  columns: 3;
+  max-inline-size: 100%;
+  border-top: 1px solid $light-gray;
+}
+
+.header__sub-menu-item {
+  margin: 0;
+  padding: .25rem 0;
+  break-inside: avoid;
+}
+
+.header__sub-menu-link {
+  font-size: $ic-100;
+  padding: 0.3rem;
+  color: $black;
+}
+
+.header__child-menu {
+  padding: .3rem;
+}
+
+.header__sub-menu-icon {
+  position: relative;
+  margin-right: 8px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $primary-color;
+    transform: $skew;
+    z-index: 1;
+  }
+}
+
+.header__sub-menu-icon svg {
+  position: relative;
+  z-index: 2;
+}
+
+.header__sub-menu-cta {
+  padding: $ic-300;
+  display: grid;
+  place-items: center;
+}
+
+.collapse {
+  @include breakpoint(md) {
+    animation: collapse 0.5s ease forwards;
+  }
+}
+
+// Open nav bar on scroll up
+.expand {
+  @include breakpoint(md) {
+    animation: expand 0.5s ease forwards;
+  }
+}
+
+@keyframes collapse {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes expand {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

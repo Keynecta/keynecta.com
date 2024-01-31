@@ -1,0 +1,21 @@
+<div class="testimonial testimonial--full block content-lg bg-black bg-squares">
+    <div class="wrapper-md flow">
+        <div>
+            <div class="testimonial__icon icon-xxl icon-fill-primary">
+                {{ partial "svg-icons/quote.svg" . }}
+            </div>
+            <p class="testimonial__body fw-700">{{ .body | markdownify }}</p>
+        </div>
+        <div>
+            <div class="testimonial__name text-style-slub">{{ .name }}</div>
+            <div class="testimonial__title">{{ .title | markdownify }}</div>
+        </div>
+        {{ if .button.enabled }}
+            {{ with .button }}
+                <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+            {{ end }}
+        {{ end }} 
+    </div>
+    {{ partial "svg-icons/hmi-watermark.svg" . }}
+</div>
+  

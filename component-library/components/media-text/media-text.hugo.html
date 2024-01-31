@@ -1,0 +1,37 @@
+<section class="media-text-block content-full {{ if eq .text_column_position "left" }}media-text-block--text-left{{ else }}media-text-block--text-right{{ end }} block bg-{{ .background_color }}{{ if .css_classes }} {{ .css_classes }}{{ end }}" aria-labelledby="{{ .heading | urlize }}">
+    <div class="media-text-block__content block margin-block-auto col flow">
+        {{ if .preheading }}
+            <span class="text-style-slub">{{ .preheading }}</span>
+        {{ end }}
+        {{ if .heading }}
+            <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
+        {{ end }}
+        {{ if .body }}
+            {{ partial "format-body" . }}
+        {{ end }}
+        {{ if .button.enabled }}
+          {{ with .button }}
+              <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+          {{ end }}
+        {{ end }}
+    </div>
+    <div class="media-text-block__media col">
+        <div class="media-text-block__media-wrapper">
+            {{ if .youtube_video_id }}
+            <button class="media-text-block__overlay-button"><div class="media-text-block__play-icon icon-fill-white">{{ partial "svg-icons/play-alt.svg" . }}</div></button>
+            <div class="media-text-block__video">
+                <iframe title="" width="640" height="360" src="https://www.youtube.com/embed/{{ .youtube_video_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+            </div>
+            {{ end }}
+            <picture>
+                <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_1200,h_800,c_fill{{ .image.image_url }}" type="image/avif">
+        
+                <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_1200,h_800,c_fill{{ .image.image_url }}" type="image/webp">
+        
+                <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_1200,h_800,c_fill{{ .image.image_url }}" type="image/jpg">
+            
+                <img src="https://res.cloudinary.com/hurckman-mechanical/image/upload{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="500" height="500">   
+            </picture>
+        </div>
+    </div>
+</section>

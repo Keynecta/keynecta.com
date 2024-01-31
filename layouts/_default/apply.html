@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ partial "bookshop_bindings" `.Params.content_blocks` }}
+{{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
+<section class="intro block">
+  {{ partial "forms/application-form" . }}
+</section>
+{{ end }}

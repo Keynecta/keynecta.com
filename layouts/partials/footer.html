@@ -1,0 +1,39 @@
+<footer class="footer content-grid" id="footer">
+  <div class="footer__inner content-full block bg-primary">
+    <div class="content-lg">
+      <div class="footer__logo-wrap">
+        <a class="footer__logo margin-inline-auto" href="{{ site.BaseURL }}">
+          <span class="visually-hidden">Home</span>
+        </a>
+      </div>
+      <nav class="mt-4" aria-label="Footer Navigation">
+        <ul class="footer__nav flex flex-justify-center max-width-none">
+          {{ range .Site.Menus.main }}
+              <li class="footer__nav-item">
+                  <a class="footer__nav-link font-size-xs" href="{{ .URL }}">{{ .Title }}</a>
+              </li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="content-lg">
+    <div class="footer__bottom">
+      <div class="footer__copyright flex flex-column flex-row-md flex-center">
+        <p>© {{ dateFormat "2006" now }} <span translate="no">{{ .Site.Data.site_settings.business_name }}</span></p>
+        <ul class="footer__copyright-nav flex flex-justify-center">
+          <li class="footer__copyright-item">
+            <a class="footer__copyright-link" href="/privacy-policy/">Privacy Policy</a>
+          </li>
+          <li class="footer__copyright-item">
+            <a class="footer__copyright-link" href="/sitemap/">Sitemap</a>
+          </li>
+        </ul>
+        <div class="footer__credits">
+          <a class="footer__credits-link" href="https://insightcreative.com" target="_blank">Website by Insight Creative, Inc.</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+{{ partial "scripts" . }}

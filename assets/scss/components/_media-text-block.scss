@@ -1,0 +1,13 @@
+.media-text-block__image {
+    position: relative;
+    block-size: 100%;
+    min-height: 400px;
+}
+
+.media-text-block__image img {
+    position: absolute;
+    block-size: 100%;
+    inline-size: 100%;
+    object-fit: cover;
+    clip-path: polygon(0 0, 90% 0%, 100% 15%, 100% 100%, 0 100%);
+}

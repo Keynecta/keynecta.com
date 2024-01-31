@@ -1,0 +1,47 @@
+<section class="home-hero content-lg" aria-labelledby="hero-heading">
+  <div class="block-xl">
+    <div class="hero__content flow margin-block-auto">
+      {{ if .preheading }}
+        <span class="text-style-slub">{{ .preheading }}</span>
+      {{ end }}
+      {{ if .heading }}
+        <h1 class="h2 no-margin" id="hero-heading">{{ .heading | markdownify }}</h1>
+      {{ end }}
+      {{ if .body }}
+          {{ partial "format-body" . }}
+      {{ end }}
+      <div class="flex flex-column flex-row-md gap-md">
+        {{ if .button.enabled }}
+          {{ with .button }}
+              <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+          {{ end }}
+        {{ end }} 
+        {{ if .button_2.enabled }}
+          {{ with .button_2 }}
+              <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+          {{ end }}
+        {{ end }} 
+      </div>
+    </div>
+  </div>
+</section>
+<div class="home-hero__media content-full">
+  <div class="home-hero__video-wrapper grid-9">
+      <div class="hero__media-background"></div>
+      <div class="home-hero__video skew-wrapper">
+          <iframe title="" width="640" height="360" src="https://www.youtube.com/embed/{{ .youtube_video_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" id="widget2"></iframe>
+          <img class="home-hero__video-fallback" src="{{ .video_fallback_image.image_url }}" alt="{{ .video_fallback_image.image_alt }}">
+      </div>
+      <button class="video-controls video-playing" aria-label="pause the video" title="pause the video">{{ partial "svg-icons/pause.svg" . }}{{ partial "svg-icons/play.svg" . }} Pause Video</button>
+  </div>
+  {{ if .image_1.image_url }}
+  <div class="home-hero__image-1 home-hero__image col">
+    <img src="{{ .image_1.image_url }}" alt="{{ .image_1.image_alt }}" width="600" height="400">
+  </div>
+  {{ end }}
+  {{ if .image_2.image_url }}
+  <div class="home-hero__image-2 home-hero__image col">
+    <img src="{{ .image_2.image_url }}" alt="{{ .image_2.image_alt }}" width="600" height="400">
+  </div>
+  {{ end }}
+</div>

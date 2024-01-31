@@ -1,0 +1,23 @@
+<div>{{ partialCached "social-media" . }}</div>
+<ul class="locations no-padding">
+  {{ range .Site.Data.locations }}
+  <li class="location-card">
+    <div class="grid gap-sm">
+      <div class="grid-6 flow">
+        <h3 class="location-card__title h4 flex flex-center no-margin"><a class="location-card__link" href="{{ .location_url }}">{{ .city }}</a></h3>
+        <div class="location-card__body font-size-xs">
+            <p><strong>{{ .name }}</strong></p>
+            <address><a href="{{ .googlemaps }}" target="_blank" rel="noopener noreferrer">{{ .street }}<br>{{ .city }}, {{ .state }}</a></address>
+        </div>
+        <div class="font-size-xs">
+          <p>Phone: <a href="tel:{{ .phone }}">{{ .phone }}</a></p>
+          <p>Hours: {{ .hours.time }}</p>
+        </div>
+      </div>
+      <div class="grid-6">
+        <img class="location-card__image" src="{{ .image_url }}" alt="{{ .name }} Office">
+      </div>
+    </div>
+  </li>
+  {{- end -}}
+</ul>

@@ -1,0 +1,72 @@
+{{ define "main" }}
+<section class="hero content-full bg-black" aria-labelledby="{{ .Title | urlize }}">
+    <div class="hero__content margin-block-auto col flow">
+      <div>
+        <div class="hero__breadcrumbs">
+          <ol class="hero__breadcrumbs-list text-style-slub flex flex-center">
+            {{ if page.Parent }}
+              <li class="hero__breadcrumbs-list-item"><a class="hero__breadcrumbs-link" href="{{ page.Parent.Permalink }}">{{ page.Parent.Title }}</a></li>
+            {{ end }}
+            <li class="hero__breadcrumbs-list-item">{{ page.Title }}</li>
+          </ol>
+        </div>
+        <h1 class="no-margin" id="{{ .Title | urlize }}">{{ .Title }}</h1>
+    </div>
+    <p>{{ .Params.job_title }}</p>
+    {{ if or ( .Params.linkedin_url ) ( .Params.phone ) }}
+        <ul class="social flex flex-center gap-sm">
+            {{ if .Params.linkedin_url }}
+                <a href="{{ .Params.linkedin_url }}" class="social__icon icon-fill-white icon-xxl linkedin-icon dim" target="_blank" rel="noopener noreferrer">{{ partial "svg-icons/linkedin.svg" . }}<span class="visually-hidden">LinkedIn</span>
+                </a>
+            {{ end }}
+            {{ if .Params.phone }}
+                <a href="tel:{{ .Params.phone }}" class="social__icon icon-fill-white icon-xxl dim" target="_blank" rel="noopener noreferrer">{{ partial "svg-icons/phone.svg" . }}<span class="visually-hidden">Phone</span>
+                </a>
+            {{ end }}
+            {{ if .Params.email }}
+                <a href="mailto:{{ .Params.email }}" class="social__icon icon-fill-white icon-xxl dim" target="_blank" rel="noopener noreferrer">{{ partial "svg-icons/email.svg" . }}<span class="visually-hidden">Email</span>
+                </a>
+            {{ end }}
+        </ul>
+    {{ end }}
+    </div>
+    <div class="hero__image col">
+        <img src="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_auto,q_90,w_500,h_500,c_fill{{ .Params.seo.featured_image }}" alt="Headshot of {{ .Params.job_title }} {{ .Title }}" width="800" height="800">
+    </div>
+</section>
+<div class="intro block flow">
+    <h2>About {{ .Title }}</h2>
+    {{ .Content  }}
+    {{ if .Params.service_areas }}
+    <h2>Service Areas</h2>
+    <ul>
+        {{ range .Params.service_areas }}
+            {{ $title := . }}
+            {{ $services := where $.Site.RegularPages "Section" "our-services" }}
+            {{ range where $services ".Params.title"  $title }}
+                <li class="font-size-xs"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        {{ end }}
+    </ul>
+{{ end }}
+</div>
+{{ if .Params.employee_testimonial }}
+<div class="testimonial testimonial--full block mb-7 content-lg bg-black bg-squares">
+    <div class="wrapper-md flow">
+        <div>
+            <div class="testimonial__icon icon-xxl icon-fill-primary">
+                {{ partial "svg-icons/quote.svg" . }}
+            </div>
+            <p class="testimonial__body fw-700">{{ .Params.testimonial | markdownify }}</p>
+        </div>
+        <div>
+            <div class="testimonial__name text-style-slub">{{ .Title }}</div>
+            <div class="testimonial__title">{{ .Params.job_title | markdownify }}</div>
+        </div>
+        <a class="btn btn--primary" href="/our-careers/">Start a career with us</a>
+    </div>
+    {{ partial "svg-icons/hmi-watermark.svg" . }}
+</div>
+{{ end }}
+{{ partial "post-navigation" . }}
+{{ end }}
