@@ -5,68 +5,57 @@ menu:
     weight: 2
 seo:
   page_title:
-  meta_description: Discover Hurckman's company philosophy—leading as the best commercial and industrial mechanical contractor for unparalleled results.
-  featured_image:
-  featured_image_alt:
-content_blocks:
-  - _bookshop_name: hero
-    heading: >-
-      Our Philosophy
-    body: >-
-      Discover Hurckman's company philosophy—leading as the best commercial and industrial mechanical contractor for unparalleled results.
-    image:
-      image_url: /uploads/business-1.jpg
-      image_alt:
-    button:
-      enabled: true
-      button_url: /our-projects/
-      button_text: Start a Project With Us
-      open_in_new_tab: false
-    button_2:
-      enabled: true
-      button_url: /our-careers/
-      button_text: Start a Career With Us
-      open_in_new_tab: false
-  - _bookshop_name: intro
-    heading: "Hurckman: Where Technology, Community and Excellence Unite"
-    body: >-
-      "At Hurckman, we believe that when we're accountable to each other, the customer benefits." –Brad Hurckman
+  meta_description: >-
+    Explore Keynecta's process: Train, Connect, Involve, Lead, Score and Improve—fueling Safety Culture and organizational success.
+  featured_image: /uploads/essentia-featured-image.jpg
+  featured_image_alt: Essentia Logo
+hero:
+  heading: Our Process
+  body: >-
+    Explore Keynecta's process: Train, Connect, Involve, Lead, Score and Improve—fueling Safety Culture and organizational success.
+  button:
+    enabled: false
+    button_url: 
+    button_text: 
+    open_in_new_tab: false
+  image_1:
+    image_url: /uploads/two-people-reviewing-construction-site.jpg
+    image_alt:
+  image_2:
+    image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
+    image_alt:
+intro_simple:
+  heading: The Key to Your Company’s Success
+  body: >-
+    At Keynecta, our complete online system builds off your organization’s current strengths. To begin, we assess your Safety Culture at all levels, identifying organizational, compliance, communication and training gaps. From there, our digital resource and unique scoring tool help you achieve organizational excellence.
 
-
-      Every day, on every project, accountability is the cornerstone of our approach. Each employee takes individual responsibility for delivering results and fostering a culture of commitment that goes beyond words. 
-
-
-      This attitude is not just expected; it's ingrained in our hiring process. We seek individuals who bring planning, consistent effort and motivation to the table—traits that define the core of the Hurckman team.
-  - _bookshop_name: media-text
-    heading: "Our Job Planning Process"
-    body: >-
-      Our job planning process represents commitment in action. From pre-job meetings and safety talks to production meetings, integrated project management and collaboration with trade partners, every step is orchestrated to ensure excellence. However, what truly sets us apart is the unwavering commitment each team member makes to deliver on promises. With 210 dedicated employees, 80% actively engaged on job sites, our team, including project managers, superintendents and safety professionals, uses their experience and training to make decisions that prioritize our customers' needs.
-    image:
-      image_url: /uploads/business-1.jpg
-      image_alt: Trees with sunshine shining through branches
-    button:
-      enabled: false
-      button_url: 
-      button_text:
-      open_in_new_tab: false
-    background_color: gray
-    text_column_position: left
-    css_classes:
-  - _bookshop_name: media-text
-    heading: "Our Promise"
-    body: >-
-      Hurckman's philosophy is not just a commitment to quality, it's a commitment to accountability that resonates throughout our team, benefiting every customer we serve. Partner with the best commercial and industrial mechanical contractor for unparalleled results.
-    image:
-      image_url: /uploads/business-1.jpg
-      image_alt: Trees with sunshine shining through branches
-    button:
-      enabled: false
-      button_url: 
-      button_text:
-      open_in_new_tab: false
-    background_color: white
-    text_column_position: right
-    css_classes:
+    Use our customer portal to access tools that will help you:
+    
+    * **Train:** Equip your team with the knowledge and tools to foster a culture of safety.
+    
+    * **Connect:** Build a network where every team member is listened to and valued.
+    
+    * **Involve:** Empower individuals to take ownership of safety, making it a collective effort.
+    
+    * **Lead:** Guide leaders to champion safety initiatives and set an example for their teams.
+    
+    * **Score:** Implement our unique scoring tool for effective data collection and project tracking.
+    
+    * **Improve:** Embrace a culture of ongoing enhancement, where safety is not just a goal but a journey.
+  button:
+    enabled: true
+    button_url: /contact/
+    button_text: Discover the Keynecta Advantage
+    open_in_new_tab: false
+cta:
+  heading: Transform Your Organization
+  body: >-
+    Ready to drive profits and value people through a transformative Safety Culture? Join Keynecta and redefine your organization's safety journey today.
+  button:
+    enabled: true
+    button_url: /contact/
+    button_text: Discover the Keynecta Advantage
+    open_in_new_tab: false
 ---
 
 

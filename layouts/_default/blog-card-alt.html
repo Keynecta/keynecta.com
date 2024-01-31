@@ -2,13 +2,13 @@
     <div class="blog-card__image-wrap p-relative cover-image grid-4">
         {{ if .Params.seo.featured_image }}
             <picture>
-                <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_500{{ .Params.seo.featured_image }}" type="image/avif">
-
-                <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_500{{ .Params.seo.featured_image }}" type="image/webp">
-
-                <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_500{{ .Params.seo.featured_image }}" type="image/jpg">
+                <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=avif&q=85&width=200" type="image/avif">
             
-                <img class="blog-card__img dim" src="https://res.cloudinary.com/hurckman-mechanical/image/upload{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" width="500" height="300" loading="lazy">   
+                <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=webp&q=85&width=200" type="image/webp">
+            
+                <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=jpg&q=85&width=200" type="image/jpg">
+            
+                <img src="{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" width="200" height="100">   
             </picture>
         {{  end }}
     </div>

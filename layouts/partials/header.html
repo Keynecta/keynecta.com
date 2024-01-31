@@ -27,17 +27,11 @@
                   {{ end }}
                 </ul>                            
               </div>
-              <div class="header__sub-menu-cta grid-4 bg-black">
+              <div class="header__sub-menu-cta grid-4 bg-gray">
                 <div class="flow">
-                  {{ with .Page }}
-                    {{ with .Params.nav_cta }}
-                      <h2 class="h4">{{ .heading }}</h2>
-                      <p class="font-size-xs">{{ .body }}</p>
-                      {{ with .button }}
-                          <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
-                      {{ end }}
-                    {{ end }}
-                  {{ end }}
+                  <h2 class="h4">Transform Your Organization</h2>
+                  <p class="font-size-xs">Ready to drive profits and value people through a transformative Safety Culture? Join Keynecta and redefine your organization’s safety journey today.</p>
+                  <a class="btn btn--primary" href="/contact/">Discover the Keynecta Advantage</a>
                 </div>
               </div>
             </div>
@@ -95,15 +89,17 @@
         {{ end }}
       </ul>
     {{else}}
-      {{ if eq .Parent "Our Services" }}
-        <div class="header__sub-menu-icon icon-xl icon-fill-white">
-          {{ with .Name }}
-          {{ $icon_name := printf "svg-icons/%s.svg" (replace (replace (lower .) "/" "-") " " "-") }}
-          {{ partial $icon_name . }}
-          {{ end }}               
+      <div>
+        <div class="flex flex-center">
+          <a class="header__sub-menu-link" href="{{.URL}}">{{ .Name }}</a>
+          <div class="icon-sm icon-fill-primary">
+            {{ partial "svg-icons/chevron-right.svg" . }}
+          </div>
         </div>
-      {{ end }}
-      <a class="header__sub-menu-link transform-x-8" href="{{.URL}}">{{ .Name }}</a>
+        {{ with .Page }}
+          <p class="font-size-xs">{{ .Params.seo.meta_description }}</p>
+        {{ end }}
+      </div>
     {{end}}
   </li>
 {{ end }}

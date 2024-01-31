@@ -6,3 +6,23 @@ ol li + li {
 .list-style-none {
   list-style-type: none;
 }
+
+.site-main ul li:not(.blog-card, .share-buttons__list-items) {
+  position: relative;
+  list-style-type: none;
+  break-inside: avoid;
+
+  &::before {
+    background-image: url("/uploads/green-hexagon.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+    left: -$ic-300;
+    position: absolute;
+    top: 9px;
+  }
+}

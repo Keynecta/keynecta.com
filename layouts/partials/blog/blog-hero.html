@@ -1,5 +1,6 @@
-<header class="blog-hero content-full block bg-black">
-  <div class="wrapper-lg columns gap-md">
+<header class="hero blog-hero content-full bg-black">
+  <div class="hero__inner content-full bg-primary">
+    <div class="grid-columns-2 gap-md">
       <div class="col margin-block-auto">
         <a href="/our-news/" class="bounce-left flex flex-center"><div class="icon-md icon-stroke-primary icon-fill-primary">{{ partialCached "svg-icons/chevron-left.svg" . }}</div> Back to all posts</a>
         <h1 id="hero-heading">{{ .Title }}</h1>
@@ -7,7 +8,7 @@
           <div class="flex flex-wrap gap-sm">
           {{ if .Params.Categories }}
             {{ range first 2 (.GetTerms "categories") }}
-                <a href="{{ .Permalink }}" class="btn btn--primary btn--category" aria-label="View all {{ .Page.Title }} posts">{{ .LinkTitle }}</a>
+                <a href="{{ .Permalink }}" class="btn btn--category" aria-label="View all {{ .Page.Title }} posts">{{ .LinkTitle }}</a>
             {{ end }}
           {{ end }}
           </div>
@@ -20,16 +21,17 @@
       {{ if .Params.seo.featured_image }}
       <div class="col">
         <picture>
-            <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_avif,q_85,w_700{{ .Params.seo.featured_image }}" type="image/avif">
-  
-            <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_webp,q_85,w_700{{ .Params.seo.featured_image }}" type="image/webp">
-  
-            <source srcset="https://res.cloudinary.com/hurckman-mechanical/image/upload/f_jpg,q_85,w_700{{ .Params.seo.featured_image }}" type="image/jpg">
-        
-            <img class="blog-hero__image" src="https://res.cloudinary.com/hurckman-mechanical/image/upload{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" width="500" height="300" loading="lazy">   
+          <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=avif&q=85&width=800&height=500&fit=crop" type="image/avif">
+      
+          <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=webp&q=85&width=800&height=500&fit=crop" type="image/webp">
+      
+          <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=jpg&q=85&width=800&height=500&fit=crop" type="image/jpg">
+      
+          <img src="{{ .Params.seo.featured_image }}" alt="{{ .Params.seo.featured_image_alt }}" width="800" height="500">   
         </picture>
       </div>
       {{  end }}
+    </div>
   </div>
 </header>
 {{ if .TableOfContents }}

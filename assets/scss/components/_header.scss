@@ -284,21 +284,49 @@
 
 .header__sub-menu-list {
   padding: $ic-300 0;
-  columns: 3;
   max-inline-size: 100%;
   border-top: 1px solid $light-gray;
 }
 
 .header__sub-menu-item {
   margin: 0;
-  padding: .25rem 0;
   break-inside: avoid;
 }
 
+.header__sub-menu-item + .header__sub-menu-item {
+  margin-top: $ic-100;
+}
+
 .header__sub-menu-link {
-  font-size: $ic-100;
-  padding: 0.3rem;
+  position: relative;
+  font-size: 1.125rem;
+  font-weight: 700;
   color: $black;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline-start: 0;
+    z-index: -1;
+    background-color: $light-gray;
+    block-size: 100%;
+    inline-size: 100%;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: $transition;
+  }
+
+  @include breakpoint(md) {
+    &:hover,
+    &:focus {
+      color: $primary-color;
+
+      &::after {
+        transform: scaleX(1);
+      }
+    }
+  }
 }
 
 .header__child-menu {

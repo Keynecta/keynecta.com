@@ -38,6 +38,10 @@
     position: relative;
     inset-block-start: -1px;
   }
+
+  &::after {
+    display: none;
+  }
 }
 
 .pagination__next {
