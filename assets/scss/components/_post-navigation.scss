@@ -1,5 +1,5 @@
 .post-navigation {
-  border-top: 1px solid rgba($black, .5);
+  border-top: 1px solid rgba($black, .25);
 }
 
 .post-navigation__next,
@@ -23,7 +23,7 @@
 
 .post-navigation__next {
   padding-left: $ic-200;
-  border-left: 1px solid rgba($black, .5);
+  border-left: 1px solid rgba($black, .25);
 
   svg {
     left: .5rem;

@@ -14,9 +14,8 @@ blueprint:
   image:
     image_url:
     image_alt:
-  youtube_video_id:
   button:
-    enabled: true
+    enabled: false
     button_url: 
     button_text: 
     open_in_new_tab: false

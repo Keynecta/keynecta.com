@@ -10,15 +10,13 @@ spec:
 blueprint:
   heading: ""
   body: ""
-  image:
+  image_1:
+    image_url:
+    image_alt:
+  image_2:
     image_url:
     image_alt:
   button:
-    enabled: false
-    button_url: 
-    button_text:
-    open_in_new_tab: false
-  button_2:
     enabled: false
     button_url: 
     button_text:

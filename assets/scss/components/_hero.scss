@@ -39,18 +39,35 @@
   aspect-ratio: 1/1;
 }
 
+.hero__image picture,
+.hero__image img {
+  block-size: 100%;
+}
+
+.hero__image img {
+  object-fit: cover;
+}
+
 .hero__image-1 {
   z-index: 1;
   width: 500px;
-
+  height: 500px;
 }
 
 .hero__image-2 {
   display: grid;
   position: absolute;
-  top: 0;
+  top: 50%;
   right: 0;
   z-index: 2;
+  transform: translateY(-50%);
   width: 400px;
+  height: 400px;
   margin-left: auto;
+}
+
+.hero:not(:has(.hero__image-2)) {
+  .hero__image-1 {
+    margin-left: auto;
+  }
 }

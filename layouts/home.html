@@ -1,5 +1,6 @@
 {{ define "main" }}
-
+{{ partial "bookshop_bindings" `.Params.content_blocks` }}
+{{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
 {{ with .Params.hero }}
 <section class="hero content-full" aria-labelledby="{{ .heading | urlize }}">
   <div class="hero__inner content-full bg-primary">
@@ -95,22 +96,39 @@
 
 {{ with .Params.team }}
 <section class="content-full block bg-white flow" aria-labelledby="{{ .heading | urlize }}">
-  {{ if .preheading }}
-      <span class="text-style-slub">{{ .preheading }}</span>
-  {{ end }}
-  <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
-  {{ if .body }}
-      {{ if in .body "\n" }}
-          {{ .body | markdownify }}
-      {{ else }}
-          <p>{{ .body | markdownify }}</p>
+  <div class="grid-columns-2 gap-lg">
+    <div class="flow">
+      {{ if .preheading }}
+          <span class="text-style-slub">{{ .preheading }}</span>
       {{ end }}
-  {{ end }}
-  {{ if .button.enabled }}
-    {{ with .button }}
-        <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
-    {{ end }}
-  {{ end }}
+      <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
+      {{ if .body }}
+          {{ if in .body "\n" }}
+              {{ .body | markdownify }}
+          {{ else }}
+              <p>{{ .body | markdownify }}</p>
+          {{ end }}
+      {{ end }}
+      {{ if .button.enabled }}
+        {{ with .button }}
+            <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+    <div class="grid-columns-2 gap-sm">
+      {{ range .team }}
+        <div class="flow">
+          <div class="hexagon-mask">
+            <img src="{{ .image }}" alt="">
+          </div>
+          <div>
+            <h3 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h3>
+            <p class="text-style-slub job-title font-size-xs">{{ .job_title }}</p>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
 </section>
 {{ end }}
 
@@ -182,7 +200,7 @@
 {{ end }}
 
 {{ with .Params.cta }}
-<section class="cta content-full block text-align-center flow" aria-labelledby="{{ .heading | urlize }}">
+<section class="cta content-full block text-align-center flow bg-{{ .background_color }}" aria-labelledby="{{ .heading | urlize }}">
   <img class="hexagon-divider margin-inline-auto" src="/uploads/green-hexagon-divider-centered.svg" alt="">
   <h2 class="no-margin max-width-none" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
   <p class="margin-inline-auto" style="max-width: 700px;">{{ .body | markdownify }}</p>

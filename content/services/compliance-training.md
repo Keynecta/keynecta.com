@@ -8,7 +8,7 @@ seo:
   page_title:
   meta_description: >-
     Elevate your compliance training with Keynecta—where safety and quality converge for organizational excellence. Drive profits. Value people. Optimize compliance.
-  featured_image: /uploads/essentia-featured-image.jpg
+  featured_image: /uploads/group-of-workers-during-safety-meeting.jpg
   featured_image_alt: Essentia Logo
 hero:
   heading: Compliance Training
@@ -20,10 +20,10 @@ hero:
     button_text: 
     open_in_new_tab: false
   image_1:
-    image_url: /uploads/two-people-reviewing-construction-site.jpg
+    image_url: /uploads/group-of-workers-during-safety-meeting.jpg
     image_alt:
   image_2:
-    image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
+    image_url:
     image_alt:
 intro_simple:
   heading: Driving Employee Health & Safety Compliance
@@ -68,7 +68,7 @@ media:
     button_text: 
     open_in_new_tab: false
   image:
-    image_url: /uploads/team-reviewing-building-plans-on-computer-screen.jpg
+    image_url: /uploads/two-workers-reviewing-machine.jpg
     image_alt:
 cta:
   heading: Transform Your Organization
@@ -76,7 +76,8 @@ cta:
     Ready to drive profits and value people through a transformative Safety Culture? Join Keynecta and redefine your organization's safety journey today.
   button:
     enabled: true
-    button_url: /contact/
-    button_text: Discover the Keynecta Advantage
-    open_in_new_tab: false
+    button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
+    button_text: Start Your Safety Culture Self Evaluation
+    open_in_new_tab: true
+  background_color: white
 ---

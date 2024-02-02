@@ -13,3 +13,8 @@
     padding-inline: 5%;
     padding-inline: clamp($ic-300, 5%, $ic-1000);
 }
+
+.cta.bg-white {
+    margin-bottom: -80px;
+    padding-bottom: 175px;
+}

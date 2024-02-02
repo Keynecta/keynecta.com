@@ -8,7 +8,7 @@ seo:
   page_title:
   meta_description: >-
     Keynecta's data collection solutions utilize leading indicators, customized forms and actionable insights to drive progress and achieve Safety KPIs.
-  featured_image: /uploads/essentia-featured-image.jpg
+  featured_image: /uploads/worker-on-computer-in-manufacturing-plant-rev.jpg
   featured_image_alt: Essentia Logo
 hero:
   heading: Data Collection
@@ -20,10 +20,10 @@ hero:
     button_text: 
     open_in_new_tab: false
   image_1:
-    image_url: /uploads/two-people-reviewing-construction-site.jpg
+    image_url: /uploads/worker-on-computer-in-manufacturing-plant-rev.jpg
     image_alt:
   image_2:
-    image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
+    image_url:
     image_alt:
 intro_simple:
   heading: A Path to Proactive Excellence
@@ -47,7 +47,7 @@ media_right:
     button_text: 
     open_in_new_tab: false
   image:
-    image_url: /uploads/team-reviewing-building-plans-on-computer-screen.jpg
+    image_url: /uploads/person-analyzing-data-on-computer.jpg
     image_alt:
 media_left:
   heading: Tracking and Trending for Progress
@@ -59,7 +59,7 @@ media_left:
     button_text: 
     open_in_new_tab: false
   image:
-    image_url: /uploads/team-reviewing-building-plans-on-computer-screen.jpg
+    image_url: /uploads/two-people-reviewing-metrics-on-computer.jpg
     image_alt:
 media_right_2:
   heading: Drive Safety Excellence Through Effective Data Collection
@@ -71,7 +71,7 @@ media_right_2:
     button_text: 
     open_in_new_tab: false
   image:
-    image_url: /uploads/team-reviewing-building-plans-on-computer-screen.jpg
+    image_url: /uploads/three-workers-discussing-safety.jpg
     image_alt:
 cta:
   heading: Transform Your Organization
@@ -79,7 +79,8 @@ cta:
     Ready to drive profits and value people through a transformative Safety Culture? Join Keynecta and redefine your organization's safety journey today.
   button:
     enabled: true
-    button_url: /contact/
-    button_text: Discover the Keynecta Advantage
-    open_in_new_tab: false
+    button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
+    button_text: Start Your Safety Culture Self Evaluation
+    open_in_new_tab: true
+  background_color: gray
 ---

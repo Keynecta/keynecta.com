@@ -19,10 +19,10 @@ hero:
     button_text: 
     open_in_new_tab: false
   image_1:
-    image_url: /uploads/two-people-reviewing-construction-site.jpg
+    image_url: /uploads/three-workers-at-construction-site-with-tablet.jpg
     image_alt:
   image_2:
-    image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
+    image_url:
     image_alt:
 intro_simple:
   heading: Optimizing Safety for Quality, Production and Profits
@@ -34,11 +34,6 @@ content_two_col:
       body: Embark on a comprehensive safety and business enhancement journey with our complete online system. Tailored to foster a Safety Culture, this system is designed to help your organization value people and drive profits.
     - heading: Unique Scoring Tool
       body: Elevate your safety initiatives to new heights with our innovative scoring tool. More than a safety metric, this tool is a strategic instrument that aligns with your organizational goals, ensuring safety enhancements translate into improved quality, streamlined production and a better bottom line.
-  button:
-    enabled: true
-    button_url: /contact/
-    button_text: Discover the Keynecta Advantage
-    open_in_new_tab: false
 solutions_full:
   preheading: The Keynecta Process
   heading: The Keynecta Process in Action
@@ -108,7 +103,8 @@ cta:
     Ready to drive profits and value people through a transformative Safety Culture? Join Keynecta and redefine your organization's safety journey today.
   button:
     enabled: true
-    button_url: /contact/
-    button_text: Discover the Keynecta Advantage
-    open_in_new_tab: false
+    button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
+    button_text: Start Your Safety Culture Self Evaluation
+    open_in_new_tab: true
+  background_color: gray
 ---

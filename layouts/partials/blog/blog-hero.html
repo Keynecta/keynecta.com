@@ -1,7 +1,7 @@
-<header class="hero blog-hero content-full bg-black">
+<header class="hero blog-hero content-full">
   <div class="hero__inner content-full bg-primary">
     <div class="grid-columns-2 gap-md">
-      <div class="col margin-block-auto">
+      <div class="margin-block-auto font-color-white flow">
         <a href="/our-news/" class="bounce-left flex flex-center"><div class="icon-md icon-stroke-primary icon-fill-primary">{{ partialCached "svg-icons/chevron-left.svg" . }}</div> Back to all posts</a>
         <h1 id="hero-heading">{{ .Title }}</h1>
         <div class="flex flex-column flex-row-md flex-justify-between-md gap-sm">
@@ -13,13 +13,13 @@
           {{ end }}
           </div>
           <div class="reading-time flex flex-center">
-            <div class="icon-md">{{ partialCached "svg-icons/clock.svg" . }}</div>
+            <div class="icon-md icon-stroke-white">{{ partialCached "svg-icons/clock.svg" . }}</div>
             <div class="font-size-xs"> {{ .ReadingTime }} min read</div>
           </div>
         </div>
       </div>
       {{ if .Params.seo.featured_image }}
-      <div class="col">
+      <div>
         <picture>
           <source srcset="https://keynecta.imgix.net{{ .Params.seo.featured_image }}?fm=avif&q=85&width=800&height=500&fit=crop" type="image/avif">
       
@@ -35,7 +35,7 @@
   </div>
 </header>
 {{ if .TableOfContents }}
-<details class="toc content-full bg-black-2">
+<details class="toc content-full">
   <summary class="toc__summary margin-inline-auto">In This Article</summary>
   <div class="toc__list">
     {{ .TableOfContents }}
