@@ -8,7 +8,7 @@ seo:
   page_title:
   meta_description: >-
     Elevate workplace safety with Keynecta's Supervisor Leadership Training. Transform your company with a focus on mentoring, coaching and inspiring work teams.
-  featured_image: /uploads/essentia-featured-image.jpg
+  featured_image: /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant.jpg
   featured_image_alt: Essentia Logo
 hero:
   heading: Leadership Training
@@ -20,10 +20,10 @@ hero:
     button_text: 
     open_in_new_tab: false
   image_1:
-    image_url: /uploads/two-people-reviewing-construction-site.jpg
+    image_url: /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant.jpg
     image_alt:
   image_2:
-    image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
+    image_url:
     image_alt:
 intro_simple:
   heading: Transforming Workplace Safety through Effective Leadership
@@ -55,7 +55,7 @@ media_right:
     button_text: 
     open_in_new_tab: false
   image:
-    image_url: /uploads/team-reviewing-building-plans-on-computer-screen.jpg
+    image_url: /uploads/two-people-reviewing-paperwork-on-clipboard.jpg
     image_alt:
 cta:
   heading: Transform Your Organization

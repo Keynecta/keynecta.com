@@ -7,7 +7,7 @@ seo:
   page_title:
   meta_description: >-
     Elevate your Safety Culture with Keynecta's industry-focused solutions—where experience meets innovation for manufacturing and service excellence.
-  featured_image: /uploads/essentia-featured-image.jpg
+  featured_image: /uploads/two-workers-reviewing-computer.jpg
   featured_image_alt: Essentia Logo
 hero:
   heading: Industries
@@ -19,10 +19,10 @@ hero:
     button_text: 
     open_in_new_tab: false
   image_1:
-    image_url: /uploads/two-people-reviewing-construction-site.jpg
+    image_url: /uploads/two-workers-reviewing-computer.jpg
     image_alt:
   image_2:
-    image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
+    image_url:
     image_alt:
 intro:
   heading: Redefining Safety in the Manufacturing and Service Industries
@@ -34,7 +34,7 @@ intro:
     button_text:
     open_in_new_tab: false
   image:
-    image_url: /uploads/team-reviewing-building-plans-on-computer-screen.jpg
+    image_url: /uploads/woman-on-computer-reviewing-manufacturing-equipment.jpg
     image_alt:
 team:
   preheading:

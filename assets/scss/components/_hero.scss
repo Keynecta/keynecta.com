@@ -14,7 +14,7 @@
 }
 
 .hero__inner {
-  padding-block: clamp($ic-400, 14%, 11rem);
+  padding-block: clamp($ic-400, 10%, $ic-900);
   clip-path: polygon(0 0, 95% 0%, 100% 10%, 100% 90%, 95% 100%, 0 100%);
   clip-path: polygon(0 0, 97% 0%, 100% 5%, 100% 95%, 97% 100%, 0 100%);
   margin-top: 16px;
@@ -70,4 +70,8 @@
   .hero__image-1 {
     margin-left: auto;
   }
+}
+
+.page-home .hero__inner {
+  padding-block: clamp($ic-400, 14%, 11rem);
 }
