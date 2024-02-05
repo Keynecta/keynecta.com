@@ -7,7 +7,7 @@ seo:
   page_title:
   meta_description: >-
     Explore Keynecta's process: Train, Connect, Involve, Lead, Score and Improve—fueling Safety Culture and organizational success.
-  featured_image: /uploads/two-people-reviewing-manufacturing-equipment-2.jpg
+  featured_image: /uploads/two-people-reviewing-manufacturing-equipment-3.jpg
   featured_image_alt: Essentia Logo
 hero:
   heading: Our Process
@@ -19,7 +19,7 @@ hero:
     button_text: 
     open_in_new_tab: false
   image_1:
-    image_url: /uploads/two-people-reviewing-manufacturing-equipment-2.jpg
+    image_url: /uploads/two-people-reviewing-manufacturing-equipment-3.jpg
     image_alt:
   image_2:
     image_url:

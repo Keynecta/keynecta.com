@@ -18,9 +18,9 @@ hero:
     button_text: 
     open_in_new_tab: false
   image_1:
-    image_url: /uploads/two-people-reviewing-construction-site.jpg
+    image_url: /uploads/group-of-workers-reviewing-technical-training-reosources.jpg
     image_alt:
   image_2:
-    image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
+    image_url:
     image_alt:
 ---

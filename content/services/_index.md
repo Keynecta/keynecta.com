@@ -7,7 +7,7 @@ seo:
   page_title:
   meta_description: >-
     Unlock safety excellence with Keynecta's digital solutions. Drive profits, optimize quality and enhance production efficiency. Discover the Keynecta advantage.
-  featured_image: /uploads/essentia-featured-image.jpg
+  featured_image: /uploads/two-people-reviewing-machine-in-manufacturing-plant.jpg
   featured_image_alt: Essentia Logo
 hero:
   heading: Services
@@ -19,7 +19,7 @@ hero:
     button_text: 
     open_in_new_tab: false
   image_1:
-    image_url: /uploads/three-workers-at-construction-site-with-tablet.jpg
+    image_url: /uploads/two-people-reviewing-machine-in-manufacturing-plant.jpg
     image_alt:
   image_2:
     image_url:

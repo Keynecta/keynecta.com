@@ -39,6 +39,8 @@
   padding: $ic-100 $ic-200;
   margin-bottom: $ic-100;
   block-size: $ic-700;
+  background-color: $light-gray;
+  color: $black;
 
   &:focus {
     outline: 2px solid $primary-color;

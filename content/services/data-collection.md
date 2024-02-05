@@ -8,7 +8,7 @@ seo:
   page_title:
   meta_description: >-
     Keynecta's data collection solutions utilize leading indicators, customized forms and actionable insights to drive progress and achieve Safety KPIs.
-  featured_image: /uploads/worker-on-computer-in-manufacturing-plant-rev.jpg
+  featured_image: /uploads/woman-reviewing-manufacturing-equipment-and-taking-notes-2.jpg
   featured_image_alt: Essentia Logo
 hero:
   heading: Data Collection
@@ -20,7 +20,7 @@ hero:
     button_text: 
     open_in_new_tab: false
   image_1:
-    image_url: /uploads/worker-on-computer-in-manufacturing-plant-rev.jpg
+    image_url: /uploads/woman-reviewing-manufacturing-equipment-and-taking-notes-2.jpg
     image_alt:
   image_2:
     image_url:

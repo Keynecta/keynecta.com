@@ -68,7 +68,7 @@ media:
     button_text: 
     open_in_new_tab: false
   image:
-    image_url: /uploads/two-workers-reviewing-machine.jpg
+    image_url: /uploads/two-people-looking-at-laptop-while-in-manufacturing-plant.jpg
     image_alt:
 cta:
   heading: Transform Your Organization

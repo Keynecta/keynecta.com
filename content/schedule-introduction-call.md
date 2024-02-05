@@ -1,9 +1,6 @@
 ---
-title: Contact
-layout: contact
-menu:
-  main:
-    weight: 6
+title: Schedule Introduction Call
+layout: schedule-call
 seo:
   page_title:
   meta_description: Get in touch with Keynecta using our contact form. Simple and direct communication for a complete online system to help you drive profits and value people.
@@ -11,9 +8,9 @@ seo:
   featured_image_alt: Two people sitting at a table together
 content_blocks:
   - _bookshop_name: hero
-    heading: Contact Us
+    heading: Schedule Introduction Call
     body: >-
-      Ready to elevate your organization with Keynecta? Fill out the form below or schedule a 30-minute introduction call to connect with us. We look forward to addressing your requests promptly.
+      Ready to elevate your organization with Keynecta? Schedule a 30-minute introduction call to connect with us.
     image_1:
       image_url: /uploads/person-on-phone-in-manufacturing-plant-1.jpg
       image_alt:
