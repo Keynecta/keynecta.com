@@ -39,7 +39,7 @@ bios:
     body: >-
       Embarking on a life journey shaped by challenges, Michael A. Parins defied odds, drawing from his street-smart education to carve a unique path. Early on, Mike entered sales with vigor, always emphasizing the value of people. His journey includes leading sales for Jaws of Life in Iowa, spearheading a startup with a $38 million revenue and later, influencing education. Retirement proved elusive for Mike. After multiple attempts, he co-founded a safety and environmental consulting company, delivering expertise to key industries. Now, at 79, Mike's relentless spirit finds a new arena in Keynecta. Joined by daughter Jennifer and brother Tom, they aim to revolutionize the safety culture for small to medium-sized businesses. Mike's work is a testament to learning, growth and the unwavering drive to make a difference.
     image:
-      image_url: /uploads/tom-parins.jpg  
+      image_url: /uploads/mike-parins.jpg  
     background_color: white
   - heading: Thomas J. Parins
     job_title: Executive Vice President
@@ -96,5 +96,5 @@ cta:
     button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
     button_text: Start Your Safety Culture Self Evaluation
     open_in_new_tab: true
-  background_color: gray
+  background_color: white
 ---

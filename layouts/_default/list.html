@@ -239,7 +239,8 @@
   <div class="content-lg mt-4 flow">
     <div class="grid-columns-3 gap-md">
         {{ range .solutions }}
-          <div>
+          <div class="flow">
+            <img class="solutions-icon" src="{{ .image }}" alt="">
             <h3>{{ .heading }}</h3>
             <p>{{ .body }}</p>
           </div>

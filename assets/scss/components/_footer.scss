@@ -16,8 +16,12 @@
 
 .footer__inner {
   clip-path: polygon(5% 0%, 100% 0, 100% 100%, 5% 100%, 0% 85%, 0% 15%);
-  clip-path: polygon(3% 0%, 100% 0, 100% 100%, 3% 100%, 0% 90%, 0% 15%);
+  clip-path: polygon(7% 0%, 100% 0, 100% 100%, 7% 100%, 0% 90%, 0% 15%);
   margin-left: 16px;
+
+  @include breakpoint(md) {
+    clip-path: polygon(3% 0%, 100% 0, 100% 100%, 3% 100%, 0% 90%, 0% 15%);
+  }
 }
 
 .footer__logo {
@@ -35,7 +39,7 @@
 }
 
 .footer__nav-item {
-  padding-inline: $ic-100;
+  padding: $ic-100;
   list-style-type: none;
   margin-top:0;
 }

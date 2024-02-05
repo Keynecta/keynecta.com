@@ -15,7 +15,7 @@ team:
   team: 
     - heading: Michael A. Parins
       job_title: President
-      image: /uploads/tom-parins.jpg
+      image: /uploads/mike-parins.jpg
     - heading: Thomas J. Parins
       job_title: Executive Vice President
       image: /uploads/tom-parins.jpg

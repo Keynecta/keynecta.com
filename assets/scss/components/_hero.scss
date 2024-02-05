@@ -16,9 +16,13 @@
 .hero__inner {
   padding-block: clamp($ic-400, 10%, $ic-900);
   clip-path: polygon(0 0, 95% 0%, 100% 10%, 100% 90%, 95% 100%, 0 100%);
-  clip-path: polygon(0 0, 97% 0%, 100% 5%, 100% 95%, 97% 100%, 0 100%);
+  clip-path: polygon(0 0, 93% 0%, 100% 5%, 100% 95%, 93% 100%, 0 100%);
   margin-top: 16px;
   margin-right: 16px;
+
+  @include breakpoint(md) {
+    clip-path: polygon(0 0, 97% 0%, 100% 5%, 100% 95%, 97% 100%, 0 100%);
+  }
 }
 
 .hero__content {
@@ -27,7 +31,12 @@
 
 .hero__body {
   font-size: $ic-300;
+  font-size: clamp($ic-200, 4vw, $ic-300);
   text-wrap: pretty;
+}
+
+.hero__image-wrapper {
+  position: relative;
 }
 
 .hero__image {
@@ -50,8 +59,8 @@
 
 .hero__image-1 {
   z-index: 1;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  max-width: clamp(250px, 70%, 500px);
 }
 
 .hero__image-2 {
@@ -61,14 +70,18 @@
   right: 0;
   z-index: 2;
   transform: translateY(-50%);
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  max-width: clamp(200px, 46vw, 400px);
+  height: 100%;
+  max-height: clamp(200px, 46vw, 400px);
   margin-left: auto;
 }
 
-.hero:not(:has(.hero__image-2)) {
-  .hero__image-1 {
-    margin-left: auto;
+@include breakpoint(md) {
+  .hero:not(:has(.hero__image-2)) {
+    .hero__image-1 {
+      margin-left: auto;
+    }
   }
 }
 

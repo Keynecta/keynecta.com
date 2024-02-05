@@ -240,6 +240,7 @@
     <div class="grid-columns-3 gap-md">
         {{ range .solutions }}
           <div>
+            <img class="solutions-icon" src="{{ .image }}" alt="">
             <h3>{{ .heading }}</h3>
             <p>{{ .body }}</p>
           </div>
@@ -295,7 +296,7 @@
 {{ end }}
 
 {{ with .Params.keynecta_difference }}
-<section class="keynecta-difference content-full block bg-white flow" aria-labelledby="{{ .heading | urlize }}">
+<section class="keynecta-difference content-full block flow" aria-labelledby="{{ .heading | urlize }}">
     {{ if .preheading }}
         <span class="text-style-slub">{{ .preheading }}</span>
     {{ else }}

@@ -84,7 +84,7 @@
     position: absolute;
     transition: 0.3s ease;
     inset-block-start: 50%;
-    inset-inline-end: 30%;
+    inset-inline-end: 20%;
     transform: translate(-30%, -30%);
   }
 
@@ -106,7 +106,7 @@
 
 .header__mobile-dropdown-link {
   font-size: $ic-100; 
-  padding: 0;
+  padding: $ic--100;
   color: rgba($black, .8);
 }
 

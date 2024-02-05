@@ -1,5 +1,6 @@
 .contact-form__wrapper {
   padding: $ic-600;
+  padding: clamp($ic-300, 8%, $ic-600);
 }
 
 .contact-form__wrapper hr {

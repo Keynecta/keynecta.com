@@ -7,7 +7,7 @@ seo:
   page_title:
   meta_description: >-
     Unlock safety excellence with Keynecta's digital solutions. Drive profits, optimize quality and enhance production efficiency. Discover the Keynecta advantage.
-  featured_image: /uploads/two-people-reviewing-machine-in-manufacturing-plant.jpg
+  featured_image: /uploads/person-reviewing-machinery-in-manufacturing-plant.jpg
   featured_image_alt: Essentia Logo
 hero:
   heading: Services
@@ -19,7 +19,7 @@ hero:
     button_text: 
     open_in_new_tab: false
   image_1:
-    image_url: /uploads/two-people-reviewing-machine-in-manufacturing-plant.jpg
+    image_url: /uploads/person-reviewing-machinery-in-manufacturing-plant.jpg
     image_alt:
   image_2:
     image_url:
@@ -42,16 +42,22 @@ solutions_full:
   solutions: 
     - heading: Train
       body: Equip your team with knowledge and tools to foster a culture of safety. Our online training modules instill a proactive approach that ripples through every aspect of your organization.
+      image: /uploads/train.svg
     - heading: Connect
       body: Build a network where every team member is not only heard but actively contributes to the optimization of processes, thereby enhancing quality and production efficiency—key elements in driving profits.
+      image: /uploads/connect.svg
     - heading: Involve
       body: Empower individuals to take ownership of safety, understanding its direct impact on quality, production and profits. Make safety a collective effort that resonates across all aspects of your organization.
+      image: /uploads/involve.svg
     - heading: Lead
       body: Guide leaders to champion safety initiatives that extend beyond safety alone. Keynecta provides leadership training that ensures supervisors set an example, inspiring a commitment to safety that positively influences quality and production.
+      image: /uploads/lead.svg
     - heading: Score
       body: Implement our unique scoring tool for effective data collection and project tracking. Measure safety performance and its impact on quality, production efficiency and overall profitability.
+      image: /uploads/score.svg
     - heading: Improve
       body: Embrace a culture of ongoing enhancement where safety is not just a goal but a crucial component of the journey toward success.
+      image: /uploads/improve.svg
   button:
     enabled: true
     button_url: /contact/

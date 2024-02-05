@@ -7,9 +7,14 @@
 .contact__sidebar {
     flex-basis: 30rem; 
     flex-grow: 1;
+    block-size: 1100px;
 }
 
 .contact__sidebar iframe {
     inline-size: 100%;
-    block-size: 1200px;
+    block-size: 1100px;
+}
+
+.contact__sidebar .calendly-inline-widget {
+    min-width: 200px !important;
 }

@@ -6,14 +6,22 @@
     position: absolute;
     max-width: 260px;
     bottom: 100%;
-    left: 100%;
+    left: 105%;
     transform: translate(-50%, 50%);
+
+    @include breakpoint(sm) {
+        left: 100%;
+    }
 }
 
 .hexagons--reversed {
     top: 100%;
-    right: 100%;
+    right: 105%;
     bottom: unset;
     left: unset;
     transform: translate(50%, -50%) rotate(180deg);
+
+    @include breakpoint(sm) {
+        right: 100%;
+    }
 }
