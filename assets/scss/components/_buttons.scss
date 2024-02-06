@@ -22,13 +22,10 @@
     content: "";
     position: absolute;
     top: 0;
-    left: calc(100% - 70px);
-    width: 100px;
+    left: calc(100% - 35px);
+    width: 60px;
     height: 100%;
     transition: $transition;
-    // border-top: 29px solid transparent;
-    // border-bottom: 30px solid transparent;
-    // border-left: 16px solid $primary-color;
     background-color: $primary-color;
     clip-path: polygon(50% 0, 75% 0%, 100% 50%, 75% 100%, 50% 100%);
   }
@@ -49,33 +46,6 @@
 
   &::before {
     background-image: linear-gradient(to right,$black 0%,$black-2 15%,$black-2 85%,$black 100%);
-  }
-}
-
-.btn--filter {
-  background-color: transparent;
-  border: none;
-  display: flex;
-  align-items: center;
-  padding: 0;
-  transition: $transition;
-
-  svg {
-    fill: $primary-color;
-    inline-size: $ic-400;
-    block-size: $ic-400;
-    margin-right: $ic-400;
-    position: relative;
-    inset-block-start: -1px;
-  }
-
-  &:hover,
-  &:focus {
-    color: $primary-color;
-  }
-
-  @include breakpoint(sm) {
-    margin: 0;
   }
 }
 

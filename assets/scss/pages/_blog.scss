@@ -57,4 +57,13 @@
 
 .category-select {
   padding: $ic--200;
+  border: 1px solid $black;
+  border-radius: 0;
+  background-color: $white;
+  color: $black;
+  height: $ic-600;
+
+  &:focus {
+    outline: 1px solid $primary-color;
+  }
 }

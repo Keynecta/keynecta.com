@@ -2,15 +2,19 @@
 spec:
   structures:
     - content_blocks
-  label: "Testimonial"
-  description: A stand alone testimonial block
-  icon: format_quote
+  label: "Bios"
+  description: Staff bios block
+  icon: perm_media
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  body: ""
-  name: ""
-  title: ""
+  bios: 
+    - heading: ""
+      job_title: ""
+      body: ""
+      image:
+        image_url: ""
+      background_color: white
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

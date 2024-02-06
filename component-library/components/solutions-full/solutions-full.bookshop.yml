@@ -2,15 +2,24 @@
 spec:
   structures:
     - content_blocks
-  label: "Testimonial"
-  description: A stand alone testimonial block
-  icon: format_quote
+  label: "Keynecta Solutions"
+  description: Keynecta Solutions block
+  icon: perm_media
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  preheading: ""
+  heading: ""
   body: ""
-  name: ""
-  title: ""
+  solutions: 
+    - heading: ""
+      body: ""
+      image: ""
+  button:
+    enabled: false
+    button_url: ""
+    button_text: ""
+    open_in_new_tab: false
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

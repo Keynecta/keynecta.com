@@ -36,13 +36,13 @@
         {{ if .image_2.image_url }}
         <div class="hero__image hero__image-2">
           <picture class="margin-block-auto">
-            <source srcset="https://keynecta.imgix.net{{ .image_2.image_url }}?fm=avif&q=85&width=500&height=500&fit=crop" type="image/avif">
+            <source srcset="https://keynecta.imgix.net{{ .image_2.image_url }}?fm=avif&q=85&width=400&height=400&fit=crop" type="image/avif">
         
-            <source srcset="https://keynecta.imgix.net{{ .image_2.image_url }}?fm=webp&q=85&width=500&height=500&fit=crop" type="image/webp">
+            <source srcset="https://keynecta.imgix.net{{ .image_2.image_url }}?fm=webp&q=85&width=400&height=400&fit=crop" type="image/webp">
         
-            <source srcset="https://keynecta.imgix.net{{ .image_2.image_url }}?fm=jpg&q=85&width=500&height=500&fit=crop" type="image/jpg">
+            <source srcset="https://keynecta.imgix.net{{ .image_2.image_url }}?fm=jpg&q=85&width=400&height=400&fit=crop" type="image/jpg">
         
-            <img src="{{ .image_2.image_url }}" alt="{{ .image_2.image_alt }}" width="500" height="500">   
+            <img src="{{ .image_2.image_url }}" alt="{{ .image_2.image_alt }}" width="400" height="400">   
           </picture>
         </div>
         {{ end }}

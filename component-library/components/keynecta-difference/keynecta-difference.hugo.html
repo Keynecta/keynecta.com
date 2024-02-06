@@ -1,0 +1,20 @@
+<section class="keynecta-difference content-full block bg-{{ .background_color }} flow" aria-labelledby="{{ .heading | urlize }}">
+  {{ if .preheading }}
+      <span class="text-style-slub">{{ .preheading }}</span>
+  {{ else }}
+      <img class="hexagon-divider" src="/uploads/green-hexagon-divider.svg" alt="">
+  {{ end }}
+  <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
+  {{ if .body }}
+      {{ if in .body "\n" }}
+          {{ .body | markdownify }}
+      {{ else }}
+          <p>{{ .body | markdownify }}</p>
+      {{ end }}
+  {{ end }}
+  {{ if .button.enabled }}
+      {{ with .button }}
+          <a class="btn btn--primary" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+      {{ end }}
+  {{ end }}
+</section>

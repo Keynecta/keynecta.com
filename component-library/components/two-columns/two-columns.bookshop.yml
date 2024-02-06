@@ -2,18 +2,20 @@
 spec:
   structures:
     - content_blocks
-  label: "Testimonial"
-  description: A stand alone testimonial block
-  icon: format_quote
+  label: Columns
+  description: Flexible two column block
+  icon: view_column
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  body: ""
-  name: ""
-  title: ""
+  columns: 
+    - heading: ""
+      body: ""
+    - heading: ""
+      body: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
-_inputs:
+_inputs: {}

@@ -1,7 +1,9 @@
 .media-text-block__image {
     position: relative;
     block-size: 100%;
-    min-height: 300px;
+    height: 100%;
+    min-height: 350px;
+    min-height: clamp(300px, 46vw, 400px);
 }
 
 .media-text-block__image img {
@@ -10,4 +12,16 @@
     inline-size: 100%;
     object-fit: cover;
     clip-path: polygon(0 0, 90% 0%, 100% 15%, 100% 100%, 0 100%);
+}
+
+@include breakpoint(md) {
+
+    .media-text-block--text-right .col:nth-of-type(1) {
+        order: 2;
+    }
+    
+    .media-text-block--text-right .col:nth-of-type(2) {
+        order: 1;
+    }
+
 }

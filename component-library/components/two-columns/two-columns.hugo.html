@@ -1,0 +1,16 @@
+<section class="content-full block bg-white flow" aria-labelledby="{{ .heading | urlize }}">
+    <div class="grid-columns-2 gap-lg">
+        {{ range .columns }}
+            <div>
+                <h2>{{ .heading }}</h2>
+                {{ if .body }}
+                    {{ if in .body "\n" }}
+                        {{ .body | markdownify }}
+                    {{ else }}
+                        <p>{{ .body | markdownify }}</p>
+                    {{ end }}
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+</section>

@@ -2,15 +2,20 @@
 spec:
   structures:
     - content_blocks
-  label: "Testimonial"
-  description: A stand alone testimonial block
+  label: "Call to Action"
+  description: A call to action block
   icon: format_quote
 
 # Defines the structure of this component, as well as the default values
 blueprint:
+  heading: ""
   body: ""
-  name: ""
-  title: ""
+  button:
+    enabled: false
+    button_url: ""
+    button_text: ""
+    open_in_new_tab: false
+  background_color: gray
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

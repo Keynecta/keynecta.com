@@ -1,6 +1,6 @@
 <section class="media-text-block content-full {{ if eq .text_column_position "left" }}media-text-block--text-left{{ else }}media-text-block--text-right{{ end }} block bg-{{ .background_color }}{{ if .css_classes }} {{ .css_classes }}{{ end }}" aria-labelledby="{{ .heading | urlize }}">
     <div class="content-lg grid gap-lg">
-      <div class="grid-12 grid-5-md margin-block-auto block flow">
+      <div class="col grid-12 grid-5-md margin-block-auto block flow">
         {{ if .preheading }}
             <span class="text-style-slub">{{ .preheading }}</span>
         {{ else }}
@@ -22,18 +22,18 @@
           {{ end }}
         {{ end }}
       </div>
-      <div class="grid-12 grid-7-md">
+      <div class="col grid-12 grid-7-md">
         {{ if .image.image_url }}
         <div class="media-text-block__image">
-          <picture>
-            <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=75&width=325&height=250 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=75&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=75&width=800&height=525 800w" type="image/avif">
-        
-            <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=75&width=325&height=250 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=75&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=75&width=800&height=525 800w" type="image/webp">
-        
-            <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=75&width=325&height=250 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=75&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=75&width=800&height=525 800w" type="image/jpg">
-        
-            <img src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="600" height="450">   
-        </picture>
+            <picture>
+              <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=75&width=350&height=300 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=75&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=75&width=800&height=525 800w" type="image/avif">
+          
+              <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=75&width=350&height=300 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=75&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=75&width=800&height=525 800w" type="image/webp">
+          
+              <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=75&width=350&height=300 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=75&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=75&width=800&height=525 800w" type="image/jpg">
+          
+              <img src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="600" height="450">   
+            </picture>
         </div>
         {{ end }}
       </div>

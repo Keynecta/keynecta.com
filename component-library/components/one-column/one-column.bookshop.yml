@@ -3,15 +3,19 @@ spec:
   structures:
     - content_blocks
   label: Columns
-  description: Flexible columns block
+  description: One column block
   icon: view_column
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  heading:
-  columns: [bookshop:structure:content_blocks]
-  background_color:
-  text_align: ""
+  preheading: ""
+  heading: ""
+  body: ""
+  button:
+    enabled: false
+    button_url: ""
+    button_text: ""
+    open_in_new_tab: false
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

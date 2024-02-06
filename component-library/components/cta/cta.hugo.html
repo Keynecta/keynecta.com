@@ -1,0 +1,10 @@
+<section class="cta content-full block text-align-center flow bg-{{ .background_color }}" aria-labelledby="{{ .heading | urlize }}">
+    <img class="hexagon-divider margin-inline-auto" src="/uploads/green-hexagon-divider-centered.svg" alt="">
+    <h2 class="no-margin max-width-none" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
+    <p class="margin-inline-auto" style="max-width: 700px;">{{ .body | markdownify }}</p>
+    {{ if .button.enabled }}
+      {{ with .button }}
+          <a class="btn btn--primary margin-inline-auto" href="{{ .button_url }}" {{ if .open_in_new_tab }}target="_blank"{{ end }}>{{ .button_text }}</a>
+      {{ end }}
+    {{ end }}
+</section>
