@@ -1,10 +1,10 @@
 <section class="content-full block bg-white flow" aria-labelledby="{{ .heading | urlize }}">
-    <div class="grid-columns-2 gap-lg">
-        <div class="flow">
+    <div class="grid gap-lg">
+        <div class="grid-12 grid-6-md flow">
             {{ if .preheading }}
                 <span class="text-style-slub">{{ .preheading }}</span>
             {{ else }}
-                <img class="hexagon-divider" src="/uploads/green-hexagon-divider.svg" alt="">
+                <img class="hexagon-divider" src="/uploads/green-hexagon-divider.svg" alt="" width="200" height="12">
             {{ end }}
             <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
             {{ if .body }}
@@ -20,7 +20,7 @@
                 {{ end }}
             {{ end }}
         </div>
-        <div class="grid-columns-2 gap-sm">
+        <div class="grid-12 grid-6-md grid-columns-2 gap-sm">
             {{ range .team }}
                 <div class="flow">
                 <div class="hexagon-mask">

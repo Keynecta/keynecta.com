@@ -2,7 +2,7 @@
   {{ if .preheading }}
       <span class="text-style-slub">{{ .preheading }}</span>
   {{ else }}
-      <img class="hexagon-divider" src="/uploads/green-hexagon-divider.svg" alt="">
+      <img class="hexagon-divider" src="/uploads/green-hexagon-divider.svg" alt="" width="200" height="12">
   {{ end }}
   <h2 class="no-margin" id="{{ .heading | urlize }}">{{ .heading | markdownify }}</h2>
   {{ if .body }}

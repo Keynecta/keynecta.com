@@ -145,7 +145,7 @@
   background-image: url("/uploads/keynecta-logo.svg");
   background-size: 100px 44px;
 
-  @include breakpoint(lg) {
+  @include breakpoint(md) {
     block-size: 90px;
     inline-size: 207px;
     background-size: 207px 90px;
@@ -359,6 +359,14 @@
   padding: $ic-300;
   display: grid;
   place-items: center;
+}
+
+.header__sub-menu-cta .btn {
+  font-size: $ic--100;
+
+  @include breakpoint(xl) {
+    font-size: 1.125rem;
+  }
 }
 
 .collapse {

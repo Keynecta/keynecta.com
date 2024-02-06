@@ -12,7 +12,7 @@
       @content;
     }
   } @else if $point == xl {
-    @media (min-width: 112.5em) {
+    @media (min-width: 100em) {
       @content;
     }
   }

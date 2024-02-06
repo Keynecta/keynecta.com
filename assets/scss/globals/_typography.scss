@@ -191,6 +191,7 @@ address {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
-  color: $tertiary-color;
+  color: $primary-color;
+  opacity: .8;
   max-inline-size: none;
 }
