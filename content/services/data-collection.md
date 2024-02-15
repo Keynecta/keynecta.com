@@ -48,7 +48,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image:
-      image_url: /uploads/person-analyzing-data-on-computer.jpg
+      image_url: /uploads/person-with-keynecta-safety-culture-dashboard-on-computer.jpg
       image_alt:
     background_color: white
     text_column_position: left
@@ -64,7 +64,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image:
-      image_url: /uploads/two-people-reviewing-metrics-on-computer.jpg
+      image_url: /uploads/person-working-on-tablet-with-keynecta-safety-metrics-on-screen.jpg
       image_alt:
     background_color: gray
     text_column_position: right

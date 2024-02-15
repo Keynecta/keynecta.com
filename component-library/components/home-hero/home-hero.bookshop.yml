@@ -8,29 +8,16 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  preheading: ""
   heading: ""
   body: ""
-  button:
-    enabled: true
-    button_url: 
-    button_text:
-    open_in_new_tab: false
-  button_2:
-    enabled: true
-    button_url: 
-    button_text:
-    open_in_new_tab: false
-  youtube_video_id:
-  video_fallback_image:
-    image_url:
-    image_alt:
   image_1:
-    image_url:
-    image_alt:
-  image_2:
-    image_url:
-    image_alt:
+    image_url: ""
+    image_alt: ""
+  button:
+    enabled: false
+    button_url: "" 
+    button_text: ""
+    open_in_new_tab: false
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

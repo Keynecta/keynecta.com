@@ -7,7 +7,7 @@ seo:
     Transform your organization with Keynecta's innovative Safety Culture solutions. Value people and optimize quality, productivity and profits.
   featured_image: /uploads/essentia-featured-image.jpg
 content_blocks:
-  - _bookshop_name: hero
+  - _bookshop_name: home-hero
     heading: Unlock Organizational Excellence with Keynecta
     body: >-
       Transform your organization with Keynecta's innovative Safety Culture solutions. Value people and optimize quality, productivity and profits.
@@ -18,9 +18,6 @@ content_blocks:
       open_in_new_tab: false
     image_1:
       image_url: /uploads/employee-mentoring-with-keynecta-safety-scoring-data-2.jpg
-      image_alt:
-    image_2:
-      image_url:
       image_alt:
   - _bookshop_name: media-text
     preheading: 
