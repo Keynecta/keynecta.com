@@ -17,10 +17,10 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image_1:
-      image_url: /uploads/two-people-reviewing-construction-site.jpg
+      image_url: /uploads/employee-mentoring-with-keynecta-safety-scoring-data-2.jpg
       image_alt:
     image_2:
-      image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
+      image_url:
       image_alt:
   - _bookshop_name: media-text
     preheading: 
@@ -82,7 +82,7 @@ content_blocks:
       button_text: View Our Process
       open_in_new_tab: false
     image:
-      image_url: /uploads/two-people-reviewing-clipboard-in-manufacturing-environment.jpg
+      image_url: /uploads/keynecta-dashboard-on-computer.jpg
       image_alt:
   - _bookshop_name: testimonial
     body: >-

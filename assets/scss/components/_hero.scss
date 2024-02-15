@@ -86,6 +86,18 @@
   }
 }
 
-.page-home .hero__inner {
-  padding-block: clamp($ic-400, 14%, 11rem);
+// .page-home .hero__inner {
+//   padding-block: clamp($ic-400, 14%, 11rem);
+// }
+
+.page-home .hero__image {
+  aspect-ratio: initial;
+}
+
+.page-home .hero__image-1 {
+  max-width: none;
+}
+
+.page-home .hero__image img {
+  box-shadow: none;
 }
