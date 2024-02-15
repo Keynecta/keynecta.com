@@ -24,29 +24,35 @@ content_blocks:
     image_2:
       image_url:
       image_alt:
-  - _bookshop_name: intro
+  - _bookshop_name: solutions
+    preheading: The Keynecta Process
     heading: The Key to Your Company’s Success
     body: >-
       At Keynecta, our **complete online system** builds off your organization’s current strengths. To begin, we assess your Safety Culture at all levels, identifying organizational, compliance, communication and training gaps. From there, our digital resource and unique scoring tool help you achieve organizational excellence.
 
+
       Use our customer portal to access tools that will help you:
-      
-      * **Train:** Equip your team with the knowledge and tools to foster a culture of safety.
-      
-      * **Connect:** Build a network where every team member is listened to and valued.
-      
-      * **Involve:** Empower individuals to take ownership of safety, making it a collective effort.
-      
-      * **Lead:** Guide leaders to champion safety initiatives and set an example for their teams.
-      
-      * **Score:** Implement our unique scoring tool for effective data collection and project tracking.
-      
-      * **Improve:** Embrace a culture of ongoing enhancement, where safety is not just a goal but a journey.
+    solutions: 
+      - heading: Train
+        body: Equip your team with the knowledge and tools to foster a culture of safety.
+      - heading: Connect
+        body: Build a network where every team member is listened to and valued.
+      - heading: Involve
+        body: Empower individuals to take ownership of safety, making it a collective effort.
+      - heading: Lead
+        body: Guide leaders to champion safety initiatives and set an example for their teams.
+      - heading: Score
+        body: Implement our unique scoring tool for effective data collection and project tracking.
+      - heading: Improve
+        body: Embrace a culture of ongoing enhancement, where safety is not just a goal but a journey.
     button:
       enabled: true
-      button_url: /contact/
-      button_text: Discover the Keynecta Advantage
+      button_url: /our-process/
+      button_text: View Our Process
       open_in_new_tab: false
+    image:
+      image_url: /uploads/keynecta-dashboard-on-computer.jpg
+      image_alt:
   - _bookshop_name: cta
     heading: Transform Your Organization
     body: >-

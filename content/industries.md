@@ -82,7 +82,7 @@ content_blocks:
       button_text: View Our Process
       open_in_new_tab: false
     image:
-      image_url: /uploads/two-people-reviewing-clipboard-in-manufacturing-environment.jpg
+      image_url: /uploads/keynecta-dashboard-on-computer.jpg
       image_alt:
   - _bookshop_name: cta
     heading: Transform Your Organization
