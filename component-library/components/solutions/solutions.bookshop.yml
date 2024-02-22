@@ -32,6 +32,7 @@ blueprint:
   image:
     image_url: ""
     image_alt: ""
+  background_color: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

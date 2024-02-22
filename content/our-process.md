@@ -6,13 +6,13 @@ menu:
 seo:
   page_title:
   meta_description: >-
-    Explore Keynecta's process: Train, Connect, Involve, Lead, Score and Improve—fueling Safety Culture and organizational success.
+    Use Keynecta’s Safety Culture Scoring System (patent pending) to empower your team and initiate a culture of safety for organizational success.
   featured_image: /uploads/two-people-reviewing-manufacturing-equipment-3.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: Our Process
     body: >-
-      Explore Keynecta's process: Train, Connect, Involve, Lead, Score and Improve—fueling Safety Culture and organizational success.
+      Use Keynecta’s Safety Culture Scoring System (patent pending) to empower your team and initiate a culture of safety for organizational success.
     button:
       enabled: false
       button_url: 
@@ -24,6 +24,15 @@ content_blocks:
     image_2:
       image_url:
       image_alt:
+  - _bookshop_name: intro
+    heading: Safety Culture Scoring for Organizational Success
+    body: >-
+      With Keynecta, your team uses our Safety Culture Scoring System (patent pending) as a tool for organizational success. Access the resources and training you need, measure relevant metrics, input data for compliance and start creating a culture of safety with our proprietary system.
+    button:
+      enabled: false
+      button_url: 
+      button_text: 
+      open_in_new_tab: false
   - _bookshop_name: solutions
     preheading: The Keynecta Process
     heading: The Key to Your Company’s Success
@@ -51,8 +60,9 @@ content_blocks:
       button_text: View Our Process
       open_in_new_tab: false
     image:
-      image_url: /uploads/keynecta-dashboard-on-computer.jpg
+      image_url: /uploads/keynecta-dashboard-on-computer-white-bg.jpg
       image_alt:
+    background_color: white
   - _bookshop_name: cta
     heading: Transform Your Organization
     body: >-
@@ -62,7 +72,7 @@ content_blocks:
       button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
       button_text: Start Your Safety Culture Self Evaluation
       open_in_new_tab: true
-    background_color: white
+    background_color: gray
 ---
 
 

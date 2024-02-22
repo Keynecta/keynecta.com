@@ -20,6 +20,7 @@ blueprint:
     button_url: ""
     button_text: ""
     open_in_new_tab: false
+  background_color: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

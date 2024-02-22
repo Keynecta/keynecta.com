@@ -12,4 +12,4 @@ categories:
   - Video
 ---
 
-{{< youtube id="moJYHsqWdqw" title="Keynecta Culture" >}}
+{{< youtube id="krA6pshbZDA" title="Keynecta Culture" >}}
