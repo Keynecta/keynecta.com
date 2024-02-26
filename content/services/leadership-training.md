@@ -21,7 +21,7 @@ content_blocks:
       open_in_new_tab: false
     image_1:
       image_url: /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant-1.jpg
-      image_alt:
+      image_alt: Two people shaking hands and smiling in a manufacturing environment
     image_2:
       image_url:
       image_alt:
@@ -57,7 +57,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/two-people-reviewing-paperwork-on-clipboard.jpg
-      image_alt:
+      image_alt: Two people reviewing paperwork on a clipboard
     background_color: white
     text_column_position: left
     css_classes:

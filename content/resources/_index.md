@@ -19,7 +19,7 @@ content_blocks:
       open_in_new_tab: false
     image_1:
       image_url: /uploads/group-of-workers-reviewing-technical-training-reosources.jpg
-      image_alt:
+      image_alt: Group of workers reviewing technical training resources
     image_2:
       image_url:
       image_alt:

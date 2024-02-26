@@ -20,7 +20,7 @@ content_blocks:
       open_in_new_tab: false
     image_1:
       image_url: /uploads/two-people-reviewing-manufacturing-equipment-3.jpg
-      image_alt:
+      image_alt: Two people performing a safety inspection on manufacturing equipment
     image_2:
       image_url:
       image_alt:
@@ -61,7 +61,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/keynecta-dashboard-on-computer-white-bg.jpg
-      image_alt:
+      image_alt: Keynecta's Smartsheet dashboard on a computer screen
     background_color: white
   - _bookshop_name: cta
     heading: Transform Your Organization

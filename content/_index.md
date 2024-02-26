@@ -5,7 +5,7 @@ seo:
   page_title: Digital safety solutions for manufacturing and service industries
   meta_description: >-
     Transform your organization with Keynecta's innovative Safety Culture solutions. Value people and optimize quality, productivity and profits.
-  featured_image: /uploads/essentia-featured-image.jpg
+  featured_image: /uploads/keynecta-social-preview.jpg
 content_blocks:
   - _bookshop_name: home-hero
     heading: Unlock Organizational Excellence with Keynecta
@@ -18,7 +18,7 @@ content_blocks:
       open_in_new_tab: false
     image_1:
       image_url: /uploads/employee-mentoring-with-keynecta-safety-scoring-data-2.jpg
-      image_alt:
+      image_alt: Employee talking with safety coordinator in manufacturing plant
   - _bookshop_name: media-text
     preheading: 
     heading: Digital Safety Culture solutions for manufacturing and service industry leaders
@@ -31,7 +31,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/team-reviewing-building-plans-on-computer-screen.jpg
-      image_alt:
+      image_alt: Team reviewing building plans on a computer screen
     background_color: gray
     text_column_position: left
     css_classes:
@@ -80,7 +80,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/keynecta-dashboard-on-computer.jpg
-      image_alt:
+      image_alt: Keynecta's Smartsheet dashboard on a computer screen
   - _bookshop_name: testimonial
     body: >-
       "Keynecta focuses on your most important asset, the people. By putting employees first, they help you train, involve, lead and improve your safety culture. This ultimately improves operational outcomes."

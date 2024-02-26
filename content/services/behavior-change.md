@@ -21,7 +21,7 @@ content_blocks:
       open_in_new_tab: false
     image_1:
       image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
-      image_alt:
+      image_alt: Employee talking with safety coordinator in manufacturing plant
     image_2:
       image_url:
       image_alt:
@@ -52,7 +52,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/person-taking-notes-at-computer.jpg
-      image_alt:
+      image_alt: Person taking notes at a computer
     background_color: white
     text_column_position: left
     css_classes:
@@ -68,7 +68,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/worker-on-computer-in-manufacturing-plant.jpg
-      image_alt:
+      image_alt: Worker on a computer in a manufacturing plant
     background_color: gray
     text_column_position: right
     css_classes:

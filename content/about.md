@@ -20,7 +20,7 @@ content_blocks:
       open_in_new_tab: false
     image_1:
       image_url: /uploads/workers-shaking-hands.jpg
-      image_alt:
+      image_alt: Two workers in yellow safety jackets shaking hands on a jobsite
     image_2:
       image_url:
       image_alt:

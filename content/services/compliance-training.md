@@ -21,7 +21,7 @@ content_blocks:
       open_in_new_tab: false
     image_1:
       image_url: /uploads/group-of-workers-during-safety-meeting.jpg
-      image_alt:
+      image_alt: Group of workers during a safety meeting
     image_2:
       image_url:
       image_alt:
@@ -66,7 +66,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/two-people-looking-at-laptop-while-in-manufacturing-plant.jpg
-      image_alt:
+      image_alt: Two people looking at a laptop while working in a manufacturing facility
     background_color: gray
     text_column_position: left
     css_classes:

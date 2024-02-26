@@ -41,7 +41,15 @@
     <link rel="apple-touch-icon" href="/uploads/apple-touch-icon.png">
   
     {{ if hugo.IsProduction }}
-    <!-- Enter Google Analytics or any other tracking scripts here -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GYCSBTHQHQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GYCSBTHQHQ');
+    </script>
     {{ end }}
   
     {{ $pageSection := .Section }}

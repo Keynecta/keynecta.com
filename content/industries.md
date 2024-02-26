@@ -20,7 +20,7 @@ content_blocks:
       open_in_new_tab: false
     image_1:
       image_url: /uploads/two-workers-reviewing-computer.jpg
-      image_alt:
+      image_alt: Two employees in hardhats working together on a laptop
     image_2:
       image_url:
       image_alt:
@@ -36,7 +36,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/woman-on-computer-reviewing-manufacturing-equipment.jpg
-      image_alt:
+      image_alt: Woman on a laptop reviewing manufacturing equipment
     background_color: gray
     text_column_position: left
     css_classes:
@@ -83,7 +83,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/keynecta-dashboard-on-computer.jpg
-      image_alt:
+      image_alt: Keynecta's Smartsheet dashboard on a computer screen
   - _bookshop_name: cta
     heading: Transform Your Organization
     body: >-

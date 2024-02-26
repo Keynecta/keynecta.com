@@ -16,7 +16,7 @@ content_blocks:
       Ready to elevate your organization with Keynecta? Fill out the form below or schedule a 30-minute introduction call to connect with us. We look forward to addressing your requests promptly.
     image_1:
       image_url: /uploads/person-on-phone-in-manufacturing-plant-1.jpg
-      image_alt:
+      image_alt: Person on a phone in a manufacturing plant
     image_2:
       image_url:
       image_alt:

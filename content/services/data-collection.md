@@ -21,7 +21,7 @@ content_blocks:
       open_in_new_tab: false
     image_1:
       image_url: /uploads/woman-reviewing-manufacturing-equipment-and-taking-notes-2.jpg
-      image_alt:
+      image_alt: Woman in yellow hardhat and vest inspecting manufacturing equipment and taking notes
     image_2:
       image_url:
       image_alt:
@@ -49,7 +49,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/person-with-keynecta-safety-culture-dashboard-on-computer.jpg
-      image_alt:
+      image_alt: Woman at an office table with Keynecta's Smartsheet safety culture dashboard on a computer screen
     background_color: white
     text_column_position: left
     css_classes:
@@ -65,7 +65,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/person-working-on-tablet-with-keynecta-safety-metrics-on-screen.jpg
-      image_alt:
+      image_alt: Person working on a tablet with Keynects safety metrics on a screen
     background_color: gray
     text_column_position: right
     css_classes:
@@ -81,7 +81,7 @@ content_blocks:
       open_in_new_tab: false
     image:
       image_url: /uploads/three-workers-discussing-safety.jpg
-      image_alt:
+      image_alt: Three workers discussing safety in the workplace
     background_color: white
     text_column_position: left
     css_classes:
