@@ -98,9 +98,9 @@ content_blocks:
     background_color: white
   - _bookshop_name: testimonial
     body: >-
-      "Keynecta has been instrumental in changing our approach to safety. Their digital solutions not only enhance safety protocols but also contribute to our overall business performance."
-    name: [Client Name]
-    title: [Client Title]
+      "Keynecta focuses on your most important asset, the people. By putting employees first, they help you train, involve, lead and improve your safety culture. This ultimately improves operational outcomes."
+    name: Paul Sitter
+    title: VP of Manufacturing<br>Kirsh Foundry, Beaver Dam
   - _bookshop_name: cta
     heading: Transform Your Organization
     body: >-

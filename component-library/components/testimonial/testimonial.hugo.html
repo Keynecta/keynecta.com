@@ -5,7 +5,7 @@
         <p class="h3 fw-700">{{ .body | markdownify }}</p>
         <div>
             <p class="testimonial__name font-size-sm fw-700">{{ .name }}</p>
-            <p class="testimonial__title font-size-xs">{{ .title }}</p>
+            <p class="testimonial__title font-size-xs">{{ .title | markdownify }}</p>
         </div>
         </div>
     </div>

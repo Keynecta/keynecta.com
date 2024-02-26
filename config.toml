@@ -1,6 +1,6 @@
-baseURL = "/"
+baseURL = "https://keynecta.com/"
 languageCode = "en-us"
-title = "Hurckman Mechanical Industries, Inc."
+title = "Keynecta"
 enableRobotsTXT = true
 paginate = "9"
 summaryLength = 20
