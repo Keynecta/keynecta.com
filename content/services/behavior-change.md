@@ -8,7 +8,7 @@ seo:
   page_title:
   meta_description: >-
     Cultivate a behavior change toward safety with Keynecta’s complete online system. Safety training, safety program software, supervisor leadership and more.
-  featured_image: /uploads/essentia-featured-image.jpg
+  featured_image: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: Behavior Change

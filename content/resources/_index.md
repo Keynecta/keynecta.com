@@ -6,7 +6,7 @@ menu:
 seo:
   page_title: 
   meta_description: Equipping your team with the knowledge and tools to foster a culture of safety.
-  featured_image:
+  featured_image: /uploads/group-of-workers-reviewing-technical-training-reosources.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: Resources
