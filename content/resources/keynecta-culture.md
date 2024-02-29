@@ -9,7 +9,7 @@ draft: false
 author:
 date: 2024-02-15
 categories:
-  - Video
+  - Videos
 ---
 
 {{< youtube id="krA6pshbZDA" title="Keynecta Culture" >}}
