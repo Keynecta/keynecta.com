@@ -1,6 +1,10 @@
+.parent-page-resources {
+  background-color: rgba($light-gray, .25);
+}
+
 @include breakpoint (md) {
-  .parent-page-our-news,
-  .parent-page-our-news .site-wrap {
+  .parent-page-resources,
+  .parent-page-resources .site-wrap {
     overflow-x: initial;
   }
 }

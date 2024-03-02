@@ -12,7 +12,7 @@ categories:
   - Safety Culture
 ---
 
-In the pursuit of organizational excellence, having the right tools is essential. That's why we developed the Keynecta Safety Culture Scoring System (patent pending). Our founder, [Michael A. Parins](/about/), drew from his 50 years of experience in the safety industry to create this groundbreaking solution. The Keynecta tool helps your business evaluate your people, teams and systems, providing a baseline Safety Score and actionable insights to improve your Safety Culture.
+In the pursuit of organizational excellence, having the right tools is essential. That's why we developed the __Keynecta Safety Culture Scoring System__ (patent pending). Our founder, [Michael A. Parins](/about/), drew from his 50 years of experience in the safety industry to create this groundbreaking solution. The Keynecta tool helps your business evaluate your people, teams and systems, providing a baseline Safety Score and actionable insights to improve your Safety Culture.
 
 ## Building Teams Focused on Performance 
 
