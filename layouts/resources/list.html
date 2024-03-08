@@ -6,9 +6,12 @@
   <ul class="grid-columns-3 gap-sm max-width-none no-padding">
     {{ $paginator := .Paginate (where .Site.RegularPages "Section" "resources") }}
     {{ range $paginator.Pages }}
-        {{ .Render "blog-card" }}
+        {{ if not (in .Params.categories "PDF") }}
+            {{ .Render "blog-card" }}
+        {{ end }}
     {{ end }}
   </ul>
   {{ partial "blog/custom-pagination.html" . }}
 </section>
 {{ end }}
+

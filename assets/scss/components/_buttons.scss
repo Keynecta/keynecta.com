@@ -42,10 +42,29 @@
 }
 
 .btn--secondary {
-  color: $white;
+  color: $primary-color;
+  background-color: $white;
 
-  &::before {
-    background-image: linear-gradient(to right,$black 0%,$black-2 15%,$black-2 85%,$black 100%);
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: calc(100% - 35px);
+    width: 60px;
+    height: 100%;
+    transition: $transition;
+    background-color: $white;
+    clip-path: polygon(50% 0, 75% 0%, 100% 50%, 75% 100%, 50% 100%);
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $secondary-color;
+
+    &::after {
+      background-color: $secondary-color;
+      border-left: 16px solid $secondary-color;
+    }
   }
 }
 

@@ -1,5 +1,5 @@
 ---
-title: "Keynecta Culture"
+title: "Keynecta Sell Sheet"
 seo:
   page_title: 
   meta_description: Welcome to Keynecta, where safety meets innovation. Learn more about Keynecta, our unique scoring tool and our approach to building a safety culture.
@@ -7,9 +7,8 @@ seo:
   featured_image_alt: Keynecta logo
 draft: false
 author:
-date: 2024-02-15
+date: 2024-03-07
 categories:
-  - Video
+  - PDF
+download_url: /downloads/keynecta-sell-sheet-2024.pdf
 ---
-
-{{< youtube id="krA6pshbZDA" title="Keynecta Culture" >}}

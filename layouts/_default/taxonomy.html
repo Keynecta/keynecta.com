@@ -8,7 +8,11 @@
   {{ partial "blog/category-filter" . }}
   <ul class="grid-columns-3 gap-sm max-width-none no-padding">
     {{ range .Paginator.Pages.ByDate.Reverse }}
-      {{ .Render "blog-card" }}
+      {{ if not (in .Params.categories "PDF") }}
+        {{ .Render "blog-card" }}
+      {{ else }}
+        {{ .Render "pdf-card" }}
+      {{ end }}
     {{ end }}
   </ul>
   {{ partial "blog/custom-pagination.html" . }}
