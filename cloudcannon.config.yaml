@@ -15,7 +15,7 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: true
         icon: notes
-  blog:
+  resources:
     output: true
     icon: edit_calendar
     _editables: {}
@@ -23,7 +23,7 @@ collections_config:
     _select_data: {}
     _structures: {}
     add_options:
-      - name: Add A New Blog Post
+      - name: Add A New Resource
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -35,98 +35,6 @@ collections_config:
         remove_empty_inputs: false
         remove_extra_inputs: true
         icon: notes
-  careers:
-    output: true
-    description: ''
-    icon: cases
-    _editables: {}
-    _inputs: {}
-    _select_data: {}
-    _structures: {}
-    add_options:
-      - name: Add New Job Post
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-    schemas:
-      default:
-        path: schemas/careers.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        icon: group_add
-  our-company/our-team:
-    path: /content/our-company/our-team
-    output: true
-    name: Our Team
-    description: ''
-    icon: person
-    preview:
-      text:
-      subtext:
-      icon:
-      icon_color:
-      image:
-      metadata:
-      gallery:
-    _editables: {}
-    _inputs: {}
-    _select_data: {}
-    _structures: {}
-    add_options:
-      - name: Add New Team Member
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-    schemas:
-      default:
-        path: schemas/staff.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        icon: person_add
-  our-services:
-    output: true
-    icon: construction
-    _editables: {}
-    _inputs: {}
-    _select_data: {}
-    _structures: {}
-    add_options:
-      - name: Add New Service
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-    schemas:
-      default:
-        path: schemas/service.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        icon: construction
-  our-projects:
-    output: true
-    icon: construction
-    _editables: {}
-    _inputs: {}
-    _select_data: {}
-    _structures: {}
-    add_options:
-      - name: Add New Project
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-    schemas:
-      default:
-        path: schemas/projects.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        icon: construction
 _inputs:
   menu:
     type: auto
