@@ -101,6 +101,8 @@ _inputs:
         - image/svg+xml
       correct_orientation: true
     cascade: true
+  download_url:
+    type: file
   heading:
     type: text
     cascade: true
