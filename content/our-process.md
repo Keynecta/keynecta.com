@@ -16,7 +16,7 @@ content_blocks:
     button:
       enabled: true
       button_url: /downloads/keynecta-sell-sheet-2024.pdf
-      button_text: View Our Sell Sheet
+      button_text: View Our Sell Sheet test
       open_in_new_tab: true
     image_1:
       image_url: /uploads/two-people-reviewing-manufacturing-equipment-3.jpg
