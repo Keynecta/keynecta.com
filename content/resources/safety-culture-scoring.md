@@ -4,7 +4,7 @@ seo:
   page_title: 
   meta_description: Unlock safety excellence with Keynecta's Safety Culture Scoring System. Measure, improve and empower your team for a safer, more successful future.
   featured_image: /uploads/two-people-reviewing-paperwork-on-clipboard.jpg
-  featured_image_alt: Keynecta logo
+  featured_image_alt: Two people reviewing paperwork on clipboard
 draft: false
 author:
 date: 2024-02-29
