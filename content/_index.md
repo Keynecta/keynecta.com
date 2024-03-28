@@ -49,7 +49,7 @@ content_blocks:
         image: /uploads/tom-parins-new.jpg
       - heading: Jennifer L. Parins
         job_title: Vice President IT
-        image: /uploads/jen-parins-new.jpg
+        image: /uploads/jen-parins-new-2.jpg
     button:
       enabled: true
       button_url: /about/
