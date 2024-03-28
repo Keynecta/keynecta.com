@@ -43,13 +43,13 @@ content_blocks:
     team: 
       - heading: Michael A. Parins
         job_title: President
-        image: /uploads/mike-parins.jpg
+        image: /uploads/mike-parins-new.jpg
       - heading: Thomas J. Parins
         job_title: Executive Vice President
-        image: /uploads/tom-parins.jpg
+        image: /uploads/tom-parins-new.jpg
       - heading: Jennifer L. Parins
         job_title: Vice President IT
-        image: /uploads/jen-parins.jpg
+        image: /uploads/jen-parins-new.jpg
     button:
       enabled: true
       button_url: /about/
