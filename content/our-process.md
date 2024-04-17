@@ -15,7 +15,7 @@ content_blocks:
       Use Keynecta’s Safety Culture Scoring System (patent pending) to empower your team and initiate a culture of safety for organizational success.
     button:
       enabled: true
-      button_url: /uploads/keynecta-sell-sheet-2024.pdf
+      button_url: /uploads/keynecta-sell-sheet.pdf
       button_text: View Our Sell Sheet
       open_in_new_tab: true
     image_1:
@@ -25,7 +25,7 @@ content_blocks:
       image_url:
       image_alt:
   - _bookshop_name: intro
-    heading: Safety Culture Scoring for Organizational Success
+    heading: Safety Culture Scorings for Organizational Success
     body: >-
       With Keynecta, your team uses our Safety Culture Scoring System (patent pending) as a tool for organizational success. Access the resources and training you need, measure relevant metrics, input data for compliance and start creating a culture of safety with our proprietary system.
     button:

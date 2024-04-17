@@ -14,5 +14,5 @@ author:
 date: 2024-03-07T00:00:00Z
 categories:
   - PDF
-download_url: /uploads/keynecta-sell-sheet-2024.pdf
+download_url: /uploads/keynecta-sell-sheet.pdf
 ---
