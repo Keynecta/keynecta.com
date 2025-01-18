@@ -1,9 +1,12 @@
+.toc-wrapper {
+    border-bottom: 1px solid rgba($black, .25);
+}
+
 .toc {
     padding-block: $ic-200;
     max-inline-size: none;
     border: none;
     border-radius: 0;
-    border-bottom: 1px solid rgba($black, .25);
 }
 
 .toc__summary {
