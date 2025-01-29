@@ -38,12 +38,10 @@
   </div>
 </header>
 {{ if .TableOfContents }}
-<div class="toc-wrapper content-full">
-  <details class="toc content-sm">
-    <summary class="toc__summary margin-inline-auto">In This Article</summary>
-    <div class="toc__list">
-      {{ .TableOfContents }}
-    </div>
-  </details>
-</div>
+<details class="toc content-full">
+  <summary class="toc__summary margin-inline-auto">In This Article</summary>
+  <div class="toc__list">
+    {{ .TableOfContents }}
+  </div>
+</details>
 {{ end }}
