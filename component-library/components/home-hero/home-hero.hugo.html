@@ -23,11 +23,13 @@
         {{ if .image_1.image_url }}
         <div class="hero__image hero__image-1">
           <picture>
-            <source sizes="50vw" srcset="https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_800{{ .image_1.image_url }} 800w" type="image/avif">
-  
-            <source sizes="50vw" srcset="https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_800{{ .image_1.image_url }} 800w" type="image/webp">
+            <source srcset="https://keynecta.imgix.net{{ .image_1.image_url }}?fm=avif&q=85&width=1000" type="image/avif">
         
-            <img sizes="50vw" src="https://res.cloudinary.com/keynecta/image/upload{{ .image_1.image_url }}" srcset="https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_800{{ .image_1.image_url }} 800w" alt="{{ .image_1.image_alt }}" width="500" height="500">   
+            <source srcset="https://keynecta.imgix.net{{ .image_1.image_url }}?fm=webp&q=85&width=1000" type="image/webp">
+        
+            <source srcset="https://keynecta.imgix.net{{ .image_1.image_url }}?fm=jpg&q=85&width=1000" type="image/jpg">
+        
+            <img src="{{ .image_1.image_url }}" alt="{{ .image_1.image_alt }}" width="500" height="500">   
           </picture>
         </div>
         {{ end }}

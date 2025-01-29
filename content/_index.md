@@ -17,7 +17,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image_1:
-      image_url: /employee-mentoring-with-keynecta-safety-scoring-data-2_xbdwgg.jpg
+      image_url: /uploads/employee-mentoring-with-keynecta-safety-scoring-data-2.jpg
       image_alt: Employee talking with safety coordinator in manufacturing plant
   - _bookshop_name: media-text
     preheading: 
@@ -30,7 +30,7 @@ content_blocks:
       button_text: Discover the Keynecta Advantage
       open_in_new_tab: false
     image:
-      image_url: /team-reviewing-building-plans-on-computer-screen_mgr8fc.jpg
+      image_url: /uploads/team-reviewing-building-plans-on-computer-screen.jpg
       image_alt: Team reviewing building plans on a computer screen
     background_color: gray
     text_column_position: left
@@ -43,13 +43,13 @@ content_blocks:
     team: 
       - heading: Michael A. Parins
         job_title: President
-        image: /mike-parins-new_ox4hbw.jpg
+        image: /uploads/mike-parins-new.jpg
       - heading: Thomas J. Parins
         job_title: Executive Vice President
-        image: /tom-parins-new_tmhqye.jpg
+        image: /uploads/tom-parins-new.jpg
       - heading: Jennifer L. Parins
         job_title: Vice President IT
-        image: /jen-parins-new-2_evs0yy.jpg
+        image: /uploads/jen-parins-new-2.jpg
     button:
       enabled: true
       button_url: /about/
@@ -79,7 +79,7 @@ content_blocks:
       button_text: View Our Process
       open_in_new_tab: false
     image:
-      image_url: /keynecta-dashboard-on-computer_hdtfub.jpg
+      image_url: /uploads/keynecta-dashboard-on-computer.jpg
       image_alt: Keynecta's Smartsheet dashboard on a computer screen
   - _bookshop_name: testimonial
     body: >-

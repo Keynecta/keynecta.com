@@ -8,7 +8,7 @@ seo:
   page_title:
   meta_description: >-
     Elevate workplace safety with Keynecta's Supervisor Leadership Training. Transform your company with a focus on mentoring, coaching and inspiring work teams.
-  featured_image: /two-people-shaking-hands-and-smiling-in-manufacturing-plant-1_y0abrt.jpg
+  featured_image: /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant-1.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: Leadership Training
@@ -20,7 +20,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image_1:
-      image_url: /two-people-shaking-hands-and-smiling-in-manufacturing-plant-1_y0abrt.jpg
+      image_url: /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant-1.jpg
       image_alt: Two people shaking hands and smiling in a manufacturing environment
     image_2:
       image_url:
@@ -56,7 +56,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image:
-      image_url: /two-people-reviewing-paperwork-on-clipboard_nanqkx.jpg
+      image_url: /uploads/two-people-reviewing-paperwork-on-clipboard.jpg
       image_alt: Two people reviewing paperwork on a clipboard
     background_color: white
     text_column_position: left

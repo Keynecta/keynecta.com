@@ -25,11 +25,13 @@
                 <div class="flow">
                 <div class="hexagon-mask">
                     <picture>
-                        <source sizes="100vw" srcset="https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_100,h_125,c_fill{{ .image }} 600w" type="image/avif">
-            
-                        <source sizes="100vw" srcset="https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_100,h_125,c_fill{{ .image }} 600w" type="image/webp">
+                        <source srcset="https://keynecta.imgix.net{{ .image }}?fm=avif&q=95&width=100&height=125" type="image/avif">
                     
-                        <img sizes="100vw" src="https://res.cloudinary.com/keynecta/image/upload{{ .image }}" srcset="https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_100,h_125,c_fill{{ .image }} 600w" alt="{{ .heading }}" width="500" height="500">   
+                        <source srcset="https://keynecta.imgix.net{{ .image }}?fm=webp&q=95&width=100&height=125" type="image/webp">
+                    
+                        <source srcset="https://keynecta.imgix.net{{ .image }}?fm=jpg&q=95&width=100&height=125" type="image/jpg">
+                    
+                        <img src="{{ .image }}" alt="Headshot of {{ .heading }}" width="100" height="125">   
                     </picture>
                 </div>
                 <div>

@@ -19,7 +19,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image_1:
-      image_url: /person-reviewing-machinery-in-manufacturing-plant_nwhncb.jpg
+      image_url: /uploads/person-reviewing-machinery-in-manufacturing-plant.jpg
       image_alt: Person in hardhat and high visibility vest inspecting machinery in a manufacturing plant
     image_2:
       image_url:

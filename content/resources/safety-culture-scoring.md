@@ -3,7 +3,7 @@ title: "What is Safety Culture Scoring?"
 seo:
   page_title: 
   meta_description: Unlock safety excellence with Keynecta's Safety Culture Scoring System. Measure, improve and empower your team for a safer, more successful future.
-  featured_image: /two-people-reviewing-paperwork-on-clipboard_nanqkx.jpg
+  featured_image: /uploads/two-people-reviewing-paperwork-on-clipboard.jpg
   featured_image_alt: Two people reviewing paperwork on clipboard
 draft: false
 author:
