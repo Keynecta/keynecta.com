@@ -7,7 +7,7 @@ seo:
   page_title:
   meta_description: >-
     Use Keynecta’s Safety Culture Scoring System (patent pending) to empower your team and initiate a culture of safety for organizational success.
-  featured_image: /uploads/two-people-reviewing-manufacturing-equipment-3.jpg
+  featured_image: /two-people-reviewing-manufacturing-equipment-3_xxhdjp.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: Our Process
@@ -19,7 +19,7 @@ content_blocks:
       button_text: View Our Sell Sheet
       open_in_new_tab: true
     image_1:
-      image_url: /uploads/two-people-reviewing-manufacturing-equipment-3.jpg
+      image_url: /two-people-reviewing-manufacturing-equipment-3_xxhdjp.jpg
       image_alt: Two people performing a safety inspection on manufacturing equipment
     image_2:
       image_url:
@@ -60,7 +60,7 @@ content_blocks:
       button_text: View Our Process
       open_in_new_tab: false
     image:
-      image_url: /uploads/keynecta-dashboard-on-computer-white-bg.jpg
+      image_url: /keynecta-dashboard-on-computer-white-bg_knc7z8.jpg
       image_alt: Keynecta's Smartsheet dashboard on a computer screen
     background_color: white
   - _bookshop_name: cta

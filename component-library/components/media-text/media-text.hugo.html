@@ -25,15 +25,13 @@
       <div class="col grid-12 grid-7-md">
         {{ if .image.image_url }}
         <div class="media-text-block__image">
-            <picture>
-              <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=85&width=350&height=300 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=85&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=avif&q=85&width=800&height=525 800w" type="image/avif">
-          
-              <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=85&width=350&height=300 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=85&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=webp&q=85&width=800&height=525 800w" type="image/webp">
-          
-              <source sizes="(min-width: 993px) 100vw, 50vw" srcset="https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=85&width=350&height=300 400w, https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=85&width=600&height=450 600w, https://keynecta.imgix.net{{ .image.image_url }}?fm=jpg&q=85&width=800&height=525 800w" type="image/jpg">
-          
-              <img src="{{ .image.image_url }}" alt="{{ .image.image_alt }}" width="600" height="450">   
-            </picture>
+          <picture>
+            <source sizes="(min-width: 993px) 50vw, 100vw" srcset="https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_350,h_300,c_fill{{ .image.image_url }} 400w, https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_550,h_300,c_fill{{ .image.image_url }} 600w, https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_1000{{ .image.image_url }} 800w, https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_1200{{ .image.image_url }} 1000w, https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_1400{{ .image.image_url }} 1200w, https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_1600{{ .image.image_url }} 1400w, https://res.cloudinary.com/keynecta/image/upload/f_avif,q_85,w_1800{{ .image.image_url }} 1600w" type="image/avif">
+
+            <source sizes="(min-width: 993px) 50vw, 100vw" srcset="https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_350,h_300,c_fill{{ .image.image_url }} 400w, https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_550,h_300,c_fill{{ .image.image_url }} 600w, https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_1000{{ .image.image_url }} 800w, https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_1200{{ .image.image_url }} 1000w, https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_1400{{ .image.image_url }} 1200w, https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_1600{{ .image.image_url }} 1400w, https://res.cloudinary.com/keynecta/image/upload/f_webp,q_85,w_1800{{ .image.image_url }} 1600w" type="image/webp">
+        
+            <img sizes="(min-width: 993px) 50vw, 100vw" src="https://res.cloudinary.com/keynecta/image/upload{{ .image.image_url }}" srcset="https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_350,h_300,c_fill{{ .image.image_url }} 400w, https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_550,h_300,c_fill{{ .image.image_url }} 600w, https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_1000{{ .image.image_url }} 800w, https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_1200{{ .image.image_url }} 1000w, https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_1400{{ .image.image_url }} 1200w, https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_1600{{ .image.image_url }} 1400w, https://res.cloudinary.com/keynecta/image/upload/f_jpg,q_85,w_1800{{ .image.image_url }} 1600w" alt="{{ .image.image_alt }}" width="600" height="450" loading="lazy">   
+          </picture>
         </div>
         {{ end }}
       </div>

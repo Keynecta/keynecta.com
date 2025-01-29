@@ -7,7 +7,7 @@ seo:
   page_title:
   meta_description: >-
     Elevate your Safety Culture with Keynecta's industry-focused solutions—where experience meets innovation for manufacturing and service excellence.
-  featured_image: /uploads/two-workers-reviewing-computer.jpg
+  featured_image: /two-workers-reviewing-computer_mfk0o9.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: Industries
@@ -19,7 +19,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image_1:
-      image_url: /uploads/two-workers-reviewing-computer.jpg
+      image_url: /two-workers-reviewing-computer_mfk0o9.jpg
       image_alt: Two employees in hardhats working together on a laptop
     image_2:
       image_url:
@@ -35,7 +35,7 @@ content_blocks:
       button_text:
       open_in_new_tab: false
     image:
-      image_url: /uploads/woman-on-computer-reviewing-manufacturing-equipment.jpg
+      image_url: /woman-on-computer-reviewing-manufacturing-equipment_wyssnk.jpg
       image_alt: Woman on a laptop reviewing manufacturing equipment
     background_color: gray
     text_column_position: left
@@ -82,7 +82,7 @@ content_blocks:
       button_text: View Our Process
       open_in_new_tab: false
     image:
-      image_url: /uploads/keynecta-dashboard-on-computer.jpg
+      image_url: /keynecta-dashboard-on-computer_hdtfub.jpg
       image_alt: Keynecta's Smartsheet dashboard on a computer screen
   - _bookshop_name: cta
     heading: Transform Your Organization

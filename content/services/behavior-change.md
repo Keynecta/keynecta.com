@@ -8,7 +8,7 @@ seo:
   page_title:
   meta_description: >-
     Cultivate a behavior change toward safety with Keynecta’s complete online system. Safety training, safety program software, supervisor leadership and more.
-  featured_image: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
+  featured_image: /two-people-reviewing-paperwork-in-manufacturing-environment_mj7rla.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: Behavior Change
@@ -20,7 +20,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image_1:
-      image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
+      image_url: /two-people-reviewing-paperwork-in-manufacturing-environment_mj7rla.jpg
       image_alt: Employee talking with safety coordinator in manufacturing plant
     image_2:
       image_url:
@@ -51,7 +51,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image:
-      image_url: /uploads/person-taking-notes-at-computer.jpg
+      image_url: /person-taking-notes-at-computer_n6azbc.jpg
       image_alt: Person taking notes at a computer
     background_color: white
     text_column_position: left
@@ -67,7 +67,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image:
-      image_url: /uploads/worker-on-computer-in-manufacturing-plant.jpg
+      image_url: /worker-on-computer-in-manufacturing-plant_tzdnlq.jpg
       image_alt: Worker on a computer in a manufacturing plant
     background_color: gray
     text_column_position: right

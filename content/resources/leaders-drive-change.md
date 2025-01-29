@@ -3,7 +3,7 @@ title: "How to Drive Positive Change in Your Organization"
 seo:
   page_title: 
   meta_description: Discover how Keynecta empowers organizations to drive positive change, prioritize safety and foster a culture of excellence. Unlock your organization's potential today!
-  featured_image: /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant-1.jpg
+  featured_image: /two-people-shaking-hands-and-smiling-in-manufacturing-plant-1_y0abrt.jpg
   featured_image_alt: A leadership member in suit shaking hands and smiling at employee in manufacturing plant
 draft: false
 author:

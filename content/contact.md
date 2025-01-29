@@ -8,14 +8,14 @@ seo:
   page_title:
   meta_description: >-
     Get in touch with Keynecta using our contact form. Simple and direct communication for a complete online system to help you drive profits and value people.
-  featured_image: /uploads/person-on-phone-in-manufacturing-plant-1.jpg
+  featured_image: /person-on-phone-in-manufacturing-plant-1_txinhw.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: Contact Us
     body: >-
       Ready to elevate your organization with Keynecta? Fill out the form below or schedule a 30-minute introduction call to connect with us. We look forward to addressing your requests promptly.
     image_1:
-      image_url: /uploads/person-on-phone-in-manufacturing-plant-1.jpg
+      image_url: /person-on-phone-in-manufacturing-plant-1_txinhw.jpg
       image_alt: Person on a phone in a manufacturing plant
     image_2:
       image_url:

@@ -8,7 +8,7 @@ seo:
   page_title:
   meta_description: >-
     Keynecta's data collection solutions utilize leading indicators, customized forms and actionable insights to drive progress and achieve Safety KPIs.
-  featured_image: /uploads/woman-reviewing-manufacturing-equipment-and-taking-notes-2.jpg
+  featured_image: /two-people-reviewing-manufacturing-equipment-2_lgixcf.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: Data Collection
@@ -20,7 +20,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image_1:
-      image_url: /uploads/woman-reviewing-manufacturing-equipment-and-taking-notes-2.jpg
+      image_url: /two-people-reviewing-manufacturing-equipment-2_lgixcf.jpg
       image_alt: Woman in yellow hardhat and vest inspecting manufacturing equipment and taking notes
     image_2:
       image_url:
@@ -48,7 +48,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image:
-      image_url: /uploads/person-with-keynecta-safety-culture-dashboard-on-computer.jpg
+      image_url: /person-with-keynecta-safety-culture-dashboard-on-computer_k2zktm.jpg
       image_alt: Woman at an office table with Keynecta's Smartsheet safety culture dashboard on a computer screen
     background_color: white
     text_column_position: left
@@ -64,7 +64,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image:
-      image_url: /uploads/person-working-on-tablet-with-keynecta-safety-metrics-on-screen.jpg
+      image_url: /person-working-on-tablet-with-keynecta-safety-metrics-on-screen_k7mnqf.jpg
       image_alt: Person working on a tablet with Keynects safety metrics on a screen
     background_color: gray
     text_column_position: right
@@ -80,7 +80,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image:
-      image_url: /uploads/three-workers-discussing-safety.jpg
+      image_url: /three-workers-discussing-safety_d8wplp.jpg
       image_alt: Three workers discussing safety in the workplace
     background_color: white
     text_column_position: left

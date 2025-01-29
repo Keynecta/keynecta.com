@@ -8,7 +8,7 @@ seo:
   page_title:
   meta_description: >-
     Elevate your compliance training with Keynecta—where safety and quality converge for organizational excellence. Drive profits. Value people. Optimize compliance.
-  featured_image: /uploads/group-of-workers-during-safety-meeting.jpg
+  featured_image: /group-of-workers-during-safety-meeting_if8mnn.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: Compliance Training
@@ -20,7 +20,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image_1:
-      image_url: /uploads/group-of-workers-during-safety-meeting.jpg
+      image_url: /group-of-workers-during-safety-meeting_if8mnn.jpg
       image_alt: Group of workers during a safety meeting
     image_2:
       image_url:
@@ -65,7 +65,7 @@ content_blocks:
       button_text: 
       open_in_new_tab: false
     image:
-      image_url: /uploads/two-people-looking-at-laptop-while-in-manufacturing-plant.jpg
+      image_url: /two-people-looking-at-laptop-while-in-manufacturing-plant_fuukc4.jpg
       image_alt: Two people looking at a laptop while working in a manufacturing facility
     background_color: gray
     text_column_position: left
