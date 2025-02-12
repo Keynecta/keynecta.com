@@ -48,7 +48,7 @@ content_blocks:
     button:
       enabled: true
       button_url: /contact/
-      button_text: Discover the Keynecta Advantage
+      button_text: Contact an OSHA Trainer Today
       open_in_new_tab: false
   - _bookshop_name: media-text
     preheading:
@@ -98,7 +98,7 @@ content_blocks:
     button:
       enabled: true
       button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
-      button_text: Contact an OSHA Trainer Today
+      button_text: Start Your Safety Culture Self Evalutation
       open_in_new_tab: true
     background_color: white
 ---
