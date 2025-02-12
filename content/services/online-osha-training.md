@@ -20,7 +20,7 @@ content_blocks:
       organization's unique needs.
     image_1:
       image_url: /uploads/linkedin-sales-solutions-be5avkfv9ho-unsplash.jpg
-      image_alt: Person on computer video call.
+      image_alt: Person on computer video call
     image_2:
       image_url:
       image_alt:
@@ -57,8 +57,8 @@ content_blocks:
       * OSHA 10-Hour (Online)
       * OSHA 30-Hour (Online)
     image:
-      image_url: /uploads/person-taking-notes-at-computer.jpg
-      image_alt: Person taking notes at a computer
+      image_url: /uploads/people-using-digital-device-while-meeting.jpg
+      image_alt: People on a video call
     button:
       enabled: false
       button_url:
