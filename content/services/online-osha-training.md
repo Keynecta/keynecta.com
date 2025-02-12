@@ -78,5 +78,5 @@ content_blocks:
       button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
       button_text: Start Your Safety Culture Self Evalutation
       open_in_new_tab: true
-    background_color: white
+    background_color: gray
 ---
