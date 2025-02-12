@@ -14,9 +14,9 @@ content_blocks:
   - _bookshop_name: hero
     heading: Online OSHA Training
     body: >-
-      Take advantage of the opportunity to receive online OSHA training from an
-      experienced trainer. Training options include OSHA 10-Hour and 30-Hour
-      courses. Discuss the ability to center training around your organization's
+      Take advantage of this limited opportunity to receive online OSHA training
+      from an experienced trainer. Training options include OSHA 10-Hour and
+      30-Hour courses. Discuss centering training around your organization's
       unique needs.
     image_1:
       image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
@@ -31,22 +31,20 @@ content_blocks:
       open_in_new_tab: false
   - _bookshop_name: intro
     preheading:
-    heading: Going Beyond Compliance for Organizational Success
+    heading: Meet and Exceed OSHA Safety Standards
     body: >-
-      Keynecta's program goes beyond compliance, laying the groundwork for a
-      team-based culture change that is foundational to the success of your
-      organization. Central to this cultural shift is a commitment to the
-      well-being of every team member, creating a workplace where safety is not
-      just a requirement but a shared value.
+      Help your organization's safety program meet compliance with all OSHA
+      training. Train your entire safety committee or other group of employees
+      at once. Or gain additional training and knowledge to take your safety
+      program or personal knowledge to the next-level.
 
 
-      ### Guided Culture Transformation
+      ### Personalized Training
 
-      Understanding your organization and vision, we collaborate closely with
-      your teams, guiding them at a steady pace toward an effective Safety
-      Culture. Keynecta’s complete online system serves as a transformative
-      tool, educating everyone in the company about the tangible benefits of
-      working in an organization that prioritizes a culture of safety.
+
+      Work with the trainer to center training around your organization's unique
+      needs. Understand how the rules apply to your operations and how that may
+      play a role in your organization's trajectory.
     button:
       enabled: true
       button_url: /contact/
