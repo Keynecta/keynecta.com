@@ -7,17 +7,17 @@ menu:
 seo:
   page_title: Online OSHA Training
   meta_description: >-
-    Cultivate a behavior change toward safety with Keynecta’s complete online
-    system. Safety training, safety program software, supervisor leadership and
-    more.
+    Meet safety standards and receive online training from an experienced OSHA
+    trainer. Cater training to your specific organization's unique needs.
   featured_image: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
 content_blocks:
   - _bookshop_name: hero
-    heading: Behavior Change
+    heading: Online OSHA Training
     body: >-
-      Cultivate a behavior change toward safety with Keynecta’s complete online
-      system. Safety training, safety program software, supervisor leadership
-      and more.
+      Take advantage of the opportunity to receive online OSHA training from an
+      experienced trainer. Training options include OSHA 10-Hour and 30-Hour
+      courses. Discuss the ability to center training around your organization's
+      unique needs.
     image_1:
       image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
       image_alt: Employee talking with safety coordinator in manufacturing plant
