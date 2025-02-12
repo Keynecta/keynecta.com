@@ -67,25 +67,6 @@ content_blocks:
     background_color: white
     text_column_position: left
     css_classes:
-  - _bookshop_name: media-text
-    preheading:
-    heading: Customized Compliance Training
-    body: >-
-      Keynecta provides a library of standard compliance training topics, fully
-      customizable to meet your specific industry needs. Beyond meeting
-      regulatory requirements, these tailored lessons integrate into the
-      program, reinforcing safety practices that align with your goals.
-    image:
-      image_url: /uploads/worker-on-computer-in-manufacturing-plant.jpg
-      image_alt: Worker on a computer in a manufacturing plant
-    button:
-      enabled: false
-      button_url:
-      button_text:
-      open_in_new_tab: false
-    background_color: gray
-    text_column_position: right
-    css_classes:
   - _bookshop_name: cta
     heading: Transform Your Organization
     body: >-
