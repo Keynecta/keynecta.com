@@ -52,13 +52,10 @@ content_blocks:
       open_in_new_tab: false
   - _bookshop_name: media-text
     preheading:
-    heading: Micro Training for Competency
-    body: >-
-      Enter Micro Training—an innovative approach to employee development.
-      Within Keynecta's digital solutions, we break down training into small,
-      digestible lessons lasting 5-7 minutes, each focusing on a single
-      objective. This microlearning strategy maximizes understanding and
-      encourages meaningful application, ultimately driving behavioral change.
+    heading: Courses
+    body: |-
+      * OSHA 10-Hour
+      * OSHA 30-Hour
     image:
       image_url: /uploads/person-taking-notes-at-computer.jpg
       image_alt: Person taking notes at a computer
