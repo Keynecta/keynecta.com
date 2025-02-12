@@ -19,8 +19,8 @@ content_blocks:
       30-Hour courses. The trainer will center training around your
       organization's unique needs.
     image_1:
-      image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
-      image_alt: Employee talking with safety coordinator in manufacturing plant
+      image_url: /uploads/linkedin-sales-solutions-be5avkfv9ho-unsplash.jpg
+      image_alt: Person on computer video call.
     image_2:
       image_url:
       image_alt:
