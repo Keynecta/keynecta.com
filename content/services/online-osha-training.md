@@ -16,8 +16,8 @@ content_blocks:
     body: >-
       Take advantage of this limited opportunity to receive online OSHA training
       from an experienced trainer. Training options include OSHA 10-Hour and
-      30-Hour courses. Discuss centering training around your organization's
-      unique needs.
+      30-Hour courses. The trainer will center training around your
+      organization's unique needs.
     image_1:
       image_url: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
       image_alt: Employee talking with safety coordinator in manufacturing plant
@@ -42,9 +42,9 @@ content_blocks:
       ### Personalized Training
 
 
-      Work with the trainer to center training around your organization's unique
-      needs. Understand how the rules apply to your operations and how that may
-      play a role in your organization's trajectory.
+      Work with the trainer to center interactive training around your
+      organization's unique needs. Understand how the rules apply to your
+      operations and how that may play a role in your organization's plan.
     button:
       enabled: true
       button_url: /contact/
