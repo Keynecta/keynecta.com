@@ -54,8 +54,8 @@ content_blocks:
     preheading:
     heading: Courses
     body: |-
-      * OSHA 10-Hour
-      * OSHA 30-Hour
+      * OSHA 10-Hour (Online)
+      * OSHA 30-Hour (Online)
     image:
       image_url: /uploads/person-taking-notes-at-computer.jpg
       image_alt: Person taking notes at a computer
