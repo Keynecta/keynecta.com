@@ -1,8 +1,5 @@
 ---
 title:
-menu:
-  main:
-    weight:
 seo:
   page_title:
   meta_description: 

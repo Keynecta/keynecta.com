@@ -1,8 +1,6 @@
 ---
 _schema: default
 title: Home
-menu:
-  main: {}
 seo:
   page_title: Digital safety solutions for manufacturing and service industries
   meta_description: >-
