@@ -1,9 +1,6 @@
 ---
 title: Contact
 layout: contact
-menu:
-  main:
-    weight: 6
 seo:
   page_title:
   meta_description: >-

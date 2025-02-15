@@ -1,9 +1,6 @@
 ---
 _schema: default
 title: About
-menu:
-  main:
-    weight: 3
 seo:
   page_title:
   meta_description: >-

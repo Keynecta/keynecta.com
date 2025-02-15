@@ -17,10 +17,7 @@
             <a class="header__nav-list-link sub-menu-toggle" id="menu-item-{{ .Name | lower | urlize }}" href="{{ .URL }}" aria-label="{{ .Name }}" aria-haspopup="true" aria-controls="submenu-{{ .Name | lower | urlize }}" aria-expanded="false">{{ .Name }}<span class="header__sub-menu-indicator"></span></a>
             <div class="header__sub-menu grid gap-lg bg-white" role="navigation" id="submenu-{{ .Name | lower | urlize }}" aria-labelledby="menu-item-{{ .Name | lower | urlize }}">
               <div class="header__sub-menu-list-wrapper grid-8 flow">
-                <h2 class="h4 no-margin"><a class="font-color-black" href="{{ .URL }}" aria-label="{{ .Name }}" class="no-decoration">{{ .Name }}</a></h2>
-                {{ with .Page }}
-                  <p class="font-size-xs">{{ .Params.nav_description }}</p>
-                {{ end }}
+                <a class="h4 fw-700 font-color-black" href="{{ .URL }}" aria-label="{{ .Name }}" class="no-decoration">{{ .Name }}</a>
                 <ul class="header__sub-menu-list">
                   {{ range .Children }}
                     {{ template "menu-node" .}}
@@ -38,7 +35,7 @@
           </li>
           {{ else }}
           <li class="header__nav-list-item">
-            <a class="header__nav-list-link" href="{{ .URL }}" aria-label="{{ .Name }}">
+            <a class="header__nav-list-link" href="{{ .URL }}" aria-label="{{ .Name }}" {{ with .Params.external }}target="_blank" rel="noopener noreferrer"{{ end }}>
                 {{ .Name }}
             </a>
           </li>
@@ -80,26 +77,35 @@
 </header>
 
 {{ define "menu-node" }}
+  {{ $isExternal := strings.HasPrefix .URL "http" }}
+  {{ $page := cond (not $isExternal) (site.GetPage (strings.Trim .URL "/")) nil }}
+
   <li class="header__sub-menu-item list-style-none flex flex-center">
     {{ if .HasChildren }}
-      <a class="header__sub-menu-link font-size-md fw-700 transform-x-8" href="{{.URL}}">{{ .Name }}</a>
+      <a class="header__sub-menu-link font-size-md fw-700 transform-x-8" href="{{ .URL }}"
+        {{ if $isExternal }}target="_blank" rel="noopener noreferrer"{{ end }}>
+        {{ .Name }}
+      </a>
       <ul class="header__child-menu">
         {{ range .Children }}
-          {{ template "menu-node" .}}
+          {{ template "menu-node" . }}
         {{ end }}
       </ul>
-    {{else}}
+    {{ else }}
       <div>
         <div class="flex flex-center">
-          <a class="header__sub-menu-link" href="{{.URL}}">{{ .Name }}</a>
+          <a class="header__sub-menu-link" href="{{ .URL }}"
+            {{ if $isExternal }}target="_blank" rel="noopener noreferrer"{{ end }}>
+            {{ .Name }}
+          </a>
           <div class="icon-sm icon-fill-primary">
             {{ partial "svg-icons/chevron-right.svg" . }}
           </div>
         </div>
-        {{ with .Page }}
-          <p class="font-size-xs">{{ .Params.seo.meta_description }}</p>
+        {{ with $page.Params.seo.meta_description }}
+          <p class="font-size-xs">{{ . }}</p>
         {{ end }}
       </div>
-    {{end}}
+    {{ end }}
   </li>
 {{ end }}

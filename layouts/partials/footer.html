@@ -10,11 +10,14 @@
         <ul class="footer__nav flex flex-wrap flex-justify-center max-width-none">
           {{ range .Site.Menus.main }}
               <li class="footer__nav-item">
-                  <a class="footer__nav-link font-size-xs" href="{{ .URL }}">{{ .Title }}</a>
+                  <a class="footer__nav-link font-size-xs" href="{{ .URL }}" {{ with .Params.external }}target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}</a>
               </li>
           {{ end }}
         </ul>
       </nav>
+      <div class="flex flex-justify-center">
+        {{ partialCached "social-media" . }}
+      </div>
     </div>
   </div>
   <div class="content-lg">

@@ -1,9 +1,6 @@
 ---
 _schema: default
 title: Compliance Training
-menu:
-  main:
-    parent: Services
 seo:
   page_title:
   meta_description: >-

@@ -1,9 +1,6 @@
 ---
 _schema: default
 title: Online OSHA Training
-menu:
-  main:
-    parent: Services
 seo:
   page_title: Online OSHA Training
   meta_description: >-

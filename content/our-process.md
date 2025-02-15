@@ -1,8 +1,5 @@
 ---
 title: Our Process
-menu:
-  main:
-    weight: 2
 seo:
   page_title:
   meta_description: >-

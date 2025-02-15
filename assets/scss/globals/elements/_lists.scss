@@ -7,7 +7,7 @@ ol li + li {
   list-style-type: none;
 }
 
-.site-main ul li:not(.blog-card, .share-buttons__list-items) {
+.site-main ul li:not(.blog-card, .share-buttons__list-items, .social__list-item) {
   position: relative;
   list-style-type: none;
   break-inside: avoid;

@@ -1,8 +1,5 @@
 ---
 title: Resources
-menu:
-  main:
-    weight: 5
 seo:
   page_title: 
   meta_description: Equipping your team with the knowledge and tools to foster a culture of safety.

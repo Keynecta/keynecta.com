@@ -1,8 +1,5 @@
 ---
 title: Industries
-menu:
-  main:
-    weight: 4
 seo:
   page_title:
   meta_description: >-

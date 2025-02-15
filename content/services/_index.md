@@ -1,8 +1,5 @@
 ---
 title: Services
-menu:
-  main:
-    weight: 1
 seo:
   page_title:
   meta_description: >-
