@@ -53,13 +53,18 @@
     {{ end }}
   
     {{ $pageSection := .Section }}
-    {{ partialCached "schema-data/local-business" . }}
-    {{ if eq .RelPermalink "/about/" }}
+    {{ if eq .Title "Home" }}
+      {{ partialCached "schema-data/local-business" . }}
+    {{ else if eq .RelPermalink "/about/" }}
       {{ partialCached "schema-data/about-page" . }}
     {{ else if eq $pageSection "careers" }}
-      {{ partial "schema-data/job-posting" . }}
-    {{ else if eq $pageSection "blog" }}
-      {{ partial "schema-data/article" . }}
+      {{ if not (eq .RelPermalink "/careers/") }}
+        {{ partial "schema-data/job-posting" . }}
+      {{ end }}
+    {{ else if eq $pageSection "resources" }}
+      {{ if not (eq .RelPermalink "/resources/") }}
+        {{ partial "schema-data/article" . }}
+      {{ end }}
     {{ else if eq .RelPermalink "/contact/" }}
       {{ partialCached "schema-data/contact-page" . }}
     {{ end }}
