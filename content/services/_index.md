@@ -10,7 +10,7 @@ seo:
   featured_image: /uploads/person-reviewing-machinery-in-manufacturing-plant.jpg
 content_blocks:
   - _bookshop_name: hero
-    heading: Services
+    heading: Training
     body: >-
       Unlock safety excellence with Keynecta's digital solutions. Drive profits,
       optimize quality and enhance production efficiency. Discover the Keynecta
