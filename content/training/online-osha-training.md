@@ -1,15 +1,15 @@
 ---
 _schema: default
-title: Online OSHA Training
+title: OSHA 10 & 30-Hour Training
 seo:
-  page_title: Online OSHA Training
+  page_title: OSHA 10 & 30-Hour Training
   meta_description: >-
     Meet safety standards and receive online training from an experienced OSHA
     trainer. Cater training to your specific organization's unique needs.
   featured_image: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
 content_blocks:
   - _bookshop_name: hero
-    heading: Online OSHA Training
+    heading: We Provide Virtual OSHA Training
     body: >-
       Take advantage of this limited opportunity to receive online OSHA training
       from an experienced trainer. Training options include OSHA 10-Hour and
