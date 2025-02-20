@@ -1,8 +1,8 @@
 ---
 _schema: default
-title: OSHA 10 & 30-Hour Training
+title: OSHA 10 & 30-Hour
 seo:
-  page_title: OSHA 10 & 30-Hour Training
+  page_title: OSHA 10 & 30-Hour
   meta_description: >-
     Meet safety standards and receive online training from an experienced OSHA
     trainer. Cater training to your specific organization's unique needs.
