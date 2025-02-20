@@ -51,8 +51,8 @@ content_blocks:
     preheading:
     heading: Courses
     body: |-
-      * OSHA 10-Hour (Online)
-      * OSHA 30-Hour (Online)
+      * OSHA 10-Hour (virtual)
+      * OSHA 30-Hour (virtual)
     image:
       image_url: /uploads/people-using-digital-device-while-meeting.jpg
       image_alt: People on a video call
