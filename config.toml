@@ -38,39 +38,27 @@ path = 'github.com/cloudcannon/bookshop/hugo/v3'
   weight = 100
 
 [[menu.main]]
-  name = "Services"
-  url = "/services/"
+  name = "Training"
+  url = "/training/"
   weight = 1
 
 [[menu.main]]
-  name = "Behavior Change"
-  url = "/services/behavior-change/"
+  name = "Job Specific Training"
+  url = "/training/job-specific-training/"
   weight = 1
-  parent = "Services"
-
-[[menu.main]]
-  name = "Compliance Training"
-  url = "/services/compliance-training/"
-  weight = 2
-  parent = "Services"
-
-[[menu.main]]
-  name = "Data Collection"
-  url = "/services/data-collection/"
-  weight = 3
-  parent = "Services"
+  parent = "Training"
 
 [[menu.main]]
   name = "Leadership Training"
-  url = "/services/leadership-training/"
-  weight = 4
-  parent = "Services"
+  url = "/training/leadership-training/"
+  weight = 2
+  parent = "Training"
 
 [[menu.main]]
   name = "Online OSHA Training"
-  url = "/services/online-osha-training/"
-  weight = 5
-  parent = "Services"
+  url = "/training/online-osha-training/"
+  weight = 3
+  parent = "Training"
 
 [[menu.main]]
   name = "Our Process"
