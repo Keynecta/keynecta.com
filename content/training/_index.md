@@ -12,9 +12,9 @@ content_blocks:
   - _bookshop_name: hero
     heading: Training
     body: >-
-      Unlock safety excellence with Keynecta's digital solutions. Drive profits,
-      optimize quality and enhance production efficiency. Discover the Keynecta
-      advantage.
+      Unlock safety excellence with Keynecta's digital training solutions. Drive
+      profits, optimize quality and enhance production efficiency. Discover the
+      Keynecta advantage.
     image_1:
       image_url: /uploads/person-reviewing-machinery-in-manufacturing-plant.jpg
       image_alt: >-
