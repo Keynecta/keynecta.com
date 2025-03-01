@@ -79,7 +79,7 @@ content_blocks:
       button_text: View Our Process
       open_in_new_tab: false
     image:
-      image_url: /uploads/keynecta-dashboard-on-computer.jpg
+      image_url: /uploads/keynecta-dashboard-on-computer-2.jpg
       image_alt: Keynecta's Smartsheet dashboard on a computer screen
   - _bookshop_name: cta
     heading: Transform Your Organization

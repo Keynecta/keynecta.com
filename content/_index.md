@@ -14,7 +14,7 @@ content_blocks:
       Transform your organization with Keynecta's innovative Safety Culture
       solutions. Value people and optimize quality, productivity and profits.
     image_1:
-      image_url: /uploads/employee-mentoring-with-keynecta-safety-scoring-data-2.jpg
+      image_url: /uploads/employee-mentoring-with-keynecta-safety-scoring-data-3.jpg
       image_alt: Employee talking with safety coordinator in manufacturing plant
     button:
       enabled: false
@@ -100,7 +100,7 @@ content_blocks:
       button_text: View Our Process
       open_in_new_tab: false
     image:
-      image_url: /uploads/keynecta-dashboard-on-computer.jpg
+      image_url: /uploads/keynecta-dashboard-on-computer-2.jpg
       image_alt: Keynecta's Smartsheet dashboard on a computer screen
     background_color: ''
   - _bookshop_name: testimonial
