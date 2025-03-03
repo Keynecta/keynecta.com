@@ -51,7 +51,7 @@ content_blocks:
           in Iowa, spearheading a startup with a $38 million revenue and later,
           influencing education. Retirement proved elusive for Mike. After
           multiple attempts, he co-founded a safety and environmental consulting
-          company, delivering expertise to key industries. Now, at 79, Mike's
+          company, delivering expertise to key industries. Now, at 80, Mike's
           relentless spirit finds a new arena in Keynecta. Joined by daughter
           Jennifer and brother Tom, they aim to revolutionize the safety culture
           for small to medium-sized businesses. Mike's work is a testament to
