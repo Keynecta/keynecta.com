@@ -58,6 +58,9 @@ content_blocks:
       - heading: Jennifer L. Parins
         job_title: Vice President IT
         image: /uploads/jen-parins-new-2.jpg
+      - heading: Peter A .Nickel
+        job_title: Client Relationship Manager
+        image: /uploads/keynecta-peter.jpeg
     button:
       enabled: true
       button_url: /about/
