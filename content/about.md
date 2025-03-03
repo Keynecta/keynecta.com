@@ -78,14 +78,14 @@ content_blocks:
         body: >-
           Peter’s service-oriented mindset and experience has guided him
           throughout his career. Graduating with a marketing degree from the
-          University of Wisconsin-Whitewater, he began his career in the sports
-          and event industry. Peter has been a jack of all trades, assisting in
-          the planning and production of events, including endurance events,
-          sporting events, concerts, and festivals. He understands the
-          importance of safety and communication, having created and executed
-          event and facility specific emergency action plans and working
-          directly with municipalities. Peter is looking forward to helping
-          others improve their safety culture and overall performance.
+          University of Wisconsin-Whitewater, he developed his professional
+          skills in the fast-paced event industry. Peter has been a jack of all
+          trades, assisting in the planning and production of events, including
+          endurance sports, spectator sports, concerts, and festivals. He
+          understands the importance of safety and communication, having
+          developed and executed event and facility specific emergency plans.
+          Peter’s focus at Keynecta is connecting with each client to ensure
+          they reach their desired safety goals.
         image:
           image_url: /uploads/peter-headshot.jpg
         background_color: white
