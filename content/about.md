@@ -73,6 +73,12 @@ content_blocks:
         image:
           image_url: /uploads/jen-parins-new.jpg
         background_color: white
+      - heading: Peter A. Nickel
+        job_title: Client Relationship Manager
+        body: ''
+        image:
+          image_url: /uploads/keynecta-peter.jpeg
+        background_color: white
   - _bookshop_name: keynecta-difference
     preheading:
     heading: Meet the Keynecta Difference
