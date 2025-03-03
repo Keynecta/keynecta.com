@@ -77,7 +77,7 @@ content_blocks:
         job_title: Client Relationship Manager
         body: ''
         image:
-          image_url: /uploads/keynecta-peter.jpeg
+          image_url: /uploads/peter-headshot.jpg
         background_color: white
   - _bookshop_name: keynecta-difference
     preheading:
