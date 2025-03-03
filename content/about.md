@@ -44,11 +44,11 @@ content_blocks:
       - heading: Michael A. Parins
         job_title: President
         body: >-
-          Embarking on a life journey shaped by challenges, Michael A. Parins
-          defied odds, drawing from his street-smart education to carve a unique
-          path. Early on, Mike entered sales with vigor, always emphasizing the
-          value of people. His journey includes leading sales for Jaws of Life
-          in Iowa, spearheading a startup with a $38 million revenue and later,
+          Embarking on a life journey shaped by challenges, Michael defied odds,
+          drawing from his street-smart education to carve a unique path. Early
+          on, Mike entered sales with vigor, always emphasizing the value of
+          people. His journey includes leading sales for Jaws of Life in Iowa,
+          spearheading a startup with a $38 million revenue and later,
           influencing education. Retirement proved elusive for Mike. After
           multiple attempts, he co-founded a safety and environmental consulting
           company, delivering expertise to key industries. Now, at 80, Mike's
@@ -62,12 +62,12 @@ content_blocks:
       - heading: Jennifer L. Parins
         job_title: Vice President IT
         body: >-
-          Jennifer L. Parins is a seasoned professional with degrees in
-          education and mathematics from Marquette University. Through decades
-          of experience in the educational system, she has dedicated herself to
-          making math accessible to a variety of students. Driven by a passion
-          for creating practical, sustainable solutions for complex problems,
-          Jennifer applies her skills to the development and implementation of
+          Jennifer is a seasoned professional with degrees in education and
+          mathematics from Marquette University. Through decades of experience
+          in the educational system, she has dedicated herself to making math
+          accessible to a variety of students. Driven by a passion for creating
+          practical, sustainable solutions for complex problems, Jennifer
+          applies her skills to the development and implementation of
           technologies. As the Vice President IT at Keynecta, she focuses on
           delivering user-friendly products that enhance safety outcomes.
         image:
