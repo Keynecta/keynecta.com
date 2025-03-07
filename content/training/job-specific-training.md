@@ -12,9 +12,8 @@ content_blocks:
   - _bookshop_name: hero
     heading: Job Specific Training
     body: >-
-      Elevate your compliance training with Keynecta—where safety and quality
-      converge for organizational excellence. Drive profits. Value people.
-      Optimize compliance.
+      Elevate your operations and efficiency with job specific training. Drove
+      profits. Value people. Optimize compliance.
     image_1:
       image_url: /uploads/group-of-workers-during-safety-meeting.jpg
       image_alt: Group of workers during a safety meeting

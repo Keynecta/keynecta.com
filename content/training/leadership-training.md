@@ -4,64 +4,88 @@ title: Leadership Training
 seo:
   page_title:
   meta_description: >-
-    Elevate workplace safety with Keynecta's Supervisor Leadership Training. Transform your company with a focus on mentoring, coaching and inspiring work teams.
+    Elevate workplace safety with Keynecta's Supervisor Leadership Training.
+    Transform your company with a focus on mentoring, coaching, and inspiring
+    work teams.
   featured_image: /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant-1.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: Leadership Training
     body: >-
-      Elevate workplace safety with Keynecta's Supervisor Leadership Training. Transform your company with a focus on mentoring, coaching and inspiring work teams.
-    button:
-      enabled: false
-      button_url: 
-      button_text: 
-      open_in_new_tab: false
+      Elevate workplace safety with Keynecta's Supervisor Leadership Training.
+      Transform your company with a focus on mentoring, coaching, and inspiring
+      work teams.
     image_1:
-      image_url: /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant-1.jpg
+      image_url: >-
+        /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant-1.jpg
       image_alt: Two people shaking hands and smiling in a manufacturing environment
     image_2:
       image_url:
       image_alt:
+    button:
+      enabled: false
+      button_url:
+      button_text:
+      open_in_new_tab: false
   - _bookshop_name: intro
+    preheading: ''
     heading: Transforming Workplace Safety through Effective Leadership
     body: >-
-      Workplace safety and organizational excellence thrive on the relationship between frontline employees, supervisors and the cohesive bond among the entire team. Unfortunately, many supervisors begin their journey in the wrong direction—focusing on what is unsafe rather than actively seeking safety. It's time for a paradigm shift, a focus on what to do right!
+      Workplace safety and organizational excellence thrive on the relationship
+      between frontline employees, supervisors and the cohesive bond among the
+      entire team. Unfortunately, many supervisors begin their journey in the
+      wrong direction—focusing on what is unsafe rather than actively seeking
+      safety. It's time for a paradigm shift, a focus on what to do right!
 
 
-      Enter **Keynecta’s digital solutions,** which offer a groundbreaking approach to Supervisor Leadership Training. Keynecta introduces a new safety model, teaching supervisors how to shift the discussion from rule-based enforcement to cultivating a performance-based culture. This culture is centered on mentoring, coaching and inspiring work teams, taking workplace safety to a level where it genuinely works. Throughout this transformative journey, supervisors evolve into safety leaders, paving the way for their teams to follow suit.
+      Enter **Keynecta’s digital solutions,** which offer a groundbreaking
+      approach to Supervisor Leadership Training. Keynecta introduces a new
+      safety model, teaching supervisors how to shift the discussion from
+      rule-based enforcement to cultivating a performance-based culture. This
+      culture is centered on mentoring, coaching and inspiring work teams,
+      taking workplace safety to a level where it genuinely works. Throughout
+      this transformative journey, supervisors evolve into safety leaders,
+      paving the way for their teams to follow suit.
+
+
+      Identifies competencies through Job Safety Analysis development. Includes
+      evaluation and scoring form
     button:
       enabled: true
       button_url: /contact/
       button_text: Discover the Keynecta Advantage
       open_in_new_tab: false
   - _bookshop_name: media-text
-    preheading: 
+    preheading:
     heading: Leadership Training Highlights
     body: >-
       * 12 short, interactive lessons that redefine safety perspectives.
-      
+
       * Emphasis on changing the discourse around safety.
-      
+
       * Focus on mentoring, coaching and inspiring work teams.
-      
+
       * Assignments after each lesson for practical application.
-      
-      * Integration into a personalized Leadership Manual upon training completion.
-    button:
-      enabled: false
-      button_url: 
-      button_text: 
-      open_in_new_tab: false
+
+      * Integration into a personalized Leadership Manual upon training
+      completion.
     image:
       image_url: /uploads/two-people-reviewing-paperwork-on-clipboard.jpg
       image_alt: Two people reviewing paperwork on a clipboard
+    button:
+      enabled: false
+      button_url:
+      button_text:
+      open_in_new_tab: false
     background_color: white
     text_column_position: left
     css_classes:
   - _bookshop_name: cta
     heading: Transform Your Organization
     body: >-
-      Ready to drive profits and value people through a transformative Safety Culture? Join Keynecta and redefine your organization's safety journey today.
+      Ready to drive profits and value people through a transformative Safety
+      Culture? Join Keynecta and redefine your organization's safety journey
+      today.
     button:
       enabled: true
       button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150

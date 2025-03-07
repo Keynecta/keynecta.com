@@ -51,8 +51,10 @@ content_blocks:
     preheading:
     heading: Courses
     body: |-
-      * OSHA 10-Hour (virtual)
-      * OSHA 30-Hour (virtual)
+      * OSHA 10 Hour - OSHA Authorized Virtual Training Provider
+        * Provides basic awareness training on the recognition, avoidance, abatement, and prevention of workplace hazards. Can be customized to your organization's safety program.
+      * OSHA 30 Hour - OSHA Authorized Virtual Training Provider
+        * Provides greater depth and variety of training on an expanded list of topics associated with workplace hazards. Can be customized to your organization's safety program.
     image:
       image_url: /uploads/people-using-digital-device-while-meeting.jpg
       image_alt: People on a video call
