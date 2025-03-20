@@ -42,30 +42,6 @@ content_blocks:
     background_color: gray
     text_column_position: left
     css_classes:
-  - _bookshop_name: team-intro
-    preheading: Who We Are
-    heading: Our Team
-    body: >-
-      At the core of Keynecta is an experienced team dedicated to reshaping how
-      organizations approach safety. We’re committed to creating digital
-      solutions that help companies drive profits and value people—creating a
-      workplace where safety isn't just a priority but a fundamental part of
-      organizational success.
-    team:
-      - heading: Michael A. Parins
-        job_title: President
-        image: /uploads/mike-parins-new.jpg
-      - heading: Jennifer L. Parins
-        job_title: Vice President IT
-        image: /uploads/jen-parins-new-2.jpg
-      - heading: Peter A. Nickel
-        job_title: Client Relationship Manager
-        image: /uploads/keynecta-peter.jpeg
-    button:
-      enabled: true
-      button_url: /about/
-      button_text: Learn More About Us
-      open_in_new_tab: false
   - _bookshop_name: solutions
     preheading: The Keynecta Process
     heading: Our Digital Solutions
@@ -106,6 +82,30 @@ content_blocks:
       image_url: /uploads/keynecta-dashboard-on-computer-2.jpg
       image_alt: Keynecta's Smartsheet dashboard on a computer screen
     background_color: ''
+  - _bookshop_name: team-intro
+    preheading: Who We Are
+    heading: Our Team
+    body: >-
+      At the core of Keynecta is an experienced team dedicated to reshaping how
+      organizations approach safety. We’re committed to creating digital
+      solutions that help companies drive profits and value people—creating a
+      workplace where safety isn't just a priority but a fundamental part of
+      organizational success.
+    team:
+      - heading: Michael A. Parins
+        job_title: President
+        image: /uploads/mike-parins-new.jpg
+      - heading: Jennifer L. Parins
+        job_title: Vice President IT
+        image: /uploads/jen-parins-new-2.jpg
+      - heading: Peter A. Nickel
+        job_title: Client Relationship Manager
+        image: /uploads/keynecta-peter.jpeg
+    button:
+      enabled: true
+      button_url: /about/
+      button_text: Learn More About Us
+      open_in_new_tab: false
   - _bookshop_name: testimonial
     body: >-
       "Keynecta focuses on your most important asset, the people. By putting
