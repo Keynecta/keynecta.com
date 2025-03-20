@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Leadership Training
+title: Supervisor Leadership Training
 seo:
   page_title:
   meta_description: >-
@@ -10,11 +10,11 @@ seo:
   featured_image: /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant-1.jpg
 content_blocks:
   - _bookshop_name: hero
-    heading: Leadership Training
+    heading: Supervisor Leadership Training
     body: >-
-      Elevate workplace safety with Keynecta's Supervisor Leadership Training.
-      Transform your company with a focus on mentoring, coaching, and inspiring
-      work teams.
+      Elevate workplace culture and operations with Keynecta's Supervisor
+      Leadership Training. Transform your company with a focus on mentoring,
+      coaching, and inspiring work teams.
     image_1:
       image_url: >-
         /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant-1.jpg
@@ -32,7 +32,7 @@ content_blocks:
     heading: Transforming Workplace Safety through Effective Leadership
     body: >-
       Workplace safety and organizational excellence thrive on the relationship
-      between frontline employees, supervisors and the cohesive bond among the
+      between frontline employees, supervisors, and the cohesive bond among the
       entire team. Unfortunately, many supervisors begin their journey in the
       wrong direction—focusing on what is unsafe rather than actively seeking
       safety. It's time for a paradigm shift, a focus on what to do right!
@@ -46,10 +46,6 @@ content_blocks:
       taking workplace safety to a level where it genuinely works. Throughout
       this transformative journey, supervisors evolve into safety leaders,
       paving the way for their teams to follow suit.
-
-
-      Identifies competencies through Job Safety Analysis development. Includes
-      evaluation and scoring form
     button:
       enabled: true
       button_url: /contact/
