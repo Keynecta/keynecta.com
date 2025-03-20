@@ -53,39 +53,19 @@ content_blocks:
       open_in_new_tab: false
   - _bookshop_name: media-text
     preheading:
-    heading: Leadership Training Highlights
-    body: >-
-      * 12 short, interactive lessons that redefine safety perspectives.
-
-      * Emphasis on changing the discourse around safety.
-
-      * Focus on mentoring, coaching and inspiring work teams.
-
-      * Assignments after each lesson for practical application.
-
-      * Integration into a personalized Leadership Manual upon training
-      completion.
+    heading: Leadership Training
+    body: |-
+      * Virtual or on-site training options.
+      * Contact us for additional information.
     image:
       image_url: /uploads/two-people-reviewing-paperwork-on-clipboard.jpg
       image_alt: Two people reviewing paperwork on a clipboard
     button:
-      enabled: false
-      button_url:
-      button_text:
+      enabled: true
+      button_url: /contact/
+      button_text: Contact Us
       open_in_new_tab: false
     background_color: white
     text_column_position: left
     css_classes:
-  - _bookshop_name: cta
-    heading: Transform Your Organization
-    body: >-
-      Ready to drive profits and value people through a transformative Safety
-      Culture? Join Keynecta and redefine your organization's safety journey
-      today.
-    button:
-      enabled: true
-      button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
-      button_text: Start Your Safety Culture Self Evaluation
-      open_in_new_tab: true
-    background_color: gray
 ---
