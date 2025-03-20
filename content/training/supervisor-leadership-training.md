@@ -4,7 +4,7 @@ title: Supervisor Leadership Training
 seo:
   page_title:
   meta_description: >-
-    Elevate workplace safety with Keynecta's Supervisor Leadership Training.
+    Elevate workplace culture with Keynecta's Supervisor Leadership Training.
     Transform your company with a focus on mentoring, coaching, and inspiring
     work teams.
   featured_image: /uploads/two-people-shaking-hands-and-smiling-in-manufacturing-plant-1.jpg
