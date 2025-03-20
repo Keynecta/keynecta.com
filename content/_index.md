@@ -112,7 +112,7 @@ content_blocks:
       employees first, they help you train, involve, lead and improve your
       safety culture. This ultimately improves operational outcomes."
     name: Paul Sitter
-    title: VP of Manufacturing<br>Kirsh Foundry, Beaver Dam
+    title: VP of Manufacturing - Kirsh Foundry, Beaver Dam
   - _bookshop_name: cta
     heading: Transform Your Organization
     body: >-

@@ -4,9 +4,9 @@ title: Training
 seo:
   page_title:
   meta_description: >-
-    Unlock safety excellence with Keynecta's digital solutions. Drive profits,
-    optimize quality and enhance production efficiency. Discover the Keynecta
-    advantage.
+    Unlock safety excellence with Keynecta's digital and in-person trainings.
+    Offering trainings catered to your organization's leaders, supervisors, and
+    operational employees. Discover the Keynecta advantage.
   featured_image: /uploads/person-reviewing-machinery-in-manufacturing-plant.jpg
 content_blocks:
   - _bookshop_name: hero
@@ -105,51 +105,6 @@ content_blocks:
       button_text: Discover the Keynecta Advantage
       open_in_new_tab: false
     background_color: ''
-  - _bookshop_name: keynecta-difference
-    preheading:
-    heading: The Keynecta Difference
-    body: >-
-      From shaping a safety culture that aligns with your goals to integrating
-      online training that empowers your team, we redefine safety as a strategic
-      driver for organizational success.
-
-
-      * **Safety Training:** Proactively shape a culture of safety that aligns
-      with your goals.
-
-      * **Safety Program Software:** Revolutionize safety programs to enhance
-      efficiency, quality and production, driving overall profitability.
-
-      * **Safety Culture:** Embed safety as a core value that harmonizes with
-      your organization's commitment to success.
-
-      * **Safety Drivers:** Drive profits and value people through a strategic
-      Safety Culture that optimizes organizational processes.
-
-      * **Safety Score:** Measure and elevate safety performance, understanding
-      its direct correlation to growth.
-
-      * **Safety KPI:** Metrics that matter—key performance indicators that
-      gauge and improve safety initiatives, contributing to overall excellence.
-
-      * **Online Safety Training:** Seamlessly integrate online training,
-      empowering your team with knowledge and skills that transcend safety.
-
-      * **OSHA Training:** Ensure compliance meets excellence with our
-      OSHA-based training programs, contributing to a safer, more profitable
-      workplace.
-
-      * **Supervisor Training:** Elevate supervisors with tailored training that
-      empowers them to lead and instill a safety culture.
-    button:
-      enabled: true
-      button_url: /contact/
-      button_text: Discover the Keynecta Advantage
-      open_in_new_tab: false
-    image:
-      image_url: /uploads/two-people-reviewing-clipboard-in-manufacturing-environment.jpg
-      image_alt:
-    background_color: white
   - _bookshop_name: testimonial
     body: >-
       "Keynecta focuses on your most important asset, the people. By putting

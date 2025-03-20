@@ -2,7 +2,7 @@
 _schema: default
 title: Supervisor Leadership Training
 seo:
-  page_title:
+  page_title: Supervisor Leadership Training
   meta_description: >-
     Elevate workplace culture with Keynecta's Supervisor Leadership Training.
     Transform your company with a focus on mentoring, coaching, and inspiring
