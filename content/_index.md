@@ -22,6 +22,23 @@ content_blocks:
       button_text:
       open_in_new_tab: false
   - _bookshop_name: media-text
+    preheading: ''
+    heading: ''
+    body: >-
+      {{< youtube id="" autoplay="true" title="Keynecta's Safety Culture Scoring
+      Dashboard" class="https://youtu.be/q36HqjTdP4k?si=kVhi4RRwKqvZBUti" >}}
+    image:
+      image_url:
+      image_alt:
+    button:
+      enabled: false
+      button_url:
+      button_text:
+      open_in_new_tab: false
+    background_color: gray
+    text_column_position: left
+    css_classes:
+  - _bookshop_name: media-text
     preheading:
     heading: >-
       Digital Safety Culture solutions for manufacturing and service industry
@@ -39,7 +56,7 @@ content_blocks:
       button_url: /our-process/
       button_text: Discover the Keynecta Advantage
       open_in_new_tab: false
-    background_color: gray
+    background_color: white
     text_column_position: left
     css_classes:
   - _bookshop_name: solutions

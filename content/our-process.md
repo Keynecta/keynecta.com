@@ -82,7 +82,7 @@ content_blocks:
           goal but a crucial component of the journey toward success.
         image: /uploads/improve.svg
     button:
-      enabled: true
+      enabled: false
       button_url: /contact/
       button_text: Contact Us
       open_in_new_tab: false
