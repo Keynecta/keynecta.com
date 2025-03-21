@@ -74,7 +74,7 @@ content_blocks:
           Embracing a culture of ongoing enhancement, where safety is not just a
           goal but a journey.
     button:
-      enabled: true
+      enabled: false
       button_url: /our-process/
       button_text: View Our Process
       open_in_new_tab: false
