@@ -26,6 +26,25 @@ content_blocks:
       button_url:
       button_text:
       open_in_new_tab: false
+  - _bookshop_name: media-text
+    preheading:
+    heading: Courses
+    body: |-
+      * OSHA 10 Hour - OSHA Authorized Virtual Training Provider
+        * Provides basic awareness training on the recognition, avoidance, abatement, and prevention of workplace hazards. Can be customized to your organization's safety program.
+      * OSHA 30 Hour - OSHA Authorized Virtual Training Provider
+        * Provides greater depth and variety of training on an expanded list of topics associated with workplace hazards. Can be customized to your organization's safety program.
+    image:
+      image_url: /uploads/people-using-digital-device-while-meeting.jpg
+      image_alt: People on a video call
+    button:
+      enabled: true
+      button_url: /contact/
+      button_text: Contact an OSHA Trainer
+      open_in_new_tab: false
+    background_color: gray
+    text_column_position: left
+    css_classes:
   - _bookshop_name: intro
     preheading:
     heading: Meet and Exceed OSHA Safety Standards
@@ -47,25 +66,6 @@ content_blocks:
       button_url: /contact/
       button_text: Contact an OSHA Trainer Today
       open_in_new_tab: false
-  - _bookshop_name: media-text
-    preheading:
-    heading: Courses
-    body: |-
-      * OSHA 10 Hour - OSHA Authorized Virtual Training Provider
-        * Provides basic awareness training on the recognition, avoidance, abatement, and prevention of workplace hazards. Can be customized to your organization's safety program.
-      * OSHA 30 Hour - OSHA Authorized Virtual Training Provider
-        * Provides greater depth and variety of training on an expanded list of topics associated with workplace hazards. Can be customized to your organization's safety program.
-    image:
-      image_url: /uploads/people-using-digital-device-while-meeting.jpg
-      image_alt: People on a video call
-    button:
-      enabled: true
-      button_url: /contact/
-      button_text: Contact an OSHA Trainer
-      open_in_new_tab: false
-    background_color: white
-    text_column_position: left
-    css_classes:
   - _bookshop_name: cta
     heading: Transform Your Organization
     body: >-
@@ -77,5 +77,5 @@ content_blocks:
       button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
       button_text: Start Your Safety Culture Self Evalutation
       open_in_new_tab: true
-    background_color: gray
+    background_color: white
 ---
