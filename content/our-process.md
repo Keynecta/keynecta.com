@@ -101,7 +101,7 @@ content_blocks:
       button_url: ''
       button_text: ''
       open_in_new_tab: false
-    background_color: ''
+    background_color: white
   - _bookshop_name: cta
     heading: Transform Your Organization
     body: >-
