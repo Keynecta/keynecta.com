@@ -40,21 +40,6 @@ content_blocks:
     button:
       enabled: false
       open_in_new_tab: false
-  - _bookshop_name: two-columns
-    columns:
-      - heading: Complete Online System
-        body: >-
-          Embark on a comprehensive safety and business enhancement journey with
-          our complete online system. Tailored to foster a Safety Culture, this
-          system is designed to help your organization value people and drive
-          profits.
-      - heading: Unique Scoring Tool
-        body: >-
-          Elevate your safety initiatives to new heights with our innovative
-          scoring tool. More than a safety metric, this tool is a strategic
-          instrument that aligns with your organizational goals, ensuring safety
-          enhancements translate into improved quality, streamlined production
-          and a better bottom line.
   - _bookshop_name: testimonial
     body: >-
       "Keynecta focuses on your most important asset, the people. By putting
