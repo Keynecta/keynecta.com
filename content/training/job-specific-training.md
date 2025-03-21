@@ -12,8 +12,8 @@ content_blocks:
   - _bookshop_name: hero
     heading: Job Specific Training
     body: >-
-      Elevate your operations and efficiency with job specific training. Drove
-      profits. Value people. Optimize compliance.
+      Elevate your operations and efficiency with job specific training. Set
+      employees up for success by properly training them how to do their job.
     image_1:
       image_url: /uploads/group-of-workers-during-safety-meeting.jpg
       image_alt: Group of workers during a safety meeting
@@ -27,34 +27,38 @@ content_blocks:
       open_in_new_tab: false
   - _bookshop_name: intro
     preheading:
-    heading: Driving Employee Health & Safety Compliance
+    heading: Teach the Correct Competencies
     body: >-
-      Keynecta delivers the digital tools, online system and support that will
-      power your Employee Health & Safety Compliance Program and help your
-      organization create a culture of safety.
+      Job Safety Analysis (JSA's) drive which training competencies are taught.
+      Keynecta will work with you to review existing JSA's and establish new
+      ones in order to accurately plan your training program.
 
 
       ### Integrating Compliance and Quality
+
 
       Compliance forms the bedrock of your Environment, Safety and Health (ES&H)
       program. A holistic approach includes OSHA, DOT Hazmat and specific
       environmental regulations and procedures. At Keynecta, we use a complete
       online system to integrate compliance requirements with quality practices,
       a proven method for identifying deficiencies and taking corrective
-      actions. 
+      actions.
     button:
       enabled: false
       open_in_new_tab: false
   - _bookshop_name: two-columns
     columns:
-      - heading: Aligning Compliance with Leading Indicators
+      - heading: Training Evaluation
         body: >-
-          Keynecta’s digital solutions align compliance activities with leading
-          indicators to drive culture and behavior change.
-      - heading: Simplifying ES&H Management
+          Employee connection and fostering a safety culture is at the heart of
+          what we do. Trainers should take the time to have a discussion with
+          employees to ensure they understand the training competencies. And
+          establish a path for them to do so if they do not initially.
+      - heading: Easily Track Training
         body: >-
-          Integrating systems makes managing an ES&H program simpler and
-          clearer, providing a solid approach for all employees to follow.
+          The Keynecta online safety dashboard provides training evaluation and
+          scoring forms. Supervisors can easily reference training reports and
+          receive view when specific trainings expire and require retraining.
   - _bookshop_name: media-text
     preheading:
     heading: Revolutionizing Data Management
