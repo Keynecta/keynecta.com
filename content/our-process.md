@@ -82,9 +82,9 @@ content_blocks:
           goal but a crucial component of the journey toward success.
         image: /uploads/improve.svg
     button:
-      enabled: false
-      button_url: ''
-      button_text: ''
+      enabled: true
+      button_url: /contact/
+      button_text: Contact Us
       open_in_new_tab: false
     background_color: white
   - _bookshop_name: two-columns
