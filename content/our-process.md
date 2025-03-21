@@ -37,21 +37,6 @@ content_blocks:
       button_url:
       button_text:
       open_in_new_tab: false
-  - _bookshop_name: two-columns
-    columns:
-      - heading: Complete Online System
-        body: >-
-          Embark on a comprehensive safety and business enhancement journey with
-          our complete online system. Tailored to foster a Safety Culture, this
-          system is designed to help your organization value people and drive
-          profits.
-      - heading: Unique Scoring Tool
-        body: >-
-          Elevate your safety initiatives to new heights with our innovative
-          scoring tool. More than a safety metric, this is a strategic
-          instrument that alights with your organizational goals, ensuring
-          safety enhancements transalte into improved quality, streamlined
-          production and a better bottom line.
   - _bookshop_name: solutions-full
     preheading: The Keynecta Process
     heading: The Keynecta Process in Action
@@ -102,6 +87,21 @@ content_blocks:
       button_text: ''
       open_in_new_tab: false
     background_color: white
+  - _bookshop_name: two-columns
+    columns:
+      - heading: Complete Online System
+        body: >-
+          Embark on a comprehensive safety and business enhancement journey with
+          our complete online system. Tailored to foster a Safety Culture, this
+          system is designed to help your organization value people and drive
+          profits.
+      - heading: Unique Scoring Tool
+        body: >-
+          Elevate your safety initiatives to new heights with our innovative
+          scoring tool. More than a safety metric, this is a strategic
+          instrument that alights with your organizational goals, ensuring
+          safety enhancements transalte into improved quality, streamlined
+          production and a better bottom line.
   - _bookshop_name: cta
     heading: Transform Your Organization
     body: >-
