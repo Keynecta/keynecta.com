@@ -47,7 +47,7 @@ content_blocks:
     heading: Our Digital Solutions
     body: >-
       From training to continuous improvement, the Keynecta process empowers
-      teams, connects employees and guides leaders. Use our complete online
+      teams, connects employees, and guides leaders. Use our complete online
       system and unique scoring tool to achieve success. Our customer portal
       provides access to tools that will help you:
     solutions:
