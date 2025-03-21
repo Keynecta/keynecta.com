@@ -81,7 +81,7 @@ content_blocks:
     image:
       image_url: /uploads/keynecta-dashboard-on-computer-2.jpg
       image_alt: Keynecta's Smartsheet dashboard on a computer screen
-    background_color: white
+    background_color: gray
   - _bookshop_name: team-intro
     preheading: Who We Are
     heading: Our Team
