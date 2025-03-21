@@ -42,7 +42,7 @@ content_blocks:
       button_url: /contact/
       button_text: Contact an OSHA Trainer
       open_in_new_tab: false
-    background_color: gray
+    background_color: white
     text_column_position: left
     css_classes:
   - _bookshop_name: intro
