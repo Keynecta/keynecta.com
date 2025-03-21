@@ -43,7 +43,7 @@ content_blocks:
       organization's unique needs. Understand how the rules apply to your
       operations and how that may play a role in your organization's plan.
     button:
-      enabled: true
+      enabled: false
       button_url: /contact/
       button_text: Contact an OSHA Trainer Today
       open_in_new_tab: false
@@ -59,9 +59,9 @@ content_blocks:
       image_url: /uploads/people-using-digital-device-while-meeting.jpg
       image_alt: People on a video call
     button:
-      enabled: false
-      button_url:
-      button_text:
+      enabled: true
+      button_url: /contact/
+      button_text: Contact an OSHA Trainer
       open_in_new_tab: false
     background_color: white
     text_column_position: left
