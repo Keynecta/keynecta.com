@@ -77,7 +77,7 @@ content_blocks:
 
       * Employee Observations
 
-      * Job Safety Analysis
+      * Safe Job Procedures
     image:
       image_url: /uploads/two-people-looking-at-laptop-while-in-manufacturing-plant.jpg
       image_alt: Two people looking at a laptop while working in a manufacturing facility
