@@ -1,7 +1,6 @@
 console.log('%c Crafted by Insight Creative, Inc. Designed and Developed by Justin Parsons', 'background: #1d1d1d; color: white; padding: 5px 10px;')
 
 // Mobile menu functionality
-
 const mobileMenu = document.querySelector('.header__mobile-nav');
 const hamburger = document.querySelector('.hamburger');
 
@@ -117,3 +116,92 @@ window.addEventListener("scroll", () => {
     ticking = true;
   }
 });
+
+// Load the YouTube IFrame Player API
+var tag = document.createElement('script');
+tag.src = 'https://www.youtube.com/iframe_api';
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+function createPlayer(video, index) {
+  var videoURL = new URL(video.src);
+  // Extracts video ID from the URL path
+  var videoId = videoURL.pathname.split('/').pop(); 
+  
+  // Append parameters for YouTube player
+  videoURL.searchParams.set('enablejsapi', '1');
+  videoURL.searchParams.set('autoplay', '1');
+  videoURL.searchParams.set('mute', '1');
+  videoURL.searchParams.set('rel', '0');
+  videoURL.searchParams.set('loop', '1');
+  videoURL.searchParams.set('origin', window.location.origin);
+  videoURL.searchParams.set('playlist', videoId);
+  
+  // Set the modified source URL back to the iframe
+  video.src = videoURL.href;
+
+  return new YT.Player(video, {
+    events: {
+      'onReady': function(event) {
+        bindControlButton(event.target, index);
+      }
+    }
+  });
+}
+
+function bindControlButton(player, index) {
+  var button = document.querySelectorAll('.video-controls')[index];
+  if (button) {
+    button.addEventListener('click', function() {
+      var playerState = player.getPlayerState();
+      togglePlayback(player, button, playerState);
+    });
+  }
+}
+
+function togglePlayback(player, button, playerState) {
+  if (playerState === YT.PlayerState.PLAYING) {
+    button.classList.replace('video-playing', 'video-paused');
+    button.setAttribute('aria-label', 'play the video');
+    button.setAttribute('title', 'play the video');
+    player.pauseVideo();
+  } else {
+    button.classList.replace('video-paused', 'video-playing');
+    button.setAttribute('aria-label', 'pause the video');
+    button.setAttribute('title', 'pause the video');
+    player.playVideo();
+  }
+}
+
+// Controls/logic for the custom button overlay on YouTube videos
+const videoPlayButtons = document.querySelectorAll('.media-text-block__overlay-button');
+
+videoPlayButtons.forEach((button) => {
+  button.addEventListener('click', (event) => {
+    button.style.display = "none";
+    const youtubeVideoContainer = button.nextElementSibling;
+    const youtubeVideo = youtubeVideoContainer.querySelector('iframe');
+
+    createYouTubePlayer(youtubeVideo);
+  })
+});
+
+function createYouTubePlayer(video) {
+  var videoURL = new URL(video.src);
+  var videoId = videoURL.pathname.split('/').pop();
+
+  videoURL.searchParams.set('enablejsapi', '1');
+  videoURL.searchParams.set('rel', '0');
+  videoURL.searchParams.set('origin', window.location.origin);
+  videoURL.searchParams.set('playlist', videoId);
+  video.src = videoURL.href;
+
+  return new YT.Player(video, {
+    events: {
+      'onReady': function(event) {
+        // Play the video when ready
+        event.target.playVideo();
+      }
+    }
+  });
+}

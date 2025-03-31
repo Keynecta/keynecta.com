@@ -12,16 +12,17 @@ blueprint:
   heading: ""
   body: ""
   image:
-    image_url:
-    image_alt:
+    image_url: ""
+    image_alt: ""
+  youtube_video_id: ""
   button:
     enabled: false
-    button_url: 
-    button_text: 
+    button_url: ""
+    button_text: ""
     open_in_new_tab: false
   background_color: gray
   text_column_position: left
-  css_classes:
+  css_classes: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

@@ -34,6 +34,7 @@ content_blocks:
     image:
       image_url: /uploads/team-reviewing-building-plans-on-computer-screen.jpg
       image_alt: Team reviewing building plans on a computer screen
+    youtube_video_id: q36HqjTdP4k
     button:
       enabled: true
       button_url: /our-process/

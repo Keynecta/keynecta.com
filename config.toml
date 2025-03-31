@@ -43,13 +43,13 @@ path = 'github.com/cloudcannon/bookshop/hugo/v3'
   weight = 1
 
 [[menu.main]]
-  name = "Job Specific Training"
+  name = "Job Specific Training Development"
   url = "/training/job-specific-training/"
   weight = 1
   parent = "Training"
 
 [[menu.main]]
-  name = "Leadership Training"
+  name = "Supervisor Leadership Training"
   url = "/training/leadership-training/"
   weight = 2
   parent = "Training"
@@ -58,6 +58,12 @@ path = 'github.com/cloudcannon/bookshop/hugo/v3'
   name = "Online OSHA Training"
   url = "/training/online-osha-training/"
   weight = 3
+  parent = "Training"
+
+[[menu.main]]
+  name = "Online OSHA Compliance"
+  url = "/training/online-osha-compliance/"
+  weight = 4
   parent = "Training"
 
 [[menu.main]]

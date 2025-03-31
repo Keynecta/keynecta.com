@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: Job Specific Training
+title: Job Specific Training Development
 seo:
   page_title:
   meta_description: >-
@@ -10,7 +10,7 @@ seo:
   featured_image: /uploads/group-of-workers-during-safety-meeting.jpg
 content_blocks:
   - _bookshop_name: hero
-    heading: Job Specific Training
+    heading: Job Specific Training Development
     body: >-
       Elevate your operations and efficiency with job specific training. Set
       employees up for success by properly training them how to do their job.

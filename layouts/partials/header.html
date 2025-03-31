@@ -13,32 +13,32 @@
         {{ $url := .RelPermalink }}
         {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
-          <li class="header__nav-list-item has-sub-menu">
-            <a class="header__nav-list-link sub-menu-toggle" id="menu-item-{{ .Name | lower | urlize }}" href="{{ .URL }}" aria-label="{{ .Name }}" aria-haspopup="true" aria-controls="submenu-{{ .Name | lower | urlize }}" aria-expanded="false">{{ .Name }}<span class="header__sub-menu-indicator"></span></a>
-            <div class="header__sub-menu grid gap-lg bg-white" role="navigation" id="submenu-{{ .Name | lower | urlize }}" aria-labelledby="menu-item-{{ .Name | lower | urlize }}">
-              <div class="header__sub-menu-list-wrapper grid-8 flow">
-                <a class="h4 fw-700 font-color-black" href="{{ .URL }}" aria-label="{{ .Name }}" class="no-decoration">{{ .Name }}</a>
-                <ul class="header__sub-menu-list">
-                  {{ range .Children }}
-                    {{ template "menu-node" .}}
-                  {{ end }}
-                </ul>                            
-              </div>
-              <div class="header__sub-menu-cta grid-4 bg-gray">
-                <div class="flow">
-                  <h2 class="h4">Transform Your Organization</h2>
-                  <p class="font-size-xs">Ready to drive profits and value people through a transformative Safety Culture? Join Keynecta and redefine your organization’s safety journey today.</p>
-                  <a class="btn btn--primary" href="/contact/">Contact Us</a>
+            <li class="header__nav-list-item has-sub-menu">
+              <a class="header__nav-list-link sub-menu-toggle" id="menu-item-{{ .Name | lower | urlize }}" href="{{ .URL }}" aria-label="{{ .Name }}" aria-haspopup="true" aria-controls="submenu-{{ .Name | lower | urlize }}" aria-expanded="false">{{ .Name }}<span class="header__sub-menu-indicator"></span></a>
+              <div class="header__sub-menu grid gap-lg bg-white" role="navigation" id="submenu-{{ .Name | lower | urlize }}" aria-labelledby="menu-item-{{ .Name | lower | urlize }}">
+                <div class="header__sub-menu-list-wrapper grid-8 flow">
+                  <a class="h4 fw-700 font-color-black" href="{{ .URL }}" aria-label="{{ .Name }}" class="no-decoration">{{ .Name }}</a>
+                  <ul class="header__sub-menu-list">
+                    {{ range .Children }}
+                      {{ template "menu-node" .}}
+                    {{ end }}
+                  </ul>                            
+                </div>
+                <div class="header__sub-menu-cta grid-4 bg-gray">
+                  <div class="flow">
+                    <h2 class="h4">Transform Your Organization</h2>
+                    <p class="font-size-xs">Ready to drive profits and value people through a transformative Safety Culture? Join Keynecta and redefine your organization’s safety journey today.</p>
+                    <a class="btn btn--primary" href="/contact/">Contact Us</a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
+            </li>
           {{ else }}
-          <li class="header__nav-list-item">
-            <a class="header__nav-list-link" href="{{ .URL }}" aria-label="{{ .Name }}" {{ with .Params.external }}target="_blank" rel="noopener noreferrer"{{ end }}>
-                {{ .Name }}
-            </a>
-          </li>
+            <li class="header__nav-list-item">
+              <a class="header__nav-list-link" href="{{ .URL }}" aria-label="{{ .Name }}" {{ with .Params.external }}target="_blank" rel="noopener noreferrer"{{ end }}>
+                  {{ .Name }}
+              </a>
+            </li>
           {{ end }}    
         {{ end }}
       </ul>
@@ -59,10 +59,10 @@
                   {{ end }}
                 </ul>
               </li>
-              {{ else }}
-            <li class="header__mobile-nav-item">
-              <a class="header__mobile-nav-link fw-500" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
-            </li>
+            {{ else }}
+              <li class="header__mobile-nav-item">
+                <a class="header__mobile-nav-link fw-500" href="{{ .URL }}" aria-label="{{ .Name }}" title="{{ .Name }}">{{ .Name }}</a>
+              </li>
             {{ end }}
           {{ end }}
         </ul>
