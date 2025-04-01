@@ -25,7 +25,7 @@ content_blocks:
     preheading:
     heading: Keynecta's Safety Culture Scoring Dashboard
     body: >-
-      Overview Keynecta's unique Safety Culture Scoring dashboard. This digital
+      Preview Keynecta's unique Safety Culture Scoring dashboard. This digital
       tool is a comprehensive online system that not only collects data but
       transforms it into actionable insights, empowering  companies to establish
       a robust Safety Culture and optimize quality, productivity, and profits.
