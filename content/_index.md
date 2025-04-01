@@ -23,14 +23,14 @@ content_blocks:
       open_in_new_tab: false
   - _bookshop_name: media-text
     preheading:
-    heading: >-
-      Digital Safety Culture solutions for manufacturing and service industry
-      leaders
+    heading: Keynecta's Safety Culture Scoring Dashboard
     body: >-
-      Welcome to Keynecta, where safety meets innovation. Keynecta provides a
-      comprehensive online system that not only collects data but transforms it
-      into actionable insights, empowering your company to establish a robust
-      Safety Culture and optimize quality, productivity and profits.
+      Overview of Keynecta's unique Safety Culture Scoring dashboard. This
+      digital tool is a comprehensive online system that not only collects data
+      but transforms it into actionable insights, empowering  companies to
+      establish a robust Safety Culture and optimize quality, productivity, and
+      profits. Our customer portal provides access to tools that will help you
+      train, connect, involve, lead, score, and improve your operations.
     image:
       image_url: /uploads/team-reviewing-building-plans-on-computer-screen.jpg
       image_alt: Team reviewing building plans on a computer screen
