@@ -8,6 +8,19 @@ seo:
     solutions. Value people and optimize quality, productivity and profits.
   featured_image: /uploads/keynecta-social-preview.jpg
 content_blocks:
+  - _bookshop_name: home-hero
+    heading: Unlock Organizational Excellence with Keynecta
+    body: >-
+      Transform your organization with Keynecta's innovative Safety Culture
+      solutions. Value people and optimize quality, productivity and profits.
+    image_1:
+      image_url: /uploads/employee-mentoring-with-keynecta-safety-scoring-data-3.jpg
+      image_alt: Employee talking with safety coordinator in manufacturing plant
+    button:
+      enabled: false
+      button_url:
+      button_text:
+      open_in_new_tab: false
   - _bookshop_name: media-text
     preheading:
     heading: >-
@@ -30,19 +43,6 @@ content_blocks:
     background_color: white
     text_column_position: left
     css_classes:
-  - _bookshop_name: home-hero
-    heading: Unlock Organizational Excellence with Keynecta
-    body: >-
-      Transform your organization with Keynecta's innovative Safety Culture
-      solutions. Value people and optimize quality, productivity and profits.
-    image_1:
-      image_url: /uploads/employee-mentoring-with-keynecta-safety-scoring-data-3.jpg
-      image_alt: Employee talking with safety coordinator in manufacturing plant
-    button:
-      enabled: false
-      button_url:
-      button_text:
-      open_in_new_tab: false
   - _bookshop_name: solutions
     preheading: The Keynecta Process
     heading: Our Digital Solutions
