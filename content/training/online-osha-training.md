@@ -1,6 +1,6 @@
 ---
 _schema: default
-title: OSHA 10 & 30-Hour
+title: Online OSHA Training
 seo:
   page_title: OSHA 10 & 30-Hour
   meta_description: >-
@@ -9,12 +9,12 @@ seo:
   featured_image: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
 content_blocks:
   - _bookshop_name: hero
-    heading: We Provide Virtual OSHA Training
+    heading: We Provide OSHA Video Conferencing
     body: >-
-      Take advantage of this limited opportunity to receive online OSHA training
-      from an experienced trainer. Training options include OSHA 10-Hour and
-      30-Hour courses. The trainer will center training around your
-      organization's unique needs.
+      Take advantage of this limited opportunity to receive online OSHA video
+      conferencing instruction from an experienced trainer. Training options
+      include OSHA 10-Hour and 30-Hour courses. Video conferencing can be
+      centered around your organization's unique needs.
     image_1:
       image_url: /uploads/linkedin-sales-solutions-be5avkfv9ho-unsplash.jpg
       image_alt: Person on computer video call
@@ -37,6 +37,7 @@ content_blocks:
     image:
       image_url: /uploads/people-using-digital-device-while-meeting.jpg
       image_alt: People on a video call
+    youtube_video_id: ''
     button:
       enabled: true
       button_url: /contact/
