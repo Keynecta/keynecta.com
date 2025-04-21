@@ -11,10 +11,9 @@ content_blocks:
   - _bookshop_name: hero
     heading: We Provide OSHA Video Conferencing
     body: >-
-      Take advantage of this limited opportunity to receive online OSHA video
-      conferencing instruction from an experienced trainer. Training options
-      include OSHA 10-Hour and 30-Hour courses. Video conferencing can be
-      centered around your organization's unique needs.
+      Receive online OSHA video conferencing instruction from an experienced
+      trainer. The trainer will work with attendees to center training around
+      your organization's unique needs.
     image_1:
       image_url: /uploads/linkedin-sales-solutions-be5avkfv9ho-unsplash.jpg
       image_alt: Person on computer video call
@@ -30,9 +29,9 @@ content_blocks:
     preheading:
     heading: Courses
     body: |-
-      * OSHA 10 Hour - OSHA Authorized Virtual Training Provider
+      * OSHA 10 Hour - OSHA Authorized Video Conferencing Trainer
         * Provides basic awareness training on the recognition, avoidance, abatement, and prevention of workplace hazards. Can be customized to your organization's safety program.
-      * OSHA 30 Hour - OSHA Authorized Virtual Training Provider
+      * OSHA 30 Hour - OSHA Authorized Video Conferencing Trainer
         * Provides greater depth and variety of training on an expanded list of topics associated with workplace hazards. Can be customized to your organization's safety program.
     image:
       image_url: /uploads/people-using-digital-device-while-meeting.jpg
@@ -52,7 +51,7 @@ content_blocks:
     body: >-
       Help your organization's safety program meet compliance with all OSHA
       training. Train your entire safety committee or other group of employees
-      at once. Or gain additional training and knowledge to take your safety
+      at once. Gain additional training and knowledge to take your safety
       program or personal knowledge to the next-level.
 
 
@@ -61,7 +60,7 @@ content_blocks:
 
       Work with the trainer to center interactive training around your
       organization's unique needs. Understand how the rules apply to your
-      operations and how that may play a role in your organization's plan.
+      operations and how that may play a role in your safety program.
     button:
       enabled: false
       button_url: /contact/
