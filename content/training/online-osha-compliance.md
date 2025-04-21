@@ -61,15 +61,15 @@ content_blocks:
       competencies. Training materials are accessible to employees for future
       reference when they need a refresher.
     image:
-      image_url: ''
-      image_alt: ''
+      image_url: /uploads/industrial-control-room.jpeg
+      image_alt: Employees wearing safety vest looking at computers.
     youtube_video_id: ''
     button:
       enabled: false
       button_url: ''
       button_text: ''
       open_in_new_tab: false
-    background_color: gray
+    background_color: white
     text_column_position: left
     css_classes: ''
 ---
