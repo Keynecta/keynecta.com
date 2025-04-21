@@ -31,7 +31,7 @@ content_blocks:
     heading: Empower Trainers
     body: >-
       Most organizations are aware that OSHA compliance is required. Yet many
-      fail to properly address it, resulting in future implications.
+      fail to properly address it, resulting in future safety implications.
 
 
       ### The Keynecta System Teaches You How to Train
@@ -65,9 +65,9 @@ content_blocks:
       image_alt: Employees wearing safety vest looking at computers.
     youtube_video_id: ''
     button:
-      enabled: false
-      button_url: ''
-      button_text: ''
+      enabled: true
+      button_url: /contact/
+      button_text: Contact Us
       open_in_new_tab: false
     background_color: white
     text_column_position: left
