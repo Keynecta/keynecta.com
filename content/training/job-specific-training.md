@@ -12,8 +12,9 @@ content_blocks:
   - _bookshop_name: hero
     heading: Job Specific Training Development
     body: >-
-      Elevate your operations and efficiency with job specific training. Set
-      employees up for success by properly training them how to do their job.
+      Elevate your operations and efficiency with job specific training. Instill
+      confidence in employees and show them their work is valued by providing
+      thorough training.
     image_1:
       image_url: /uploads/group-of-workers-during-safety-meeting.jpg
       image_alt: Group of workers during a safety meeting
@@ -31,14 +32,14 @@ content_blocks:
     body: >-
       Job Safety Analysis (JSA's) drive which training competencies are taught.
       Keynecta will work with you to review existing JSA's and establish new
-      ones in order to accurately plan your training program.
+      ones in order to accurately establish your training program.
 
 
       ### Integrating Compliance and Quality
 
 
       Compliance forms the bedrock of your Environment, Safety and Health (ES&H)
-      program. A holistic approach includes OSHA, DOT Hazmat and specific
+      program. A holistic approach includes OSHA, DOT Hazmat, and specific
       environmental regulations and procedures. At Keynecta, we use a complete
       online system to integrate compliance requirements with quality practices,
       a proven method for identifying deficiencies and taking corrective
@@ -52,13 +53,13 @@ content_blocks:
         body: >-
           Employee connection and fostering a safety culture is at the heart of
           what we do. Trainers should take the time to have a discussion with
-          employees to ensure they understand the training competencies. And
-          establish a path for them to do so if they do not initially.
-      - heading: Easily Track Training
+          employees to ensure they understand training competencies. And
+          establish a path to improve employee understanding and confidence.
+      - heading: Easily Score Training
         body: >-
           The Keynecta online safety dashboard provides training evaluation and
           scoring forms. Supervisors can easily reference training reports and
-          receive view when specific trainings expire and require retraining.
+          view when specific trainings expire and require retraining.
   - _bookshop_name: media-text
     preheading:
     heading: Revolutionizing Data Management
@@ -81,10 +82,11 @@ content_blocks:
     image:
       image_url: /uploads/two-people-looking-at-laptop-while-in-manufacturing-plant.jpg
       image_alt: Two people looking at a laptop while working in a manufacturing facility
+    youtube_video_id: ''
     button:
-      enabled: false
-      button_url:
-      button_text:
+      enabled: true
+      button_url: /contact/
+      button_text: Contact Us
       open_in_new_tab: false
     background_color: gray
     text_column_position: left
