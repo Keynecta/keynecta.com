@@ -12,8 +12,8 @@ content_blocks:
     heading: We Provide OSHA Video Conferencing
     body: >-
       Receive online OSHA video conferencing instruction from an experienced
-      trainer. The trainer will work with attendees to center training around
-      your organization's unique needs.
+      trainer. Train a single employee or entire safety committee at once. Ask
+      how we can assist with your OSHA training needs.
     image_1:
       image_url: /uploads/linkedin-sales-solutions-be5avkfv9ho-unsplash.jpg
       image_alt: Person on computer video call
