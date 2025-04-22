@@ -12,9 +12,9 @@ content_blocks:
   - _bookshop_name: hero
     heading: Online OSHA Compliance Training
     body: >-
-      Each workplace must follow specific OSHA compliance regulations. General
-      OSHA compliance training and management is included in Keynecta's safety
-      culture dashboard system.
+      Each workplace must follow specific OSHA compliance regulations.
+      Keynecta's safety culture dashboard system includes general OSHA
+      compliance training and management.
     image_1:
       image_url: /uploads/professional-exchange-at-construction-site.jpeg
       image_alt: Two people reviewing notes on a construction site
@@ -40,7 +40,8 @@ content_blocks:
       The digital culture scoring dashboard provides tools and processes to
       integrate general OSHA compliance training into your standard operations.
       Trainers have expert knowledge of the topics they instruct, so now it's
-      time to provide them the tools so they appear like an expert too.
+      time to provide them the tools so they feel and appear like the expert
+      they are.
     button:
       enabled: false
       button_url:
@@ -60,6 +61,11 @@ content_blocks:
       collaboration and evaluation to ensure employees accurately understand all
       competencies. Training materials are accessible to employees for future
       reference when they need a refresher.
+
+
+      Constant improvement and education is more important to us than passing a
+      compliance training test. Stop finger pointing and provide employees the 
+      training and resources necessary to succeed.
     image:
       image_url: /uploads/industrial-control-room.jpeg
       image_alt: Employees wearing safety vest looking at computers.
@@ -72,4 +78,16 @@ content_blocks:
     background_color: white
     text_column_position: left
     css_classes: ''
+  - _bookshop_name: cta
+    heading: Transform Your Organization
+    body: >-
+      Ready to drive profits and value people through a transformative Safety
+      Culture? Join Keynecta and redefine your organization's safety journey
+      today.
+    button:
+      enabled: true
+      button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
+      button_text: Start Your Safety Culture Self Evaluation
+      open_in_new_tab: true
+    background_color: gray
 ---
