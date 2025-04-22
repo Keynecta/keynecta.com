@@ -45,8 +45,7 @@ content_blocks:
     heading: Training Offerings
     body: >-
       Keynecta offers digital and limited in-person training solutions. See our
-      current offerings below and let us know if you're seeking additional
-      training.
+      current offerings below and let us know if you seek additional training.
 
 
       * Job Specific Training Development
