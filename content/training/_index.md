@@ -51,11 +51,11 @@ content_blocks:
 
       * Job Specific Training Development
 
-      * Supervisor Leadership Training
-
-      * OSHA Video Conferencing Training
-
       * OSHA Compliance Training
+
+      * OSHA Video Conferencing Training (OSHA 10 & 30-Hour)
+
+      * Supervisor Leadership Training
     image:
       image_url: /uploads/cheerful-teamwork-at-industrial-site.jpeg
       image_alt: Construction workers meeting and shaking hands
