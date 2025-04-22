@@ -10,7 +10,7 @@ seo:
   featured_image: /uploads/person-reviewing-machinery-in-manufacturing-plant.jpg
 content_blocks:
   - _bookshop_name: hero
-    heading: Training
+    heading: Training Solutions
     body: >-
       Unlock safety excellence with Keynecta's digital training solutions. Drive
       profits, optimize quality and enhance production efficiency. Chase
