@@ -31,8 +31,9 @@ content_blocks:
     heading: Empower Trainers
     body: >-
       Most organizations are aware OSHA compliance is required. Yet many fail to
-      properly address it, resulting in future safety implications. We approach
-      training at the top with how trainings and evaluations are conducted.
+      properly address it, resulting in future safety implications. Training is
+      approached beginning at the top, with how trainings and evaluations are
+      conducted.
 
 
       ### The Keynecta System Teaches You How to Train
