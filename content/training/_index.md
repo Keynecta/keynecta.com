@@ -12,8 +12,8 @@ content_blocks:
   - _bookshop_name: hero
     heading: Training Solutions
     body: >-
-      Unlock safety excellence with Keynecta's digital training solutions. Drive
-      profits, optimize quality and enhance production efficiency. Chase
+      Unlock safety excellence with Keynecta's training solutions and expertise.
+      Drive profits, optimize quality and enhance production efficiency. Chase
       excellence instead of compliance.
     image_1:
       image_url: /uploads/person-reviewing-machinery-in-manufacturing-plant.jpg
@@ -40,6 +40,34 @@ content_blocks:
     button:
       enabled: false
       open_in_new_tab: false
+  - _bookshop_name: media-text
+    preheading: ''
+    heading: Training Offerings
+    body: >-
+      Keynecta offers digital and limited in-person training solutions. See our
+      current offerings below and let us know if you're seeking additional
+      training.
+
+
+      * Job Specific Training Development
+
+      * Supervisor Leadership Training
+
+      * OSHA Video Conferencing Training
+
+      * OSHA Compliance Training
+    image:
+      image_url: /uploads/cheerful-teamwork-at-industrial-site.jpeg
+      image_alt: Construction workers meeting and shaking hands
+    youtube_video_id: ''
+    button:
+      enabled: true
+      button_url: /contact/
+      button_text: Contact Us
+      open_in_new_tab: false
+    background_color: white
+    text_column_position: left
+    css_classes: ''
   - _bookshop_name: testimonial
     body: >-
       "Keynecta focuses on your most important asset, the people. By putting

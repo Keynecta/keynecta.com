@@ -9,7 +9,7 @@ seo:
   featured_image: /uploads/two-people-reviewing-paperwork-in-manufacturing-environment.jpg
 content_blocks:
   - _bookshop_name: hero
-    heading: OSHA Video Conferencing
+    heading: OSHA Video Conferencing Training
     body: >-
       Receive online OSHA video conferencing instruction from an experienced
       trainer. Train a single employee or entire safety committee at once. Ask
