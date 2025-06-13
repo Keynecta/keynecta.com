@@ -16,4 +16,4 @@ categories:
   - Video
 download_url:
 ---
-{{< youtube id="iuC4LvmwTT8" title="Keynecta Culture" class="https://youtu.be/IqcXZOX0WD4" >}}
+<div class="cms-embed"></div>
