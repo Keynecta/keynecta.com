@@ -7,7 +7,7 @@ seo:
     Learn how to improve safety culture and performance by using digital tools
     and resources that are not often associated with safety in the workplace.
     Published in The New Business Review Q2 2025.
-  featured_image: /uploads/keynecta-dashboard-on-computer-2.jpg
+  featured_image: /uploads/keynecta-dashboard-on-computer-white-bg-2.jpg
   featured_image_alt: >-
     A leadership member in suit shaking hands and smiling at employee in
     manufacturing plant
