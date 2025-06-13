@@ -14,6 +14,6 @@ author:
 date: 2024-02-15T00:00:00Z
 categories:
   - Video
-download_url: https://youtu.be/IqcXZOX0WD4
+download_url:
 ---
 {{< youtube id="iuC4LvmwTT8" title="Keynecta Culture" >}}
