@@ -8,9 +8,7 @@ seo:
     and resources that are not often associated with safety in the workplace.
     Published in The New Business Review Q2 2025.
   featured_image: /uploads/keynecta-dashboard-on-computer-white-bg-2.jpg
-  featured_image_alt: >-
-    A leadership member in suit shaking hands and smiling at employee in
-    manufacturing plant
+  featured_image_alt: Online Safety Dashboard
 draft: false
 author: Mike Parins
 date: 2024-05-13T00:00:00Z
