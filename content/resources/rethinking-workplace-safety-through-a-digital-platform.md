@@ -16,9 +16,9 @@ categories:
   - Safety Culture
 download_url: /uploads/keynecta-new-business-review-article.pdf
 ---
-By Michael A. Parins
+**By Michael A. Parins**
 
-{{< figure src="/uploads/mike-parins-new.jpg" title="By Michael A. Parins" >}}
+&nbsp;
 
 For years, I’ve walked factory floors, stood on job sites and sat across the table from leaders who genuinely care about their people but struggle to keep them safe. I’ve seen the frustration when accidents happen despite everyone’s best efforts—when a routine day turns into a life-changing moment.
 
