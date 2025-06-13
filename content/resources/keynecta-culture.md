@@ -1,12 +1,13 @@
 ---
 _schema: default
-title: Keynecta Culture
+title: Keynecta's Safety Culture Scoring Dashboard
 seo:
   page_title:
   meta_description: >-
-    Welcome to Keynecta, where safety meets innovation. Learn more about
-    Keynecta, our unique scoring tool and our approach to building a safety
-    culture.
+    Overview of Keynecta's unique Safety Culture Scoring dashboard. This digital
+    tool is a comprehensive online system that not only collects data but
+    transforms it into actionable insights, empowering your company to establish
+    a robust Safety Culture and optimize quality, productivity and profits.
   featured_image: /uploads/keynecta-logo-placeholder.jpg
   featured_image_alt: Keynecta logo
 draft: false
