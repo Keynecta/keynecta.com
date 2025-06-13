@@ -4,6 +4,9 @@ title: Rethinking Workplace Safety Through a Digital Platform
 seo:
   page_title:
   meta_description: >-
+    By Michael A. Parins
+
+
     Learn how to improve safety culture and performance by using digital tools
     and resources that are not often associated with safety in the workplace.
     Published in The New Business Review Q2 2025.
