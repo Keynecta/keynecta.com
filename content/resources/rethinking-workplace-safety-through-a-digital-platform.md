@@ -18,7 +18,7 @@ download_url: /uploads/keynecta-new-business-review-article.pdf
 ---
 **By Michael A. Parins**
 
-For years, I’ve walked factory floors, stood on job sites and sat across the table from leaders who genuinely care about their people but struggle to keep them safe. I’ve seen the frustration when accidents happen despite everyone’s best efforts—when a routine day turns into a life-changing moment.
+For years, I’ve walked factory floors, stood on job sites and sat across the table from leaders who genuinely care <a href="https://thebusinessnews.com/issue/the-new-business-review-q2-2025/" target="_blank" rel="noopener">about</a> their people but struggle to keep them safe. I’ve seen the frustration when accidents happen despite everyone’s best efforts—when a routine day turns into a life-changing moment.
 
 Too often, even well-meaning leaders are stuck in reactive patterns, where safety is documented but not truly managed. I started thinking about how we could shift that pattern. Safety should be about people, not just policies. It should be something we live and breathe every day, something we act on before an accident forces us to. You can’t manage what you don’t measure, which highlights the need for proactive solutions.
 
