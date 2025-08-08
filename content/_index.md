@@ -9,7 +9,7 @@ seo:
   featured_image: /uploads/keynecta-social-preview.jpg
 content_blocks:
   - _bookshop_name: home-hero
-    heading: Unlock Organizational Excellence with Keynecta
+    heading: Unlock Safety Excellence with Keynecta
     body: >-
       Transform your organization with Keynecta's innovative Safety Culture
       solutions. Value people and optimize quality, productivity and profits.
@@ -23,7 +23,7 @@ content_blocks:
       open_in_new_tab: false
   - _bookshop_name: media-text
     preheading:
-    heading: Keynecta's Safety Culture Scoring Dashboard
+    heading: Keynecta's Safety Management System
     body: >-
       Preview Keynecta's unique Safety Culture Scoring dashboard. This digital
       tool is a comprehensive online system that not only collects data but
