@@ -33,7 +33,7 @@
                 </span>
             </button>
             <div class="media-text-block__video">
-                <iframe title="" width="640" height="360" src="https://www.youtube.com/embed/{{ .youtube_video_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                <iframe title="" width="640" height="360" src="https://www.youtube.com/embed/{{ .youtube_video_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
           {{ end }}
           {{ if .image.image_url }}
