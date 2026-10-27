@@ -41,7 +41,7 @@ content_blocks:
       button_url: https://www.linkedin.com/events/7519517463605342208?viewAsMember=true
       button_text: Register Now
       open_in_new_tab: true
-    background_color: white
+    background_color: gray
     text_column_position: right
     css_classes: ''
   - _bookshop_name: media-text
