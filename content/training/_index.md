@@ -12,7 +12,7 @@ content_blocks:
     heading: Training Solutions
     body: Unlock safety excellence with Keynecta's training solutions and expertise.
       Drive profits, optimize quality and enhance production efficiency. Chase
-      excellence instead of compliance.
+      excellence and compliance will follow.
     image_1:
       image_url: /uploads/person-reviewing-machinery-in-manufacturing-plant.jpg
       image_alt: Person in hardhat and high visibility vest inspecting machinery in a
