@@ -42,7 +42,7 @@ content_blocks:
       button_text: Register Now
       open_in_new_tab: true
     background_color: gray
-    text_column_position: right
+    text_column_position: left
     css_classes: ''
   - _bookshop_name: media-text
     preheading: ''
@@ -69,7 +69,7 @@ content_blocks:
       button_text: Contact Us
       open_in_new_tab: false
     background_color: white
-    text_column_position: left
+    text_column_position: right
     css_classes: ''
   - _bookshop_name: testimonial
     body: '"Keynecta focuses on your most important asset, the people. By putting
