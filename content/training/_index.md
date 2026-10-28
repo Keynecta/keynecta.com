@@ -33,8 +33,8 @@ content_blocks:
       competencies employees must understand. Learn how to effectively teach
       these competencies to your employees and reinforce safe behaviors, daily.
     image:
-      image_url: /uploads/cheerful-teamwork-at-industrial-site.jpeg
-      image_alt: Construction workers meeting and shaking hands
+      image_url: /uploads/compliance-coach-series-flyer-2.jpg
+      image_alt: Compliance coach flyer
     youtube_video_id: ''
     button:
       enabled: true
