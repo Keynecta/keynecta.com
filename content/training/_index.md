@@ -33,7 +33,7 @@ content_blocks:
       competencies employees must understand. Learn how to effectively teach
       these competencies to your employees and reinforce safe behaviors, daily.
     image:
-      image_url: /uploads/compliance-coach-series-li-post.jpg
+      image_url: /uploads/hazard-communication-li-event-banner-1920-x-1080-px.jpg
       image_alt: Compliance coach flyer
     youtube_video_id: ''
     button:
