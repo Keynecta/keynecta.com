@@ -33,7 +33,7 @@ content_blocks:
       competencies employees must understand. Learn how to effectively teach
       these competencies to your employees and reinforce safe behaviors, daily.
     image:
-      image_url: /uploads/compliance-coach-series-flyer-2.jpg
+      image_url: /uploads/compliance-coach-series-li-post.jpg
       image_alt: Compliance coach flyer
     youtube_video_id: ''
     button:
