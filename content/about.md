@@ -3,15 +3,13 @@ _schema: default
 title: About
 seo:
   page_title:
-  meta_description: >-
-    Elevate your organization with Keynecta—leaders in Safety Culture, Safety
-    Training and innovative Safety Program Software.
+  meta_description: Elevate your organization with Keynecta—leaders in Safety
+    Culture, Safety Training and innovative Safety Program Software.
   featured_image: /uploads/workers-shaking-hands.jpg
 content_blocks:
   - _bookshop_name: hero
     heading: About
-    body: >-
-      Elevate your organization with Keynecta—leaders in Safety Culture, Safety
+    body: Elevate your organization with Keynecta—leaders in Safety Culture, Safety
       Training and innovative Safety Program Software.
     image_1:
       image_url: /uploads/workers-shaking-hands.jpg
@@ -27,8 +25,7 @@ content_blocks:
   - _bookshop_name: intro
     preheading: ''
     heading: Our Team
-    body: >-
-      At the heart of Keynecta is a dynamic team, united in our mission to
+    body: At the heart of Keynecta is a dynamic team, united in our mission to
       redefine safety in the workplace. We are not just architects of safety
       solutions; we are champions of a cultural shift to value people and drive
       profits. Our commitment extends beyond protocols. We believe in
@@ -43,8 +40,7 @@ content_blocks:
     bios:
       - heading: Michael A. Parins
         job_title: President
-        body: >-
-          Embarking on a life journey shaped by challenges, Michael defied odds,
+        body: Embarking on a life journey shaped by challenges, Michael defied odds,
           drawing from his street-smart education to carve a unique path. Early
           on, Mike entered sales with vigor, always emphasizing the value of
           people. His journey includes leading sales for Jaws of Life in Iowa,
@@ -61,8 +57,7 @@ content_blocks:
         background_color: white
       - heading: Jennifer L. Parins
         job_title: Vice President IT
-        body: >-
-          Jennifer is a seasoned professional with degrees in education and
+        body: Jennifer is a seasoned professional with degrees in education and
           mathematics from Marquette University. Through decades of experience
           in the educational system, she has dedicated herself to making math
           accessible to a variety of students. Driven by a passion for creating
@@ -75,12 +70,11 @@ content_blocks:
         background_color: white
       - heading: Peter A. Nickel
         job_title: Client Relationship Manager
-        body: >-
-          Peter’s service-oriented mindset and experience has guided him
-          throughout his career. Graduating with a marketing degree from the
-          University of Wisconsin-Whitewater, he developed his professional
-          skills in the fast-paced event industry. Peter has been a jack of all
-          trades, assisting in the planning and production of events, including
+        body: Peter’s service-oriented mindset and experience has guided him throughout
+          his career. Graduating with a marketing degree from the University of
+          Wisconsin-Whitewater, he developed his professional skills in the
+          fast-paced event industry. Peter has been a jack of all trades,
+          assisting in the planning and production of events, including
           endurance sports, spectator sports, concerts, and festivals. He
           understands the importance of safety and communication, having
           developed and executed event and facility specific emergency plans.
@@ -135,12 +129,11 @@ content_blocks:
     background_color: gray
   - _bookshop_name: cta
     heading: Transform Your Organization
-    body: >-
-      Ready to drive profits and value people through a transformative Safety
+    body: Ready to drive profits and value people through a transformative Safety
       Culture? Join Keynecta and redefine your organization's safety journey
       today.
     button:
-      enabled: true
+      enabled: false
       button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
       button_text: Start Your Safety Culture Self Evaluation
       open_in_new_tab: true

@@ -83,7 +83,7 @@ content_blocks:
       Culture? Join Keynecta and redefine your organization's safety journey
       today.
     button:
-      enabled: true
+      enabled: false
       button_url: https://app.smartsheet.com/b/form/dc6ebddd9f9a49b4b7a87e7d705fa150
       button_text: Start Your Safety Culture Self Evaluation
       open_in_new_tab: true
